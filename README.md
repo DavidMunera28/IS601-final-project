@@ -2,6 +2,8 @@
 
 # Link to Markdown Documents
 
+* [Competitive Analysis](CompetitiveAnalysis.md)
+
 # Meeting Sign-In Sheet
 
 Each student should put an 'X' under their name on the days they have meetings.
