@@ -4,6 +4,7 @@
 
 * [Competitive Analysis](CompetitiveAnalysis.md)
 * [SWOT Analysis](SWOTAnalysis.md)
+* [Persona](Persona.md)
 
 # Meeting Sign-In Sheet
 
