@@ -3,6 +3,7 @@
 # Link to Markdown Documents
 
 * [Competitive Analysis](CompetitiveAnalysis.md)
+* [SWOT Analysis](SWOTAnalysis.md)
 
 # Meeting Sign-In Sheet
 
