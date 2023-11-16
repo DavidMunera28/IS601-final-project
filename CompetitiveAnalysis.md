@@ -5,8 +5,7 @@
 | *Reciprocity* | Mentions of advanced data protection technology | Get Started for Free'; ' Book a Demo' | Giving back to society; Contributions to nonprofits; Participation in educational programs | Early access to new features for early adopters; Access to exclusive educational tools for effective venue mapping |
 | *Social Proof* | 10B+ Downloads on App Store | "MILLIONS OF PEOPLE VISITING THE WORLD’S LARGEST VENUES USE OUR MAPS"; Number of maps, sqft mapped, and searches listed prominently on home page | Big bold display of how many businesses, national govts, local govts, and nonprofits utilize their technologies | Testimonials from a few key clients who got early access to the software |
 | *Scarcity* | Not utilized | Not utilized | Not utilized | Limited time promotion - reduced price on first year subscription for businesses that sign a contract before the end of 2023 |
-
-| *Consistency* |
+| *Consistency* | Visual brand consistency w/ the rest of Google; Consistent mentions of ease-of-use and convenience; App has a consistent look-and-feel, making it easy to use | Visual consistency throughout webpage; Consistent focus on ease-of-use, optimal end user experience, and safety | Globally consistent in efforts related to geopolitical issues and human betterment; Some visual consistency, but not as tight | Brand consistent UI and app design; Consistently fast and reliable customer service; Consistent functionality, no matter what facility/venue being navigated; Consistent wording matching chosen archetype |
 | *Authority* |
 | *Liking* |
 | *Archetype* |
