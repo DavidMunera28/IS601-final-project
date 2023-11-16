@@ -9,7 +9,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 | Nov 10 (Fri) |     X      |     X      |
 | Nov 12 (Sun)|     X      |     X      |
 | Nov 15 (Wed)|      X     |    X       |
-| Nov 16 (Thurs)|           |           |
+| Nov 16 (Thurs)|    X       |           |
 | Nov 19 (Sun)|           |           |
 | Nov 22 (Wed) |       |           |
 | Nov 26 (Sun) |       |           |
