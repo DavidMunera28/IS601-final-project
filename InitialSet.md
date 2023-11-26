@@ -11,3 +11,8 @@ Organic Search, Social Media, Promotional Events
 ## Epic #2: Interest
 
 A website featuring intuitive navigation, links to relevant social media, informative, appealing, and brand-consistent home and about pages, and an updates page formatted in the style of a company blog.
+
+# Epic #3: Action
+
+A signup for a newsletter which provides customers with more information about WayWize including upcoming events, updates, etc.
+
