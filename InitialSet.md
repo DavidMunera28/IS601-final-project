@@ -19,3 +19,7 @@ A signup for a newsletter which provides customers with more information about W
 ## Epic #4: Loyalty
 
 An email promotion is immediately sent for our next informational webinar about our free trial program which will include a live demo/Q&A for one of the company's most popular products featuring a satisfied customer as a guest speaker.
+
+## Epic #5: Compliance
+
+Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and clear options to unsubscribe from the WayWize newsletter.
