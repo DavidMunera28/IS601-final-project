@@ -7,3 +7,7 @@ Frida is looking for a new indoor and outdoor mapping/wayfinding software in res
 ## Epic #1: Awareness
 
 Organic Search, Social Media, Promotional Events
+
+## Epic #2: Interest
+
+A website featuring intuitive navigation, links to relevant social media, informative, appealing, and brand-consistent home and about pages, and an updates page formatted in the style of a company blog.
