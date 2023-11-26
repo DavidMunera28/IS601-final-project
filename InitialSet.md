@@ -118,3 +118,51 @@ An email promotion is immediately sent for our next informational webinar about 
 ## Epic #5: Compliance
 
 Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and clear options to unsubscribe from the WayWize newsletter.
+
+### Story 5-1
+
+**Description:** When she first visits the WayWize homepage, Frida is presented with a banner informing her that the website uses cookies.
+
+**Action:** A banner with the following text appears at the bottom of the home page: “This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies.” Additionally, the banner presents three option buttons: Accept All, Essential Only, and Close.
+
+**Result:** N/A - Information only (Test for presence of cookie consent message)
+
+### Story 5-2a
+
+**Description:** Frida consents to all cookies.
+
+**Action:** Click the ‘Accept All’ button.
+
+**Result:** The banner disappears and a cookie is logged in the browser recording the decision. As long as that cookie is not deleted, the banner will not appear again. The user’s demographic information and activities will be recorded by Google Analytics.
+
+### Story 5-2b
+
+**Description:** Frida consents to only essential cookies.
+
+**Action:** Click the ‘Essential Only’ button.
+
+**Result:** The banner disappears and a cookie is logged in the browser recording the decision. As long as that cookie is not deleted, the banner will not appear again. The user’s demographic information and activities will not be recorded by Google Analytics.
+
+### Story 5-2c
+
+**Description:** Frida doesn’t wish to make an explicit decision regarding cookie consent.
+
+**Action:** Click the ‘Close’ button.
+
+**Result:** The banner disappears and nothing is logged in the browser since no decision has been made. The banner will reappear each time a page on the website is loaded. The user’s demographic information and activities will not be recorded by Google Analytics.
+
+### Story 5-3
+
+**Description:** Before subscribing to WayWize’s email newsletter, Frida would like to review WayWize’s Privacy Policy to better understands how her data will be used.
+
+**Action:** Click the ‘Privacy Policy’ link within the footer section.
+
+**Result:** A privacy policy page appears. (Should be editable by the site owners with Markdown).
+
+### Story 5-4
+
+**Description:** Frida would like to unsubscribe from WayWize’s email newsletter.
+
+**Action:** Click the ‘Unsubscribe’ link at the bottom of a marketing email.
+
+**Result:** The action automatically triggers MailChimp to remove the user from the relevant company account’s mailing list.
