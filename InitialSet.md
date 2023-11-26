@@ -16,3 +16,6 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 A signup for a newsletter which provides customers with more information about WayWize including upcoming events, updates, etc.
 
+## Epic #4: Loyalty
+
+An email promotion is immediately sent for our next informational webinar about our free trial program which will include a live demo/Q&A for one of the company's most popular products featuring a satisfied customer as a guest speaker.
