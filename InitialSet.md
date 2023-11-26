@@ -40,6 +40,61 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 A signup for a newsletter which provides customers with more information about WayWize including upcoming events, updates, etc.
 
+### Story 3-1a
+
+**Description:** Having reviewed the information available on the website, Frida has built up enough interest in WayWize that she’s ready to turn her interests into action - she will need to do more research and obtain the appropriate budgetary approval before making a purchase, but in the meantime she can start gathering information for an ROI.
+
+**Action:** Click the ‘Subscribe’ button in the navigation bar.
+
+**Result:** A new page appears containing an email newsletter signup form.
+
+### Story 3-1b
+
+**Description:** Having reviewed the information available on the website, Frida has built up enough interest in WayWize that she’s ready to turn her interests into action - she will need to do more research and obtain the appropriate budgetary approval before making a purchase, but in the meantime she can start gathering information for an ROI.
+
+**Action:** Click the ‘Subscribe’ button in the footer section.
+
+**Result:** A new page appears containing an email newsletter signup form.
+
+### Story 3-1c
+
+**Description:** Having reviewed the information available on the website, Frida has built up enough interest in WayWize that she’s ready to turn her interests into action - she will need to do more research and obtain the appropriate budgetary approval before making a purchase, but in the meantime she can start gathering information for an ROI.
+
+**Action:** Click the ‘Subscribe’ button in the home page’s hero section.
+
+**Result:** A new page appears containing an email newsletter signup form.
+
+### Story 3-1d
+
+**Description:** Having reviewed the information available on the website, Frida has built up enough interest in WayWize that she’s ready to turn her interests into action - she will need to do more research and obtain the appropriate budgetary approval before making a purchase, but in the meantime she can start gathering information for an ROI.
+
+**Action:** Click the ‘Subscribe’ button in the home page’s call-to-action section.
+
+**Result:** A new page appears containing an email newsletter signup form.
+
+### Story 3-2
+
+**Description:** Frida reviews the email newsletter signup form page.
+
+**Action:** The page contains the following elements…
+* A decorative image
+* A title with text: “This Way to Seamless Navigation Solutions”
+* The following subtext: “Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions.”
+* An email input field.
+* An option to choose the ways in which the user consents to being contacted (‘Email’ is the only option for now).
+* A privacy notice.
+* A ‘Subscribe’ button.
+
+**Result:** N/A - Information only (Test for presence of all these elements)
+
+### Story 3-3
+
+**Description:** Frida signs up for the WayWize newsletter.
+
+**Action:** Enter a valid email address in the email input field and click ‘Subscribe’.
+
+**Result:** User receives a message confirming successful signup.
+
 ## Epic #4: Loyalty
 
 An email promotion is immediately sent for our next informational webinar about our free trial program which will include a live demo/Q&A for one of the company's most popular products featuring a satisfied customer as a guest speaker.
