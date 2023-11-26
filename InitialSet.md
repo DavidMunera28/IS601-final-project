@@ -99,6 +99,22 @@ A signup for a newsletter which provides customers with more information about W
 
 An email promotion is immediately sent for our next informational webinar about our free trial program which will include a live demo/Q&A for one of the company's most popular products featuring a satisfied customer as a guest speaker.
 
+### Story 4-1
+
+**Description:** Frida has signed up for the WayWize newsletter. Immediately after adding her email address to the mailing list, she receives a marketing email.
+
+**Action:** Check email inbox after signing up for the newsletter.
+
+**Result:** Receive an email with the subject: "WayWize | Join Our Exclusive Live Demo and Q&A Webinar!"
+
+### Story 4-2
+
+**Description:** Frida opens the marketing email to learn more about the exclusive event.
+
+**Action:** Open marketing email.
+
+**Result:** Email displays information about the live demo and Q&A event, including a title, brief description, date and time, and registration button. The demo will feature a satisfied WayWize customer as a guest speaker - the guest speaker will be identified by their name, title, and company to convey authority.
+
 ## Epic #5: Compliance
 
 Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and clear options to unsubscribe from the WayWize newsletter.
