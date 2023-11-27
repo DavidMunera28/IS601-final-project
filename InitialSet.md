@@ -36,6 +36,197 @@ Organic Search, Social Media, Promotional Events
 
 A website featuring intuitive navigation, links to relevant social media, informative, appealing, and brand-consistent home and about pages, and an updates page formatted in the style of a company blog.
 
+### Story 2-1
+
+**Description:** Frida was intrigued by the text that was written on the homepage describing what WayWize is.
+
+**Action:** Navigates through the website
+
+**Result:** Clicks on the different tabs, and learns more about WayWize
+
+### Story 2-2
+
+**Description:** Frida was captivated by section 1 promoting WayWize and how they send out weekly newsletters that she is able to subscribe to, at the end she noticed that there was a subscribe button
+
+**Action:** Frida scrolls through our website gathering more information
+
+**Result:** Going through each tab and section trying to contact us
+
+### Story 2-3
+
+**Description:** Section 2 talked about the constant updates and changes that are being made at WayWize. The text went into detail about what is being changed, and that was what caught Frida’s attention most.
+
+**Action:** She continued to look at how many updates WayWize has made and how often
+
+**Result:** Interested about how we are always keeping up to date with the company
+
+### Story 2-4
+
+**Description:** While Frida was scrolling through the homepage, she noticed the testimonial section. Within this section, WayWize caught her eyes attention by listing the companies that are associated with us.
+
+**Action:** Due to being interested, she continues her research on the companies and WayWize
+
+**Result:** Interested in investing in WayWize
+
+### Story 2-5
+
+**Description:** Frida is interested by what she’s seen so far and would like to navigate to other areas of WayWize’s website (or other online presence).
+
+**Action:** Sees a navigation bar at the top of the page.
+
+**Result:** N/A - Information only (Test for presence of navbar with certain links).
+
+### Story 2-6
+
+**Description:** Frida is interested by what she’s seen so far and would like to navigate to other areas of WayWize’s website (or other online presence).
+
+**Action:** Sees a footer section at the bottom of the page.
+
+**Result:** N/A - Information only (Test for presence of navbar with certain links, social media icons, and a ‘Subscribe’ button).
+
+### Story 2-7a
+
+**Description:** Frida would like to learn more about the company’s history, mission, values, and leadership team.
+
+**Action:** Click on the “About” link in the navigation bar.
+
+**Result:** The WayWize about page appears. Title of page is ‘About’.
+
+### Story 2-7b
+
+**Description:** Frida would like to learn more about the company’s history, mission, values, and leadership team.
+
+**Action:** Click on the “About” link in the footer links section.
+
+**Result:** The WayWize about page appears. Title of page is ‘About’.
+
+### Story 2-7c
+
+**Description:** Frida has navigated to the ‘About’ page and would like to see an overview about WayWize as a company.
+
+**Action:** Read ‘Overview’ section of about page.
+
+**Result:** Section features…
+* An image
+* A header with text ‘Overview’
+* At least one paragraph of subtext providing overview information about the company.
+* (Should be editable by the site owners with Markdown).
+
+### Story 2-7d
+
+**Description:** Frida has navigated to the ‘About’ page and would like to see information about WayWize’s company mission, vision, and values.
+
+**Action:** Read What We Stand For section of about page.
+
+**Result:** Section features…
+* An image
+* A header with text ‘What We Stand For’
+* Three subheaders with text ‘Mission’, ‘Vision’ and ‘Values’, 
+* Paragraph text under ‘Mission’
+* Paragraph text under ‘Vision’
+* List with at least 5 bullets under ‘Values’
+* (Should be editable by the site owners with Markdown).
+
+### Story 2-7e
+
+**Description:** Frida has navigated to the ‘About’ page and would like to see information about WayWize’s leadership team.
+
+**Action:** Read ‘Our People’ section of about page.
+
+**Result:** Section features…
+* A header with text ‘Our People’
+* Three ‘people’ featured
+* Each person has a portrait
+* Each person has a name
+* Each person has a position/role
+* Each person has a short biography
+* (Should be editable by the site owners with Markdown).
+
+### Story 2-8a
+
+**Description:** Frida would like to learn more about recent company updates, such as organizational news, initiatives, customer success stories, and industry-relevant postings.
+
+**Action:** Click on the “Updates” link in the navigation bar.
+
+**Result:** The WayWize updates page appears. Title of page is ‘Updates’.
+
+### Story 2-8b
+
+**Description:** Frida would like to learn more about recent company updates, such as organizational news, initiatives, customer success stories, and industry-relevant postings.
+
+**Action:** Click on the “Updates” link in the footer links section.
+
+**Result:** The WayWize updates page appears. Title of page is ‘Updates’.
+
+### Story 2-8c
+
+**Description:** Frida has navigated to the ‘Updates’ and would like to read some posts from the WayWize team.
+
+**Action:** Read ‘Updates’ page contents.
+
+**Result:** Page features at least one article. Each post displayed shows a title and date.
+
+### Story 2-8d
+
+**Description:** Frida sees a post she is interested in reading the contents of.
+
+**Action:** Click the post title.
+
+**Result:** The post’s respective page appears.
+
+### Story 2-8e
+
+**Description:** Frida reviews the post page she opened.
+
+**Action:** Read post page contents.
+
+**Result:** Each post displays…
+* A header featuring the post’s title text
+* A post date
+* Post contents
+* A link to return back to the ‘Updates’ page.
+* (Should be editable by the site owners with Markdown).
+
+### Story 2-9a
+
+**Description:** Frida would like to return to the home page to reference some information on it.
+
+**Action:** Click on the “Home” link in the navigation bar.
+
+**Result:** The WayWize home page appears.
+
+### Story 2-9b
+
+**Description:** Frida would like to return to the home page to reference some information on it.
+
+**Action:** Click on the “Home” link in the footer links section.
+
+**Result:** The WayWize home page appears.
+
+### Story 2-10a
+
+**Description:** Frida would like to view or follow WayWize on LinkedIn.
+
+**Action:** Click on the LinkedIn icon in the footer social section.
+
+**Result:** The WayWize LinkedIn profile appears.
+
+### Story 2-10b
+
+**Description:** Frida would like to view or follow WayWize on Twitter/X.
+
+**Action:** Click on the Twitter/X icon in the footer social section.
+
+**Result:** The WayWize LinkedIn profile appears.
+
+### Story 2-10c
+
+**Description:** Frida would like to view or follow WayWize on Facebook.
+
+**Action:** Click on the Facebook icon in the footer social section.
+
+**Result:** The WayWize LinkedIn profile appears.
+
 ## Epic #3: Action
 
 A signup for a newsletter which provides customers with more information about WayWize including upcoming events, updates, etc.
