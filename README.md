@@ -7,6 +7,6 @@
 * [Competitive Analysis](CompetitiveAnalysis.md)
 * [SWOT Analysis](SWOTAnalysis.md)
 * [Persona](Persona.md)
-* [Initial Set](InitialSet.md)
+* [User Stories](UserStories.md)
 * [Customer Journey](CustomerJourney.md)
 * [FIGMA Design](FIGMADesign.md)
