@@ -9,3 +9,4 @@
 * [Persona](Persona.md)
 * [Initial Set](InitialSet.md)
 * [Customer Journey](CustomerJourney.md)
+* [FIGMA Design](FIGMADesign.md)
