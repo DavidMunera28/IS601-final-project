@@ -9,3 +9,4 @@
 * [Persona](Persona.md)
 * [User Stories](UserStories.md)
 * [Customer Journey](CustomerJourney.md)
+* [FIGMA Design](FIGMADesign.md)
