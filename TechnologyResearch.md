@@ -25,3 +25,11 @@ NOTE: This website will not display unless the appropriate JSON server is runnin
 [Final Result (click 'Subscribe')](https://dojotaskstutorial.vercel.app/)
 
 NOTE: This website will not display unless the appropriate JSON server is running.
+
+## Google Analytics & GDPR Cookie Consent
+
+### Practice Example 1
+
+[Tutorial](https://www.youtube.com/watch?v=DJMTWuz2ksk)
+
+[Final Result](https://gdpr2.vercel.app/)
