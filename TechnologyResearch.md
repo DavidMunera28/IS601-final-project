@@ -25,3 +25,5 @@ NOTE: This website will not display unless the appropriate JSON server is runnin
 [Final Result (click 'Subscribe')](https://dojotaskstutorial.vercel.app/)
 
 NOTE: This website will not display unless the appropriate JSON server is running.
+
+## Google Analytics & GDPR Cookie Consent
