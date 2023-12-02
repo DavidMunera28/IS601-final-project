@@ -15,3 +15,5 @@
 [Final Result](https://dojotaskstutorial.vercel.app/)
 
 NOTE: This website will not display unless the appropriate JSON server is running.
+
+## Mailchimp
