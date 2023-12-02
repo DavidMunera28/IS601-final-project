@@ -15,3 +15,13 @@
 [Final Result](https://dojotaskstutorial.vercel.app/)
 
 NOTE: This website will not display unless the appropriate JSON server is running.
+
+## Mailchimp
+
+### Practice Example 1
+
+[Tutorial](https://mailchimp.com/help/)
+
+[Final Result (click 'Subscribe')](https://dojotaskstutorial.vercel.app/)
+
+NOTE: This website will not display unless the appropriate JSON server is running.
