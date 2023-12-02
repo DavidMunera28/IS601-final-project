@@ -10,3 +10,4 @@
 * [User Stories](UserStories.md)
 * [Customer Journey](CustomerJourney.md)
 * [FIGMA Design](FIGMADesign.md)
+* [Technology Research](TechnologyResearch.md)
