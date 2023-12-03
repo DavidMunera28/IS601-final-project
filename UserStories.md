@@ -38,35 +38,39 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-1
 
-**Description:** Frida was intrigued by the text that was written on the homepage describing what WayWize is.
+**Description:** Frida would like to get an initial impression of what this website can offer her. Her attention is drawn to first section of the home page.
 
-**Action:** Navigates through the website
+**Action:** Locate Hero section.
 
-**Result:** Clicks on the different tabs, and learns more about WayWize
+**Result:** A header is visible at the top of the home page and reads "INSERT CONTENT HERE".
 
 ### Story 2-2
 
-**Description:** Frida was captivated by section 1 promoting WayWize and how they send out weekly newsletters that she is able to subscribe to, at the end she noticed that there was a subscribe button
+**Description:** Frida reads the hero section to get an initial impression of what WayWize offers as a company.
 
-**Action:** Frida scrolls through our website gathering more information
+**Action:** Read Hero section.
 
-**Result:** Going through each tab and section trying to contact us
+**Result:** In addition to the header, the following contents are present in the hero section...
+
+* A sub-text paragraph
+* An image
+* An link button labeled 'Subscribe'
 
 ### Story 2-3
 
-**Description:** Section 2 talked about the constant updates and changes that are being made at WayWize. The text went into detail about what is being changed, and that was what caught Frida’s attention most.
+**Description:** Frida determines that WayWize's offerings are relevant to her current research, but would like to see social proof that it is a legitimate company that others have had a satisfying experience with. She scrolls down and sees a testimonials section.
 
-**Action:** She continued to look at how many updates WayWize has made and how often
+**Action:** Read testimonials section.
 
-**Result:** Interested about how we are always keeping up to date with the company
+**Result:** Section consists of direct quotes from three WayWize customers. Each quote is accompanied by a full name, job title, and company to add credibility and authority.
 
 ### Story 2-4
 
-**Description:** While Frida was scrolling through the homepage, she noticed the testimonial section. Within this section, WayWize caught her eyes attention by listing the companies that are associated with us.
+**Description:** Frida is impressed by the positive reviews. She's not yet ready to commit to any action, but is still curious about what ultimate action is suggested as a next step. She scrolls down and sees a call-to-action section.
 
-**Action:** Due to being interested, she continues her research on the companies and WayWize
+**Action:** Read call-to-action section.
 
-**Result:** Interested in investing in WayWize
+**Result:** INSERT CONTENT HERE
 
 ### Story 2-5
 
