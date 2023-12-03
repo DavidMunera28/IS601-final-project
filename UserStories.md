@@ -308,10 +308,4 @@ Ensure compliance with GDPR and similar regulations through cookie consent optio
 
 **Result:** A privacy policy page appears. (Should be editable by the site owners with Markdown).
 
-### Story 5-4
 
-**Description:** Frida would like to unsubscribe from WayWize’s email newsletter.
-
-**Action:** Click the ‘Unsubscribe’ link at the bottom of a marketing email.
-
-**Result:** The action automatically triggers MailChimp to remove the user from the relevant company account’s mailing list.
