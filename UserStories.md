@@ -138,7 +138,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** Section features…
 * A header with text ‘Our People’
-* Three ‘people’ featured
+* Three ‘people’ featured (CEO, CFO, and CTO)
 * Each person has a portrait
 * Each person has a name
 * Each person has a position/role
