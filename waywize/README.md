@@ -5,3 +5,12 @@
 `npm run dev` runs local development server (must be run from the `IS601-final-project\waywize` directory).
 
 `npm i @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-motion` installs Chakra UI (must be run from the `IS601-final-project\waywize` directory). From there, import ChakraProvider and wrap in root app container as described [here](https://chakra-ui.com/getting-started/nextjs-guide).
+
+`npm init playwright@latest` installs Playwright (must be run from the `IS601-final-project\waywize` directory). The following options were selected:
+
+* Do you want to use TypeScript or JavaScript? · **JavaScript**
+* Where to put your end-to-end tests? · **tests**
+* Add a GitHub Actions workflow? (y/N) · **false**
+* Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · **true**
+
+`npx playwright test` tests Playwright install (must be run from the `IS601-final-project\waywize` directory). All 6 tests should pass.
