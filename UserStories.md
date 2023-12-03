@@ -266,7 +266,7 @@ An email promotion is immediately sent for our next informational webinar about 
 
 ## Epic #5: Compliance & Accessibility
 
-Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and clear options to unsubscribe from the WayWize newsletter.
+Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and accessibility options for various browsing types (i.e. use of screen readers, mobile access).
 
 ### Story 5-1
 
