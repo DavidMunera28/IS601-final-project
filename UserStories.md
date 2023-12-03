@@ -315,3 +315,11 @@ Ensure compliance with GDPR and similar regulations through cookie consent optio
 **Action:** Encounter an image on the website.
 
 **Result:** The image contains alt text.
+
+### Story 5-5
+
+**Description:** It is possible that Frida utilizes screen readers for web navigation, and requires websites' links to be accessible to her using non-visual methods.
+
+**Action:** Encounter a link on the website.
+
+**Result:** The link contains a role and label.
