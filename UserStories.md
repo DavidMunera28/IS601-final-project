@@ -323,3 +323,11 @@ Ensure compliance with GDPR and similar regulations through cookie consent optio
 **Action:** Encounter a link on the website.
 
 **Result:** The link contains a role and label.
+
+### Story 5-6
+
+**Description:** It is possible that Frida utilizes mobile devices for web navigation, and requires websites' contents to be viewable on a narrow screen.
+
+**Action:** Browse the website on a narrow viewport.
+
+**Result:** The website layout dynamically adjusts to accomodate the narrow viewport, resulting in no loss of visibility, functionality, or aesthetic consistency.
