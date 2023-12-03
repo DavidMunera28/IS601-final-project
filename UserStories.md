@@ -308,4 +308,10 @@ Ensure compliance with GDPR and similar regulations through cookie consent optio
 
 **Result:** A privacy policy page appears. (Should be editable by the site owners with Markdown).
 
+### Story 5-4
 
+**Description:** It is possible that Frida utilizes screen readers for web navigation, and requires websites' images to be accessible to her using non-visual methods.
+
+**Action:** Encounter an image on the website.
+
+**Result:** The image contains alt text.
