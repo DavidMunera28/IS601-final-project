@@ -90,7 +90,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-7a
 
-**Description:** Frida would like to learn more about the company’s story, mission, values, and leadership team.
+**Description:** Frida would like to learn more about the company’s story, mission, and leadership team.
 
 **Action:** Click on the “About” link in the navigation bar.
 
@@ -98,7 +98,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-7b
 
-**Description:** Frida would like to learn more about the company’s story, mission, values, and leadership team.
+**Description:** Frida would like to learn more about the company’s story, mission, and leadership team.
 
 **Action:** Click on the “About” link in the footer links section.
 
@@ -118,16 +118,15 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-7d
 
-**Description:** Frida has navigated to the ‘About’ page and would like to see information about WayWize’s company mission, and values.
+**Description:** Frida has navigated to the ‘About’ page and would like to see information about WayWize’s company mission.
 
 **Action:** Read What We Stand For section of about page.
 
 **Result:** Section features…
 * An image (?)
 * A header with text ‘What We Stand For’
-* Two subheaders with text ‘Mission’ and ‘Values’, 
-* Paragraph text under ‘Mission’
-* List with at least 5 bullets under ‘Values’
+* Paragraph text
+* List with at least 5 bullets for values
 * (Should be editable by the site owners with Markdown).
 
 ### Story 2-7e
