@@ -147,58 +147,13 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-8a
 
-**Description:** Frida would like to learn more about recent company updates, such as organizational news, initiatives, customer success stories, and industry-relevant postings.
-
-**Action:** Click on the “Updates” link in the navigation bar.
-
-**Result:** The WayWize updates page appears. Title of page is ‘Updates’.
-
-### Story 2-8b
-
-**Description:** Frida would like to learn more about recent company updates, such as organizational news, initiatives, customer success stories, and industry-relevant postings.
-
-**Action:** Click on the “Updates” link in the footer links section.
-
-**Result:** The WayWize updates page appears. Title of page is ‘Updates’.
-
-### Story 2-8c
-
-**Description:** Frida has navigated to the ‘Updates’ and would like to read some posts from the WayWize team.
-
-**Action:** Read ‘Updates’ page contents.
-
-**Result:** Page features at least one article. Each post displayed shows a title and date.
-
-### Story 2-8d
-
-**Description:** Frida sees a post she is interested in reading the contents of.
-
-**Action:** Click the post title.
-
-**Result:** The post’s respective page appears.
-
-### Story 2-8e
-
-**Description:** Frida reviews the post page she opened.
-
-**Action:** Read post page contents.
-
-**Result:** Each post displays…
-* A header featuring the post’s title text
-* A post date
-* Post contents
-* A link to return back to the ‘Updates’ page.
-* (Should be editable by the site owners with Markdown).
-
-### Story 2-9a
-
 **Description:** Frida would like to return to the home page to reference some information on it.
 
 **Action:** Click on the “Home” link in the navigation bar.
 
 **Result:** The WayWize home page appears.
 
-### Story 2-9b
+### Story 2-8b
 
 **Description:** Frida would like to return to the home page to reference some information on it.
 
@@ -206,7 +161,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** The WayWize home page appears.
 
-### Story 2-10a
+### Story 2-9a
 
 **Description:** Frida would like to view or follow WayWize on LinkedIn.
 
@@ -214,7 +169,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** The WayWize LinkedIn profile appears.
 
-### Story 2-10b
+### Story 2-9b
 
 **Description:** Frida would like to view or follow WayWize on Twitter/X.
 
@@ -222,7 +177,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** The WayWize LinkedIn profile appears.
 
-### Story 2-10c
+### Story 2-9c
 
 **Description:** Frida would like to view or follow WayWize on Facebook.
 
