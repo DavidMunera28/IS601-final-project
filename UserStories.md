@@ -264,7 +264,7 @@ An email promotion is immediately sent for our next informational webinar about 
 
 **Result:** Email displays information about the live demo and Q&A event, including a title, brief description, date and time, and registration button. The demo will feature a satisfied WayWize customer as a guest speaker - the guest speaker will be identified by their name, title, and company to convey authority.
 
-## Epic #5: Compliance
+## Epic #5: Compliance & Accessibility
 
 Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and clear options to unsubscribe from the WayWize newsletter.
 
