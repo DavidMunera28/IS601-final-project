@@ -13,7 +13,7 @@ export default function Footer() {
         <List className="social-links">
             <ListItem><Link href="https://www.linkedin.com/company/waywizefakeaccount">LinkedIn</Link></ListItem>
             <ListItem><Link href="https://twitter.com/waywizefake">X</Link></ListItem>
-            <ListItem>Facebook</ListItem>
+            <ListItem><Link href="https://www.facebook.com/WaywizeFakeAccount">Facebook</Link></ListItem>
         </List>
       </footer>
     )
