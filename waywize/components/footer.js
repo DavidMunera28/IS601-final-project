@@ -9,6 +9,11 @@ export default function Footer() {
             <ListItem>Subscribe</ListItem>
             <ListItem>Privacy Policy</ListItem>
         </List>
+        <List className="social-links">
+            <ListItem>LinkedIn</ListItem>
+            <ListItem>X</ListItem>
+            <ListItem>Facebook</ListItem>
+        </List>
       </footer>
     )
   }
