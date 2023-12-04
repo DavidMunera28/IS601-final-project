@@ -1,3 +1,4 @@
+import Navbar from '@/components/navbar'
 import { ChakraProvider } from '@chakra-ui/react'
 import Head from 'next/head'
 
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }) {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <ChakraProvider>
+    <Navbar />
     <Component {...pageProps} />
     </ChakraProvider>
     </>
