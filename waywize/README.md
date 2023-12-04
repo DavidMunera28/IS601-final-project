@@ -18,3 +18,5 @@
 # Vercel Deployment Instructions
 
 Deploy `is601-final-project` to Vercel from GitHub, setting `Next.js` as the Framework and `waywize` as the root directory.
+
+[Click here](https://is-601-final-project.vercel.app/) for production deployment in Vercel.
