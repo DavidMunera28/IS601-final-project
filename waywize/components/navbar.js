@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav>
         <List>
             <ListItem><Link href="/">Home</Link></ListItem>
-            <ListItem>About</ListItem>
+            <ListItem><Link href="about">About</Link></ListItem>
             <ListItem>Subscribe</ListItem>
         </List>
       </nav>
