@@ -1,10 +1,11 @@
 import { List, ListItem } from "@chakra-ui/react";
+import Link from "next/link";
 
 export default function Footer() {
     return (
       <footer>
         <List className="internal-links">
-            <ListItem>Home</ListItem>
+            <ListItem><Link href="/">Home</Link></ListItem>
             <ListItem>About</ListItem>
             <ListItem>Subscribe</ListItem>
             <ListItem>Privacy Policy</ListItem>
