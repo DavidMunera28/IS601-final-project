@@ -38,35 +38,42 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-1
 
-**Description:** Frida was intrigued by the text that was written on the homepage describing what WayWize is.
+**Description:** Frida would like to get an initial impression of what this website can offer her. Her attention is drawn to first section of the home page.
 
-**Action:** Navigates through the website
+**Action:** Locate Hero section.
 
-**Result:** Clicks on the different tabs, and learns more about WayWize
+**Result:** A header is visible at the top of the home page and reads "Change How You Wander".
 
 ### Story 2-2
 
-**Description:** Frida was captivated by section 1 promoting WayWize and how they send out weekly newsletters that she is able to subscribe to, at the end she noticed that there was a subscribe button
+**Description:** Frida reads the hero section to get an initial impression of what WayWize offers as a company.
 
-**Action:** Frida scrolls through our website gathering more information
+**Action:** Read Hero section.
 
-**Result:** Going through each tab and section trying to contact us
+**Result:** In addition to the header, the following contents are present in the hero section...
+
+* A sub-text paragraph
+* An image
+* An link button labeled 'Subscribe'
 
 ### Story 2-3
 
-**Description:** Section 2 talked about the constant updates and changes that are being made at WayWize. The text went into detail about what is being changed, and that was what caught Frida’s attention most.
+**Description:** Frida determines that WayWize's offerings are relevant to her current research, but would like to see social proof that it is a legitimate company that others have had a satisfying experience with. She scrolls down and sees a testimonials section.
 
-**Action:** She continued to look at how many updates WayWize has made and how often
+**Action:** Read testimonials section.
 
-**Result:** Interested about how we are always keeping up to date with the company
+**Result:** Section consists of direct quotes from three WayWize customers. Each quote is accompanied by a full name, job title, and company to add credibility and authority.
 
 ### Story 2-4
 
-**Description:** While Frida was scrolling through the homepage, she noticed the testimonial section. Within this section, WayWize caught her eyes attention by listing the companies that are associated with us.
+**Description:** Frida is impressed by the positive reviews. She's not yet ready to commit to any action, but is still curious about what ultimate action is suggested as a next step. She scrolls down and sees a call-to-action section.
 
-**Action:** Due to being interested, she continues her research on the companies and WayWize
+**Action:** Read call-to-action section.
 
-**Result:** Interested in investing in WayWize
+**Result:** Section contains the following...
+* A decorative image
+* A title with text: “This Way to Seamless Navigation Solutions”
+* The following subtext: “Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions.”
 
 ### Story 2-5
 
@@ -86,7 +93,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-7a
 
-**Description:** Frida would like to learn more about the company’s history, mission, values, and leadership team.
+**Description:** Frida would like to learn more about the company’s story, mission, and leadership team.
 
 **Action:** Click on the “About” link in the navigation bar.
 
@@ -94,7 +101,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-7b
 
-**Description:** Frida would like to learn more about the company’s history, mission, values, and leadership team.
+**Description:** Frida would like to learn more about the company’s story, mission, and leadership team.
 
 **Action:** Click on the “About” link in the footer links section.
 
@@ -114,17 +121,15 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-7d
 
-**Description:** Frida has navigated to the ‘About’ page and would like to see information about WayWize’s company mission, vision, and values.
+**Description:** Frida has navigated to the ‘About’ page and would like to see information about WayWize’s company mission.
 
 **Action:** Read What We Stand For section of about page.
 
 **Result:** Section features…
-* An image
+* An image (?)
 * A header with text ‘What We Stand For’
-* Three subheaders with text ‘Mission’, ‘Vision’ and ‘Values’, 
-* Paragraph text under ‘Mission’
-* Paragraph text under ‘Vision’
-* List with at least 5 bullets under ‘Values’
+* Paragraph text
+* List with at least 5 bullets for values
 * (Should be editable by the site owners with Markdown).
 
 ### Story 2-7e
@@ -135,7 +140,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** Section features…
 * A header with text ‘Our People’
-* Three ‘people’ featured
+* Three ‘people’ featured (CEO, CFO, and CTO)
 * Each person has a portrait
 * Each person has a name
 * Each person has a position/role
@@ -144,58 +149,13 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 ### Story 2-8a
 
-**Description:** Frida would like to learn more about recent company updates, such as organizational news, initiatives, customer success stories, and industry-relevant postings.
-
-**Action:** Click on the “Updates” link in the navigation bar.
-
-**Result:** The WayWize updates page appears. Title of page is ‘Updates’.
-
-### Story 2-8b
-
-**Description:** Frida would like to learn more about recent company updates, such as organizational news, initiatives, customer success stories, and industry-relevant postings.
-
-**Action:** Click on the “Updates” link in the footer links section.
-
-**Result:** The WayWize updates page appears. Title of page is ‘Updates’.
-
-### Story 2-8c
-
-**Description:** Frida has navigated to the ‘Updates’ and would like to read some posts from the WayWize team.
-
-**Action:** Read ‘Updates’ page contents.
-
-**Result:** Page features at least one article. Each post displayed shows a title and date.
-
-### Story 2-8d
-
-**Description:** Frida sees a post she is interested in reading the contents of.
-
-**Action:** Click the post title.
-
-**Result:** The post’s respective page appears.
-
-### Story 2-8e
-
-**Description:** Frida reviews the post page she opened.
-
-**Action:** Read post page contents.
-
-**Result:** Each post displays…
-* A header featuring the post’s title text
-* A post date
-* Post contents
-* A link to return back to the ‘Updates’ page.
-* (Should be editable by the site owners with Markdown).
-
-### Story 2-9a
-
 **Description:** Frida would like to return to the home page to reference some information on it.
 
 **Action:** Click on the “Home” link in the navigation bar.
 
 **Result:** The WayWize home page appears.
 
-### Story 2-9b
+### Story 2-8b
 
 **Description:** Frida would like to return to the home page to reference some information on it.
 
@@ -203,7 +163,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** The WayWize home page appears.
 
-### Story 2-10a
+### Story 2-9a
 
 **Description:** Frida would like to view or follow WayWize on LinkedIn.
 
@@ -211,7 +171,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** The WayWize LinkedIn profile appears.
 
-### Story 2-10b
+### Story 2-9b
 
 **Description:** Frida would like to view or follow WayWize on Twitter/X.
 
@@ -219,7 +179,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Result:** The WayWize LinkedIn profile appears.
 
-### Story 2-10c
+### Story 2-9c
 
 **Description:** Frida would like to view or follow WayWize on Facebook.
 
@@ -237,7 +197,7 @@ A signup for a newsletter which provides customers with more information about W
 
 **Action:** Click the ‘Subscribe’ button in the navigation bar.
 
-**Result:** A new page appears containing an email newsletter signup form.
+**Result:** Call-to-action section on index page appears containing an email newsletter signup form.
 
 ### Story 3-1b
 
@@ -245,7 +205,7 @@ A signup for a newsletter which provides customers with more information about W
 
 **Action:** Click the ‘Subscribe’ button in the footer section.
 
-**Result:** A new page appears containing an email newsletter signup form.
+**Result:** Call-to-action section on index page appears containing an email newsletter signup form.
 
 ### Story 3-1c
 
@@ -253,24 +213,13 @@ A signup for a newsletter which provides customers with more information about W
 
 **Action:** Click the ‘Subscribe’ button in the home page’s hero section.
 
-**Result:** A new page appears containing an email newsletter signup form.
-
-### Story 3-1d
-
-**Description:** Having reviewed the information available on the website, Frida has built up enough interest in WayWize that she’s ready to turn her interests into action - she will need to do more research and obtain the appropriate budgetary approval before making a purchase, but in the meantime she can start gathering information for an ROI.
-
-**Action:** Click the ‘Subscribe’ button in the home page’s call-to-action section.
-
-**Result:** A new page appears containing an email newsletter signup form.
+**Result:** Call-to-action section on index page appears containing an email newsletter signup form.
 
 ### Story 3-2
 
-**Description:** Frida reviews the email newsletter signup form page.
+**Description:** Frida reviews the email newsletter signup form.
 
-**Action:** The page contains the following elements…
-* A decorative image
-* A title with text: “This Way to Seamless Navigation Solutions”
-* The following subtext: “Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions.”
+**Action:** The form contains the following elements…
 * An email input field.
 * An option to choose the ways in which the user consents to being contacted (‘Email’ is the only option for now).
 * A privacy notice.
@@ -306,15 +255,15 @@ An email promotion is immediately sent for our next informational webinar about 
 
 **Result:** Email displays information about the live demo and Q&A event, including a title, brief description, date and time, and registration button. The demo will feature a satisfied WayWize customer as a guest speaker - the guest speaker will be identified by their name, title, and company to convey authority.
 
-## Epic #5: Compliance
+## Epic #5: Compliance & Accessibility
 
-Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and clear options to unsubscribe from the WayWize newsletter.
+Ensure compliance with GDPR and similar regulations through cookie consent options, a clear and informative Privacy Policy, and accessibility options for various browsing types (i.e. use of screen readers, mobile access).
 
 ### Story 5-1
 
 **Description:** When she first visits the WayWize homepage, Frida is presented with a banner informing her that the website uses cookies.
 
-**Action:** A banner with the following text appears at the bottom of the home page: “This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies.” Additionally, the banner presents three option buttons: Accept All, Essential Only, and Close.
+**Action:** A banner with the following text appears at the bottom of the home page: “This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our Privacy Policy for more information about what data we collect.” Additionally, the banner presents three option buttons: Accept All, Essential Only, and Close.
 
 **Result:** N/A - Information only (Test for presence of cookie consent message)
 
@@ -352,8 +301,24 @@ Ensure compliance with GDPR and similar regulations through cookie consent optio
 
 ### Story 5-4
 
-**Description:** Frida would like to unsubscribe from WayWize’s email newsletter.
+**Description:** It is possible that Frida utilizes screen readers for web navigation, and requires websites' images to be accessible to her using non-visual methods.
 
-**Action:** Click the ‘Unsubscribe’ link at the bottom of a marketing email.
+**Action:** Encounter an image on the website.
 
-**Result:** The action automatically triggers MailChimp to remove the user from the relevant company account’s mailing list.
+**Result:** The image contains alt text.
+
+### Story 5-5
+
+**Description:** It is possible that Frida utilizes screen readers for web navigation, and requires websites' links to be accessible to her using non-visual methods.
+
+**Action:** Encounter a link on the website.
+
+**Result:** The link contains a role and label.
+
+### Story 5-6
+
+**Description:** It is possible that Frida utilizes mobile devices for web navigation, and requires websites' contents to be viewable on a narrow screen.
+
+**Action:** Browse the website on a narrow viewport.
+
+**Result:** The website layout dynamically adjusts to accomodate the narrow viewport, resulting in no loss of visibility, functionality, or aesthetic consistency.
