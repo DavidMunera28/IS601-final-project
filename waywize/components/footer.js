@@ -11,7 +11,7 @@ export default function Footer() {
             <ListItem><Link href="privacy">Privacy Policy</Link></ListItem>
         </List>
         <List className="social-links">
-            <ListItem>LinkedIn</ListItem>
+            <ListItem><Link href="https://www.linkedin.com/company/waywizefakeaccount">LinkedIn</Link></ListItem>
             <ListItem>X</ListItem>
             <ListItem>Facebook</ListItem>
         </List>
