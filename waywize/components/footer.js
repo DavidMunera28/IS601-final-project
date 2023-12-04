@@ -6,7 +6,7 @@ export default function Footer() {
       <footer>
         <List className="internal-links">
             <ListItem><Link href="/">Home</Link></ListItem>
-            <ListItem>About</ListItem>
+            <ListItem><Link href="about">About</Link></ListItem>
             <ListItem>Subscribe</ListItem>
             <ListItem>Privacy Policy</ListItem>
         </List>
