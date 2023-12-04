@@ -7,7 +7,7 @@ export default function Footer() {
         <List className="internal-links">
             <ListItem><Link href="/">Home</Link></ListItem>
             <ListItem><Link href="about">About</Link></ListItem>
-            <ListItem>Subscribe</ListItem>
+            <ListItem><Link href="/#subscribe">Subscribe</Link></ListItem>
             <ListItem>Privacy Policy</ListItem>
         </List>
         <List className="social-links">
