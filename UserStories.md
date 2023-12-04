@@ -42,7 +42,7 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Action:** Locate Hero section.
 
-**Result:** A header is visible at the top of the home page and reads "INSERT CONTENT HERE".
+**Result:** A header is visible at the top of the home page and reads "Change How You Wander".
 
 ### Story 2-2
 
@@ -70,7 +70,10 @@ A website featuring intuitive navigation, links to relevant social media, inform
 
 **Action:** Read call-to-action section.
 
-**Result:** INSERT CONTENT HERE
+**Result:** Section contains the following...
+* A decorative image
+* A title with text: “This Way to Seamless Navigation Solutions”
+* The following subtext: “Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions.”
 
 ### Story 2-5
 
@@ -194,7 +197,7 @@ A signup for a newsletter which provides customers with more information about W
 
 **Action:** Click the ‘Subscribe’ button in the navigation bar.
 
-**Result:** A new page appears containing an email newsletter signup form.
+**Result:** Call-to-action section on index page appears containing an email newsletter signup form.
 
 ### Story 3-1b
 
@@ -202,7 +205,7 @@ A signup for a newsletter which provides customers with more information about W
 
 **Action:** Click the ‘Subscribe’ button in the footer section.
 
-**Result:** A new page appears containing an email newsletter signup form.
+**Result:** Call-to-action section on index page appears containing an email newsletter signup form.
 
 ### Story 3-1c
 
@@ -210,24 +213,13 @@ A signup for a newsletter which provides customers with more information about W
 
 **Action:** Click the ‘Subscribe’ button in the home page’s hero section.
 
-**Result:** A new page appears containing an email newsletter signup form.
-
-### Story 3-1d
-
-**Description:** Having reviewed the information available on the website, Frida has built up enough interest in WayWize that she’s ready to turn her interests into action - she will need to do more research and obtain the appropriate budgetary approval before making a purchase, but in the meantime she can start gathering information for an ROI.
-
-**Action:** Click the ‘Subscribe’ button in the home page’s call-to-action section.
-
-**Result:** A new page appears containing an email newsletter signup form.
+**Result:** Call-to-action section on index page appears containing an email newsletter signup form.
 
 ### Story 3-2
 
-**Description:** Frida reviews the email newsletter signup form page.
+**Description:** Frida reviews the email newsletter signup form.
 
-**Action:** The page contains the following elements…
-* A decorative image
-* A title with text: “This Way to Seamless Navigation Solutions”
-* The following subtext: “Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions.”
+**Action:** The form contains the following elements…
 * An email input field.
 * An option to choose the ways in which the user consents to being contacted (‘Email’ is the only option for now).
 * A privacy notice.
@@ -271,7 +263,7 @@ Ensure compliance with GDPR and similar regulations through cookie consent optio
 
 **Description:** When she first visits the WayWize homepage, Frida is presented with a banner informing her that the website uses cookies.
 
-**Action:** A banner with the following text appears at the bottom of the home page: “This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies.” Additionally, the banner presents three option buttons: Accept All, Essential Only, and Close.
+**Action:** A banner with the following text appears at the bottom of the home page: “This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our Privacy Policy for more information about what data we collect.” Additionally, the banner presents three option buttons: Accept All, Essential Only, and Close.
 
 **Result:** N/A - Information only (Test for presence of cookie consent message)
 
