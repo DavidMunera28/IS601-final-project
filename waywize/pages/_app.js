@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { ChakraProvider } from '@chakra-ui/react'
 import Head from 'next/head'
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }) {
     <ChakraProvider>
     <Navbar />
     <Component {...pageProps} />
+    <Footer />
     </ChakraProvider>
     </>
   )
