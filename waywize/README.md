@@ -15,6 +15,8 @@
 
 `npx playwright test` tests Playwright install (must be run from the `IS601-final-project\waywize` directory). All 6 tests should pass.
 
+`npm install client-only` installs Client Only (must be run from the `IS601-final-project\waywize` directory).
+
 # Vercel Deployment Instructions
 
 Deploy `is601-final-project` to Vercel from GitHub, setting `Next.js` as the Framework and `waywize` as the root directory.
