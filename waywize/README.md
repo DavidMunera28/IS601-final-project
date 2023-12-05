@@ -22,3 +22,13 @@
 Deploy `is601-final-project` to Vercel from GitHub, setting `Next.js` as the Framework and `waywize` as the root directory.
 
 [Click here](https://is-601-final-project.vercel.app/) for production deployment in Vercel.
+
+# Google Analytics Setup
+
+## Attempt 1
+
+Google tag is not detected on the [Vercel-hosted website](https://is-601-final-project.vercel.app/). 
+
+![image](/images/GA-Test-1.png)
+
+Noted that the tag number prop was incorrectly entered on the root app - this is likely the root cause.
