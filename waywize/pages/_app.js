@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <GoogleAnalytics GA_MEASUREMENT_ID = 'G-64WB2VL4R1' />
+    <GoogleAnalytics GA_MEASUREMENT_ID = 'G-F248M41PQ7' />
     <ChakraProvider>
     <Navbar />
     <Component {...pageProps} />
