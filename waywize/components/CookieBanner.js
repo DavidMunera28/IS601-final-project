@@ -1,7 +1,18 @@
+import { Button, Card, Text } from "@chakra-ui/react"
+
 export default function CookieBanner(){
 
 return (
-    <div id="cookie-banner">
-  
-    </div>
+    <Card id="cookie-banner">
+        <div class="cookie-text">
+            <Text>This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our Privacy Policy for more information about what data we collect.
+            </Text>
+        </div>
+
+        <div class="cookie-buttons">
+            <Button>Accept All</Button>
+            <Button>Essential Only</Button>
+            <Button>Close</Button>
+        </div>
+    </Card>
 )}
