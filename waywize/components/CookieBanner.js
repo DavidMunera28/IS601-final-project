@@ -30,6 +30,10 @@ export default function CookieBanner(){
     
         }, [cookieConsent]);
 
+        if (cookieConsent !== null) {
+            return null;
+        }
+
 return (
     <Card id="cookie-banner">
         <div class="cookie-text">
