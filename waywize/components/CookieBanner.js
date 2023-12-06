@@ -1,9 +1,34 @@
 'use client';
 
+import { getLocalStorage, setLocalStorage } from '@/lib/storageHelper';
+import { useState, useEffect } from 'react';
 import { Button, Card, Text } from "@chakra-ui/react"
 import Link from "next/link"
 
 export default function CookieBanner(){
+
+    const [cookieConsent, setCookieConsent] = useState(false);
+    
+        useEffect (() => {
+            const storedCookieConsent = getLocalStorage("cookie_consent", null)
+    
+            setCookieConsent(storedCookieConsent)
+        }, [setCookieConsent])
+    
+        
+        useEffect(() => {
+            const newValue = cookieConsent ? 'granted' : 'denied'
+    
+            window.gtag("consent", 'update', {
+                'analytics_storage': newValue
+            });
+    
+            setLocalStorage("cookie_consent", cookieConsent)
+    
+            //For Testing
+            console.log("Cookie Consent: ", cookieConsent)
+    
+        }, [cookieConsent]);
 
 return (
     <Card id="cookie-banner">
