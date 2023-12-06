@@ -32,3 +32,9 @@ Google tag is not detected on the [Vercel-hosted website](https://is-601-final-p
 ![image](/images/GA-Test-1.png)
 
 Noted that the tag number prop was incorrectly entered on the root app - this is likely the root cause.
+
+## Attempt 2
+
+Google tag is successfully detected on the [Vercel-hosted website](https://is-601-final-project.vercel.app/) after correcting the tag number prop.
+
+![image](/images/GA-Test-2.png)
