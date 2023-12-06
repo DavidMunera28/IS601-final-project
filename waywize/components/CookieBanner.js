@@ -38,8 +38,8 @@ return (
         </div>
 
         <div class="cookie-buttons">
-            <Button>Accept All</Button>
-            <Button>Essential Only</Button>
+            <Button onClick={() => setCookieConsent(true)}>Accept All</Button>
+            <Button onClick={() => setCookieConsent(false)}>Essential Only</Button>
             <Button>Close</Button>
         </div>
     </Card>
