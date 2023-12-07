@@ -19,6 +19,11 @@ export default function CookieBanner() {
     setIsVisible(false);
   };
 
+  const handleClose = () => {
+    console.log('Close button clicked');
+    setIsVisible(false);
+  };
+
   // Store the user's consent choice in a cookie
   useEffect(() => {
     if (cookieConsent !== null) {
@@ -41,6 +46,9 @@ export default function CookieBanner() {
           <Text>
             This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our <Link href="privacy">Privacy Policy</Link> for more information about what data we collect.
           </Text>
+          <Button onClick={handleClose}>
+            Close
+          </Button>
         </CookieConsent>
       )}
     </>
