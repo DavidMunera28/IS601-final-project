@@ -1,3 +1,4 @@
+import CookieBanner from '@/components/CookieBanner'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
@@ -19,6 +20,7 @@ export default function App({ Component, pageProps }) {
     <Navbar />
     <Component {...pageProps} />
     <Footer />
+    <CookieBanner />
     </ChakraProvider>
     </>
   )
