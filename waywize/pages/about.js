@@ -45,6 +45,7 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
         <MarkdownRenderer content={markdownContentOverview} />
         <Image src="/images/WHAT-WE-STAND-FOR.png" />
         <MarkdownRenderer content={markdownContentWwsf} />
+        <Heading as="h2">Our People</Heading>
         <MarkdownRenderer content={markdownContentCeo} />
         <MarkdownRenderer content={markdownContentCfo} />
         <MarkdownRenderer content={markdownContentCto} />
