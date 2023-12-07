@@ -1,4 +1,4 @@
-# What We Stand For
+## What We Stand For
 
 Mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here.
 
