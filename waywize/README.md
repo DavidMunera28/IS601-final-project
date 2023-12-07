@@ -17,6 +17,8 @@
 
 `npm install client-only` installs Client Only (must be run from the `IS601-final-project\waywize` directory).
 
+`npm install react-cookie-consent` installs React Cookie Consent library (must be run from the `IS601-final-project\waywize` directory).
+
 # Vercel Deployment Instructions
 
 Deploy `is601-final-project` to Vercel from GitHub, setting `Next.js` as the Framework and `waywize` as the root directory.
