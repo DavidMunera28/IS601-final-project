@@ -22,17 +22,22 @@ export async function getStaticProps() {
     const filePathCfo = path.join(process.cwd(), '/editable-content/cfo-bio.md');
     const markdownContentCfo = fs.readFileSync(filePathCfo, 'utf-8');
 
+    // For storing CTO Bio Markdown contents
+    const filePathCto = path.join(process.cwd(), '/editable-content/cto-bio.md');
+    const markdownContentCto = fs.readFileSync(filePathCto, 'utf-8');
+
   return {
     props: {
       markdownContentOverview,
       markdownContentWwsf,
       markdownContentCeo,
       markdownContentCfo,
+      markdownContentCto,
     },
   };
 }
 
-export default function About({ markdownContentOverview, markdownContentWwsf, markdownContentCeo, markdownContentCfo }) {
+export default function About({ markdownContentOverview, markdownContentWwsf, markdownContentCeo, markdownContentCfo, markdownContentCto }) {
     return (
       <>
         <Heading as="h1">About Page</Heading>
@@ -42,6 +47,7 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
         <MarkdownRenderer content={markdownContentWwsf} />
         <MarkdownRenderer content={markdownContentCeo} />
         <MarkdownRenderer content={markdownContentCfo} />
+        <MarkdownRenderer content={markdownContentCto} />
       </>
     )
   }
