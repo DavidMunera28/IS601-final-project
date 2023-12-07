@@ -4,21 +4,27 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function CookieBanner() {
+// Establish cookieConsent and initialize to null
   const [cookieConsent, setCookieConsent] = useState(null);
+  
+// Establish isVisible and initialize to true
   const [isVisible, setIsVisible] = useState(true);
 
+  // Define actions when user clicks 'Accept All'
   const handleAccept = () => {
     console.log('Cookies accepted');
     setCookieConsent(true);
     setIsVisible(false);
   };
 
+  // Define actions when user clicks 'Essential Only'
   const handleDecline = () => {
     console.log('Cookies rejected');
     setCookieConsent(false);
     setIsVisible(false);
   };
 
+  // Define actions when user clicks 'Close'
   const handleClose = () => {
     console.log('Close button clicked');
     setIsVisible(false);
