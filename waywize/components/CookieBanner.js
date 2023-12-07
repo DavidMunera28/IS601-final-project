@@ -1,50 +1,48 @@
-'use client';
+import CookieConsent from 'react-cookie-consent';
+import { Button, Text } from "@chakra-ui/react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
-import { getLocalStorage, setLocalStorage } from '@/lib/storageHelper';
-import { useState, useEffect } from 'react';
-import { Button, Card, Text } from "@chakra-ui/react"
-import Link from "next/link"
+export default function CookieBanner() {
+  const [cookieConsent, setCookieConsent] = useState(null);
+  const [isVisible, setIsVisible] = useState(true);
 
-export default function CookieBanner(){
+  const handleAccept = () => {
+    console.log('Cookies accepted');
+    setCookieConsent(true);
+    setIsVisible(false);
+  };
 
-    const [cookieConsent, setCookieConsent] = useState(false);
-    
-        useEffect (() => {
-            const storedCookieConsent = getLocalStorage("cookie_consent", null)
-    
-            setCookieConsent(storedCookieConsent)
-        }, [setCookieConsent])
-    
-        
-        useEffect(() => {
-            const newValue = cookieConsent ? 'granted' : 'denied'
-    
-            window.gtag("consent", 'update', {
-                'analytics_storage': newValue
-            });
-    
-            setLocalStorage("cookie_consent", cookieConsent)
-    
-            //For Testing
-            console.log("Cookie Consent: ", cookieConsent)
-    
-        }, [cookieConsent]);
+  const handleDecline = () => {
+    console.log('Cookies rejected');
+    setCookieConsent(false);
+    setIsVisible(false);
+  };
 
-        if (cookieConsent !== null) {
-            return null;
-        }
+  // Store the user's consent choice in a cookie
+  useEffect(() => {
+    if (cookieConsent !== null) {
+      document.cookie = `cookieConsent=${cookieConsent}; max-age=${365 * 24 * 60 * 60}`;
+    }
+  }, [cookieConsent]);
 
-return (
-    <Card id="cookie-banner">
-        <div class="cookie-text">
-            <Text>This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our <Link href="privacy">Privacy Policy</Link> for more information about what data we collect.
-            </Text>
-        </div>
-
-        <div class="cookie-buttons">
-            <Button onClick={() => setCookieConsent(true)}>Accept All</Button>
-            <Button onClick={() => setCookieConsent(false)}>Essential Only</Button>
-            <Button>Close</Button>
-        </div>
-    </Card>
-)}
+  return (
+    <>
+      {isVisible && (
+        <CookieConsent
+          id="cookie-banner"
+          enableDeclineButton
+          onAccept={handleAccept}
+          onDecline={handleDecline}
+          buttonText="Accept All"
+          declineButtonText="Essential Only"
+          cookieName="cookieConsent"
+        >
+          <Text>
+            This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our <Link href="privacy">Privacy Policy</Link> for more information about what data we collect.
+          </Text>
+        </CookieConsent>
+      )}
+    </>
+  );
+}
