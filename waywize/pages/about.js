@@ -17,7 +17,7 @@ export async function getStaticProps() {
 export default function About({ markdownContent }) {
     return (
       <>
-        <Heading>About Page</Heading>
+        <Heading as="h1">About Page</Heading>
         <MarkdownRenderer content={markdownContent} />
       </>
     )
