@@ -29,9 +29,15 @@ export default function Home({ markdownContent }) {
       <div className="testimonials">
         <Heading as="h2">Read What Others Have To Say</Heading>
         <div className="quotes">
-          <Card className="quote">1</Card>
-          <Card className="quote">2</Card>
-          <Card className="quote">3</Card>
+          <Card className="quote">
+            <Heading as="h3">Deborah Stone</Heading>
+          </Card>
+          <Card className="quote">
+          <Heading as="h3">Logan Batts</Heading>
+          </Card>
+          <Card className="quote">
+          <Heading as="h3">Jason Steele</Heading>
+          </Card>
         </div>
       </div>
     </>
