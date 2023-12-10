@@ -1,9 +1,11 @@
+import { Heading } from "@chakra-ui/react"
+
 export default function Subscribe() {
     
     const htmlString = `<div id="mc_embed_shell">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-      #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
       /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style><style type="text/css">
@@ -14,7 +16,7 @@ export default function Subscribe() {
 </style>
 <div id="mc_embed_signup">
   <form action="https://njit.us17.list-manage.com/subscribe/post?u=c04b8f9a229fa40f5d594ad9a&amp;id=8c80d48567&amp;v_id=4229&amp;f_id=003265e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-      <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
+      <div id="mc_embed_signup_scroll">
           <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
           <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"><div class="content__gdpr"><label>Marketing Permissions</label><p>Please select all the ways you would like to hear from NJIT:</p><fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field"><label class="checkbox subfield" for="gdpr92049"><input type="checkbox" id="gdpr_92049" name="gdpr[92049]" class="gdpr" value="Y"><span>Email</span></label></fieldset><p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</p></div><div class="content__gdprLegal"><p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms">Learn more</a> about Mailchimp's privacy practices.</p></div></div>
       <div id="mce-responses" class="clear foot">
@@ -39,6 +41,7 @@ export default function Subscribe() {
     
     return (
       <div id="subscribe">
+        <Heading as="h2">This Way to Seamless Navigation Solutions</Heading>
         <div dangerouslySetInnerHTML={{ __html: htmlString }} />
       </div>
     )
