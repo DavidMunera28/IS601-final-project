@@ -1,4 +1,5 @@
 import { Heading, Text } from "@chakra-ui/react"
+import { WarningIcon } from '@chakra-ui/icons'
 
 export default function Subscribe() {
     
@@ -17,8 +18,7 @@ export default function Subscribe() {
 <div id="mc_embed_signup">
   <form action="https://njit.us17.list-manage.com/subscribe/post?u=c04b8f9a229fa40f5d594ad9a&amp;id=8c80d48567&amp;v_id=4229&amp;f_id=003265e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
       <div id="mc_embed_signup_scroll">
-          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-          <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"><div class="content__gdpr"><label>Marketing Permissions</label><p>Please select all the ways you would like to hear from NJIT:</p><fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field"><label class="checkbox subfield" for="gdpr92049"><input type="checkbox" id="gdpr_92049" name="gdpr[92049]" class="gdpr" value="Y"><span>Email</span></label></fieldset><p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</p></div><div class="content__gdprLegal"><p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms">Learn more</a> about Mailchimp's privacy practices.</p></div></div>
+          <div class="mc-field-group"><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"><div class="content__gdpr"><label>Marketing Permissions</label><p>Please select all the ways you would like to hear from NJIT:</p><fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field"><label class="checkbox subfield" for="gdpr92049"><input type="checkbox" id="gdpr_92049" name="gdpr[92049]" class="gdpr" value="Y"><span>Email</span></label></fieldset><p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</p></div><div class="content__gdprLegal"><p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms">Learn more</a> about Mailchimp's privacy practices.</p></div></div>
       <div id="mce-responses" class="clear foot">
           <div class="response" id="mce-error-response" style="display: none;"></div>
           <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -43,6 +43,7 @@ export default function Subscribe() {
       <div id="subscribe">
         <Heading as="h2">This Way to Seamless Navigation Solutions</Heading>
         <Text>Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions</Text>
+        <Text>Email Address <WarningIcon /></Text>
         <div dangerouslySetInnerHTML={{ __html: htmlString }} />
       </div>
     )
