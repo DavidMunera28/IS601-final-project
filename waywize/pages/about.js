@@ -44,10 +44,7 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
         <Image src="/images/OVERVIEW.png" />
         <MarkdownRenderer content={markdownContentOverview} />
       </Card>
-      <Card className="wwsf">
-        <Image src="/images/WHAT-WE-STAND-FOR.png" />
-        <MarkdownRenderer content={markdownContentWwsf} />
-      </Card>
+      
         <Heading as="h2">Our People</Heading>
         <Image src="/images/PEOPLE-CEO.png" />
         <MarkdownRenderer content={markdownContentCeo} />
@@ -55,6 +52,10 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
         <MarkdownRenderer content={markdownContentCfo} />
         <Image src="/images/PEOPLE-CTO.png" />
         <MarkdownRenderer content={markdownContentCto} />
+        <Card className="wwsf">
+          <Image src="/images/WHAT-WE-STAND-FOR.png" />
+          <MarkdownRenderer content={markdownContentWwsf} />
+      </Card>
       </>
     )
   }
