@@ -30,20 +30,29 @@ const defaults = {
     shadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
     genradius: '20px',
     btnradius: '10px',
+    font: 'Space Grotesk, sans-serif'
 }
 
 const theme = extendTheme({
-  styles: {
-    global: {
-      body: {
-        bg: colors.primarybg,
-        color: colors.text,
-        fontSize: sizes.medium,
-        fontWeight: weights.normal,
-        lineHeight: '30px',
+    styles: {
+      global: {
+        body: {
+          bg: colors.primarybg,
+          fontFamily: defaults.font,
+          color: colors.text,
+          fontSize: sizes.medium,
+          fontWeight: weights.normal,
+          lineHeight: '30px',
+        },
       },
     },
-  },
-});
-
-export default theme;
+    components: {
+      Heading: {
+        baseStyle: {
+          fontFamily: defaults.font,
+        },
+      },
+    },
+  });
+  
+  export default theme;
