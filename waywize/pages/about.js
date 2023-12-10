@@ -40,7 +40,6 @@ export async function getStaticProps() {
 export default function About({ markdownContentOverview, markdownContentWwsf, markdownContentCeo, markdownContentCfo, markdownContentCto }) {
     return (
       <>
-        <Heading as="h1">About Page</Heading>
         <Image src="/images/OVERVIEW.png" />
         <MarkdownRenderer content={markdownContentOverview} />
         <Image src="/images/WHAT-WE-STAND-FOR.png" />
