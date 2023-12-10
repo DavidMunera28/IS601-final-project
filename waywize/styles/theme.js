@@ -17,7 +17,11 @@ const sizes = {
     tiny: '16px',
 }
 
-const shadow = '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
+const defaults = {
+    shadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+    genradius: '20px',
+    btnradius: '10px',
+}
 
 const theme = extendTheme({
   styles: {
