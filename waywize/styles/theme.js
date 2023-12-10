@@ -9,6 +9,14 @@ const colors = {
     button: '#373737',
 }
 
+const sizes = {
+    huge: '48px',
+    large: '32px',
+    medium: '24px',
+    small: '20px',
+    tiny: '16px',
+}
+
 const shadow = '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
 
 const theme = extendTheme({
