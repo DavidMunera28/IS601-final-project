@@ -17,6 +17,13 @@ const sizes = {
     tiny: '16px',
 }
 
+const weights = {
+    verythick: '700',
+    thick: '500',
+    normal: '400',
+    thin: '300',
+}
+
 const defaults = {
     shadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
     genradius: '20px',
