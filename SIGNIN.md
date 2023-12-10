@@ -20,7 +20,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 | Date        | Amira | David |
 |-------------|-----------|-----------|
 | Dec 3 (Sun) |     X      |    X       |
-| Dec 7 (Thurs)|      X     |           |
+| Dec 7 (Thurs)|      X     |   X        |
 | Dec 10 (Sun)|           |           |
 | Dec 13 (Wed)|           |           |
 
