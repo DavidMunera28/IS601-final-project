@@ -4,6 +4,7 @@ import Footer from '@/components/footer'
 import Navbar from '@/components/navbar'
 import { ChakraProvider } from '@chakra-ui/react'
 import Head from 'next/head'
+import theme from '@/styles/theme'
 
 export default function App({ Component, pageProps }) {
   return (
@@ -16,7 +17,7 @@ export default function App({ Component, pageProps }) {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <GoogleAnalytics GA_MEASUREMENT_ID = 'G-F248M41PQ7' />
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
     <Navbar />
     <Component {...pageProps} />
     <Footer />
