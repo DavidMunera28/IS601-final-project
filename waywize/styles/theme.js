@@ -48,6 +48,10 @@ const theme = extendTheme({
           display: 'flex',
           m: '37px 50px 41px 50px',
         },
+        'nav .logo': {
+          fontSize: sizes.large,
+          fontWeight: weights.verythick,
+        },
         'nav li': {
           ml: '93px',
         }
