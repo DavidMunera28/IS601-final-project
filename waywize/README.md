@@ -6,6 +6,8 @@
 
 `npm i @chakra-ui/react @chakra-ui/next-js @emotion/react @emotion/styled framer-motion` installs Chakra UI (must be run from the `IS601-final-project\waywize` directory). From there, import ChakraProvider and wrap in root app container as described [here](https://chakra-ui.com/getting-started/nextjs-guide).
 
+`npm install @chakra-ui/icons` installs Chakra UI icons (must be run from the `IS601-final-project\waywize` directory).
+
 `npm init playwright@latest` installs Playwright (must be run from the `IS601-final-project\waywize` directory). The following options were selected:
 
 * Do you want to use TypeScript or JavaScript? · **JavaScript**
