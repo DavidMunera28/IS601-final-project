@@ -5,7 +5,10 @@ export default function Navbar() {
     return (
       <nav>
         <Text className="logo">WayWize</Text>
-        <List className="navlinks">
+        <List
+          className="navlinks"
+          display="flex"
+          alignItems="center">
             <ListItem><Link href="/">Home</Link></ListItem>
             <ListItem><Link href="about">About</Link></ListItem>
         </List>

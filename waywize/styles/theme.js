@@ -44,6 +44,9 @@ const theme = extendTheme({
           fontWeight: weights.normal,
           lineHeight: '30px',
         },
+        nav: {
+          display: 'flex',
+        },
       },
     },
     components: {
