@@ -46,6 +46,7 @@ const theme = extendTheme({
         },
         nav: {
           display: 'flex',
+          m: '37px 50px 41px 50px',
         },
         'nav li': {
           ml: '93px',
