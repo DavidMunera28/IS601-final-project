@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Subscribe from "@/components/subscribe";
-import { Image, Button, Heading, Card } from "@chakra-ui/react";
+import { Image, Button, Heading, Card, Text } from "@chakra-ui/react";
 import Link from 'next/link';
 
 export async function getStaticProps() {
@@ -32,14 +32,17 @@ export default function Home({ markdownContent }) {
           <Card className="quote">
             <Heading as="h3">Deborah Stone</Heading>
             <Heading as="h4">PixelCraft &nbsp; | &nbsp; Business Manager</Heading>
+            <Text>WayWize revolutionizes the daily navigation experience by providing intuitive and user-friendly multi-platform applications. Users can effortlessly navigate indoor and outdoor spaces, enhancing their convenience and ensuring they always reach their destination with ease.</Text>
           </Card>
           <Card className="quote">
             <Heading as="h3">Logan Batts</Heading>
             <Heading as="h4">InnoSphere &nbsp; | &nbsp; Processing Manager</Heading>
+            <Text>WayWize caters not only to business owners, space planners, and event organizers but also to the everyday visitors of diverse facilities and venues. Its inclusive design ensures that individuals from all walks of life can benefit from efficient wayfinding, fostering a sense of accessibility and community engagement.</Text>
           </Card>
           <Card className="quote">
             <Heading as="h3">Jason Steele</Heading>
             <Heading as="h4">CleverCraft &nbsp; | &nbsp;  CEO</Heading>
+            <Text>WayWize goes beyond basic mapping services, fostering a connected community through its applications. By creating a platform that integrates seamlessly into people's daily lives, the company enhances communication and engagement within various localities.</Text>
           </Card>
         </div>
       </div>
