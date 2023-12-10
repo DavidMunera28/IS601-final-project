@@ -37,7 +37,7 @@ const theme = extendTheme({
         bg: colors.primarybg,
         color: colors.text,
         fontSize: sizes.medium,
-        fontWeight: '400',
+        fontWeight: weights.normal,
         lineHeight: '30px',
       },
     },
