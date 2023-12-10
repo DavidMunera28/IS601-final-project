@@ -8,6 +8,7 @@ const colors = {
     accentbg: '#EBDAB7',
     button: '#373737',
     link: '#00C2FF',
+    alert: '#E53E3E',
 }
 
 const sizes = {
