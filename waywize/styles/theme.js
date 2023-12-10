@@ -7,6 +7,7 @@ const colors = {
     secondarybg: '#EFE9DC',
     accentbg: '#EBDAB7',
     button: '#373737',
+    link: '#00C2FF',
 }
 
 const sizes = {
