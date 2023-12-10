@@ -9,6 +9,8 @@ const colors = {
     button: '#373737',
 }
 
+const shadow = '0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
+
 const theme = extendTheme({
   styles: {
     global: {
