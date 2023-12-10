@@ -39,7 +39,7 @@ export default function Subscribe() {
 
       <form action="https://njit.us17.list-manage.com/subscribe/post?u=c04b8f9a229fa40f5d594ad9a&amp;id=8c80d48567&amp;v_id=4229&amp;f_id=003265e0f0" method="post" target="_blank">
 
-        <Input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required="" value={email} onChange={handleEmailChange} />
+        <Input type="email" name="EMAIL" className="required email" id="mce-EMAIL" required="" placeholder="Email" value={email} onChange={handleEmailChange} />
 
 
         <Heading as="h3">Permissions</Heading>
