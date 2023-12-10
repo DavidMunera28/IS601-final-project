@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Link, Input, Checkbox, Button } from '@chakra-ui/react';
+import { Box, Heading, Text, Link, Input, Checkbox, Button, Image } from '@chakra-ui/react';
 import { WarningIcon } from '@chakra-ui/icons';
 import { useState, useEffect } from 'react';
 
@@ -63,6 +63,9 @@ export default function Subscribe() {
 
         <Button type="submit" name="subscribe" id="mc-embedded-subscribe" className="button">Subscribe</Button>
       </form>
+
+      <Image src="images/SUBSCRIBE.png" />
     </Box>
+
   );
 }
