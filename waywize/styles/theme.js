@@ -30,7 +30,8 @@ const defaults = {
     shadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
     genradius: '20px',
     btnradius: '10px',
-    font: 'Space Grotesk, sans-serif'
+    font: 'Space Grotesk, sans-serif',
+    transition: '400ms',
 }
 
 const theme = extendTheme({
@@ -44,6 +45,24 @@ const theme = extendTheme({
           fontWeight: weights.normal,
           lineHeight: '30px',
         },
+        nav: {
+          display: 'flex',
+          m: '37px 50px 41px 50px',
+        },
+        'nav .logo': {
+          fontSize: sizes.large,
+          fontWeight: weights.verythick,
+        },
+        'nav li': {
+          ml: '93px',
+          textTransform: 'uppercase',
+        },
+        'nav a': {
+          _hover: {
+            color: colors.link,
+            transition: defaults.transition,
+          }
+        }
       },
     },
     components: {
