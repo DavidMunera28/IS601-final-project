@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
       <nav>
         <Text className="logo">WayWize</Text>
-        <List>
+        <List className="navlinks">
             <ListItem><Link href="/">Home</Link></ListItem>
             <ListItem><Link href="about">About</Link></ListItem>
             <ListItem><Link href="/#subscribe">Subscribe</Link></ListItem>
