@@ -25,7 +25,7 @@ const theme = extendTheme({
       body: {
         bg: colors.primarybg,
         color: colors.text,
-        fontSize: '24px',
+        fontSize: sizes.medium,
         fontWeight: '400',
         lineHeight: '30px',
       },
