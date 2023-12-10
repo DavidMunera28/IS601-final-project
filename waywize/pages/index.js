@@ -31,12 +31,15 @@ export default function Home({ markdownContent }) {
         <div className="quotes">
           <Card className="quote">
             <Heading as="h3">Deborah Stone</Heading>
+            <Heading as="h4">PixelCraft &nbsp; | &nbsp; Business Manager</Heading>
           </Card>
           <Card className="quote">
-          <Heading as="h3">Logan Batts</Heading>
+            <Heading as="h3">Logan Batts</Heading>
+            <Heading as="h4">InnoSphere &nbsp; | &nbsp; Processing Manager</Heading>
           </Card>
           <Card className="quote">
-          <Heading as="h3">Jason Steele</Heading>
+            <Heading as="h3">Jason Steele</Heading>
+            <Heading as="h4">CleverCraft &nbsp; | &nbsp;  CEO</Heading>
           </Card>
         </div>
       </div>
