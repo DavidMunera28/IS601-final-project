@@ -30,7 +30,8 @@ const defaults = {
     shadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
     genradius: '20px',
     btnradius: '10px',
-    font: 'Space Grotesk, sans-serif'
+    font: 'Space Grotesk, sans-serif',
+    transition: '400ms',
 }
 
 const theme = extendTheme({
@@ -54,6 +55,13 @@ const theme = extendTheme({
         },
         'nav li': {
           ml: '93px',
+          textTransform: 'uppercase',
+        },
+        'nav a': {
+          _hover: {
+            color: colors.link,
+            transition: defaults.transition,
+          }
         }
       },
     },
