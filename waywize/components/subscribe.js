@@ -1,4 +1,4 @@
-import { Heading } from "@chakra-ui/react"
+import { Heading, Text } from "@chakra-ui/react"
 
 export default function Subscribe() {
     
@@ -42,6 +42,7 @@ export default function Subscribe() {
     return (
       <div id="subscribe">
         <Heading as="h2">This Way to Seamless Navigation Solutions</Heading>
+        <Text>Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions</Text>
         <div dangerouslySetInnerHTML={{ __html: htmlString }} />
       </div>
     )
