@@ -8,7 +8,6 @@ export default function Navbar() {
         <List className="navlinks">
             <ListItem><Link href="/">Home</Link></ListItem>
             <ListItem><Link href="about">About</Link></ListItem>
-            <ListItem><Link href="/#subscribe">Subscribe</Link></ListItem>
         </List>
       </nav>
     )
