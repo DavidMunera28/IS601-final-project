@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Subscribe from "@/components/subscribe";
-import { Image } from "@chakra-ui/react";
+import { Image, Button } from "@chakra-ui/react";
+import Link from 'next/link';
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), '/editable-content/hero-text.md');
@@ -20,6 +21,9 @@ export default function Home({ markdownContent }) {
     <>
       <Image src="/images/HERO.png" />
       <MarkdownRenderer content={markdownContent} />
+      <Link href="#subscribe">
+        <Button>Subscribe</Button>
+      </Link>
       <Subscribe />
     </>
   )
