@@ -1,5 +1,6 @@
 import { Heading, Text } from "@chakra-ui/react"
 import { WarningIcon } from '@chakra-ui/icons'
+import Link from "next/link"
 
 export default function Subscribe() {
     
@@ -48,7 +49,7 @@ export default function Subscribe() {
         <Heading as="h3">Permissions</Heading>
         <Text>Please select all the ways you would like to hear from WayWize:</Text>
         <Text>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</Text>
-        <Text>We use MailChimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.</Text>
+        <Text>We use <Link href="https://mailchimp.com/">MailChimp</Link> as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.</Text>
       </div>
     )
   }
