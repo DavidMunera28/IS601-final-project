@@ -6,6 +6,9 @@ const theme = extendTheme({
       body: {
         bg: '#EFEDE9',
         color: '#000000',
+        fontSize: '24px',
+        fontWeight: '400',
+        lineHeight: '30px',
       },
     },
   },
