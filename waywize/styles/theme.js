@@ -13,8 +13,8 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: '#EFEDE9',
-        color: '#000000',
+        bg: colors.primarybg,
+        color: colors.text,
         fontSize: '24px',
         fontWeight: '400',
         lineHeight: '30px',
