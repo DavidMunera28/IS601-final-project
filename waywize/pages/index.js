@@ -27,7 +27,7 @@ export default function Home({ markdownContent }) {
       <Subscribe />
 
       <div className="testimonials">
-      
+        <Heading as="h2">Read What Others Have To Say</Heading>
       </div>
     </>
   )
