@@ -1,9 +1,11 @@
 ## What We Stand For
 
-Mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here mission text goes here.
+WayWize is dedicated to crafting versatile multi-platform applications tailored for indoor and outdoor mapping and wayfinding. Our commitment extends beyond serving business owners, space planners, and event organizers, as we prioritize enhancing the everyday experience for visitors navigating diverse facilities, venues, and localities targeted by our clients.
 
-* **Value 1:** Value text goes here
-* **Value 2:** Value text goes here
-* **Value 3:** Value text goes here
-* **Value 4:** Value text goes here
-* **Value 5:** Value text goes here
+### Our Values
+
+* Innovation
+* User-Centric approach
+* Accessibility
+* Collaboration and Partnership
+* Enhancing Visitor Experience
