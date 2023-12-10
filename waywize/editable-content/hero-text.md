@@ -1,3 +1,3 @@
 # Change How You Wander
 
-Hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here hero text goes here.
+Discover the future of seamless navigation with WayWize, where cutting-edge multi-platform applications redefine indoor and outdoor mapping.
