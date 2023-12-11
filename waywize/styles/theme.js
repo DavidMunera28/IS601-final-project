@@ -159,7 +159,14 @@ const theme = extendTheme({
         },
         '#subscribe .subscribe-text': {
           mr: '97px',
-        }
+        },
+        '#subscribe .subscribe-img': {
+          minWidth: 'fit-content',
+        },
+        '#subscribe .subscribe-img img': {
+          w: '625px',
+          borderRadius: defaults.genradius,
+        },
       },
     },
     components: {
