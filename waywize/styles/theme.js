@@ -61,8 +61,51 @@ const theme = extendTheme({
           _hover: {
             color: colors.link,
             transition: defaults.transition,
-          }
-        }
+          },
+        },
+        footer: {
+          p: '71px 139px 97px 148px',
+          mt: '82px',
+          bg: colors.accentbg,
+          fontSize: sizes.small,
+          fontWeight: weights.verythick,
+          justifyContent: 'space-between',
+        },
+        'footer a': {
+          _hover: {
+            color: colors.link,
+            transition: defaults.transition,
+          },
+        },
+        'footer .internal-links ul': {
+          display: 'flex',
+        },
+        'footer .internal-links li': {
+          mr: '143px',
+        },
+        'footer .social-links': {
+          mr: '143px',
+        },
+        'footer .social-links ul': {
+          display: 'flex',
+          justifyContent: 'space-around',
+          m: '40px auto 0px auto',
+          fontSize: sizes.large,
+          w: '192px',
+        },
+        'footer .subscribe-button': {
+          mt: '40px',
+          bg: colors.button,
+          color: colors.card,
+          fontSize: sizes.tiny,
+          borderRadius: defaults.btnradius,
+          p: '0px 24px',
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          },
+        },
       },
     },
     components: {

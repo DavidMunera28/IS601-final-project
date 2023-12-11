@@ -1,20 +1,33 @@
-import { List, ListItem } from "@chakra-ui/react";
+import { Flex, Box, Text, List, ListItem, Button } from "@chakra-ui/react";
 import Link from "next/link";
+import { FaFacebook } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-      <footer>
-        <List className="internal-links">
+      <Flex as="footer">
+        <Box className="internal-links">
+        <List>
             <ListItem><Link href="/">Home</Link></ListItem>
             <ListItem><Link href="about">About</Link></ListItem>
-            <ListItem><Link href="/#subscribe">Subscribe</Link></ListItem>
-            <ListItem><Link href="privacy">Privacy Policy</Link></ListItem>
+            <ListItem><Link href="privacy">Privacy</Link></ListItem>
         </List>
-        <List className="social-links">
-            <ListItem><Link href="https://www.linkedin.com/company/waywizefakeaccount">LinkedIn</Link></ListItem>
-            <ListItem><Link href="https://twitter.com/waywizefake">X</Link></ListItem>
-            <ListItem><Link href="https://www.facebook.com/WaywizeFakeAccount">Facebook</Link></ListItem>
+        </Box>
+        <Box className="social-links">
+        <Text>Connect On Our Social Media</Text>
+        <List>
+          <ListItem><Link href="https://www.facebook.com/WaywizeFakeAccount"><FaFacebook /></Link></ListItem>
+            <ListItem><Link href="https://www.linkedin.com/company/waywizefakeaccount"><FaLinkedin /></Link></ListItem>
+            <ListItem><Link href="https://twitter.com/waywizefake"><FaTwitter /></Link></ListItem>
         </List>
-      </footer>
+        </Box>
+        <Box className="subscribe">
+          <Text>Newsletter</Text>
+          <Link href="/#subscribe">
+          <Button className="subscribe-button">Subscribe</Button>
+          </Link>
+        </Box>
+      </Flex>
     )
   }
