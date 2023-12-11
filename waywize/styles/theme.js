@@ -124,7 +124,17 @@ const theme = extendTheme({
         '.hero-img img': {
           w: '516px',
           h: '555px',
-        }
+        },
+        '.hero h1': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          p: '51px 0px 33px 62px ',
+        },
+        '.hero p': {
+          lineHeight: '40px',
+          p: '0px 0px 0px 62px',
+        },
       },
     },
     components: {
