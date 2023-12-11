@@ -153,6 +153,13 @@ const theme = extendTheme({
             transition: defaults.transition,
           }
         },
+        '#subscribe': {
+          ml: '105px',
+          mr: '85px',
+        },
+        '#subscribe .subscribe-text': {
+          mr: '97px',
+        }
       },
     },
     components: {

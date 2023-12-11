@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Link, Input, Checkbox, Button, Image } from '@chakra-ui/react';
+import { Flex, Box, Heading, Text, Link, Input, Checkbox, Button, Image } from '@chakra-ui/react';
 import { WarningIcon } from '@chakra-ui/icons';
 import { useState, useEffect } from 'react';
 
@@ -29,9 +29,10 @@ export default function Subscribe() {
   }, []);
 
   return (
-    <Box id="subscribe">
+    <Flex id="subscribe">
 
-      <Heading as="h2">This Way to Seamless Navigation Solutions</Heading>
+    <Box className="subscribe-text">
+      <Heading as="h2" className="subscribe-header">This Way to Seamless Navigation Solutions</Heading>
 
       <Text>Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions</Text>
 
@@ -63,9 +64,12 @@ export default function Subscribe() {
 
         <Button type="submit" name="subscribe" id="mc-embedded-subscribe" className="button">Subscribe</Button>
       </form>
+    </Box>
 
+    <Box className="subscribe-img">
       <Image src="images/SUBSCRIBE.png" />
     </Box>
+    </Flex>
 
   );
 }
