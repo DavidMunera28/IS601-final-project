@@ -180,6 +180,21 @@ const theme = extendTheme({
           w: '438px',
           h: '40px',
         },
+        '#subscribe .subscribe-button': {
+          bg: colors.button,
+          color: colors.card,
+          textSize: sizes.small,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          p: '7px 39px',
+          mt: '30px',
+          borderRadius: defaults.btnradius,
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          }
+        },
         '#subscribe .subscribe-img': {
           minWidth: 'fit-content',
         },
