@@ -19,6 +19,7 @@ export async function getStaticProps() {
 export default function Home({ markdownContent }) {
   return (
     <>
+    <Card>
       <Flex className="hero">
       <Box className="hero-img">
         <Image src="/images/HERO.png" />
@@ -30,6 +31,7 @@ export default function Home({ markdownContent }) {
         </Link>
       </Box>
       </Flex>
+    </Card>
 
       <Subscribe />
 
