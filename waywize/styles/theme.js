@@ -139,6 +139,15 @@ const theme = extendTheme({
           pt: '33px',
           pb: '76px',
         },
+        '.hero .hero-button': {
+          bg: colors.button,
+          color: colors.card,
+          textSize: sizes.small,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          p: '7px 39px',
+          borderRadius: defaults.btnradius,
+        },
       },
     },
     components: {

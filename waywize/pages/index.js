@@ -28,7 +28,7 @@ export default function Home({ markdownContent }) {
       <Box className="hero-text">
         <MarkdownRenderer content={markdownContent} />
         <Link href="#subscribe">
-          <Button>Subscribe</Button>
+          <Button className="hero-button">Subscribe</Button>
         </Link>
       </Box>
       </Flex>
