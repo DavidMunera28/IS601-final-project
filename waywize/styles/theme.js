@@ -99,7 +99,12 @@ const theme = extendTheme({
           color: colors.card,
           fontSize: sizes.tiny,
           borderRadius: defaults.btnradius,
-          p: '0px 24px'
+          p: '0px 24px',
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          },
         },
       },
     },
