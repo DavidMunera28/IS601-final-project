@@ -125,15 +125,19 @@ const theme = extendTheme({
           w: '516px',
           h: '555px',
         },
+        '.hero-text': {
+          pt: '51px',
+          pl: '62px',
+        },
         '.hero h1': {
           fontSize: sizes.huge,
           fontWeight: weights.verythick,
           lineHeight: 'normal',
-          p: '51px 0px 33px 62px ',
         },
         '.hero p': {
           lineHeight: '40px',
-          p: '0px 0px 0px 62px',
+          pt: '33px',
+          pb: '76px',
         },
       },
     },
