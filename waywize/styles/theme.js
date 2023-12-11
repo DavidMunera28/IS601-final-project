@@ -93,9 +93,14 @@ const theme = extendTheme({
           fontSize: sizes.large,
           w: '192px',
         },
-        'footer button': {
+        'footer .subscribe-button': {
           mt: '40px',
-        }
+          bg: colors.button,
+          color: colors.card,
+          fontSize: sizes.tiny,
+          borderRadius: defaults.btnradius,
+          p: '0px 24px'
+        },
       },
     },
     components: {

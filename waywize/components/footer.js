@@ -25,7 +25,7 @@ export default function Footer() {
         <Box className="subscribe">
           <Text>Newsletter</Text>
           <Link href="/#subscribe">
-          <Button>Subscribe</Button>
+          <Button className="subscribe-button">Subscribe</Button>
           </Link>
         </Box>
       </Flex>
