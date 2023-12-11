@@ -115,6 +115,9 @@ const theme = extendTheme({
           h: '555px',
           m: '77px auto',
         },
+        '.hero': {
+          flexDirection: 'row-reverse',
+        },
       },
     },
     components: {
