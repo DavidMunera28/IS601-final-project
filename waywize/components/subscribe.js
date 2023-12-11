@@ -45,13 +45,13 @@ export default function Subscribe() {
 
         <Heading as="h3">Permissions</Heading>
 
-        <Text>Please select all the ways you would like to hear from WayWize:</Text>
+        <Text className='permissions-text'>Please select all the ways you would like to hear from WayWize:</Text>
 
         <Checkbox id="gdpr_92049" name="gdpr[92049]" className="gdpr" value="Y">Email</Checkbox>
 
-        <Text>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</Text>
+        <Text className='permissions-text'>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</Text>
 
-        <Text>We use <Link href="https://mailchimp.com/" target="_blank">MailChimp</Link> as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.</Text>
+        <Text className='permissions-text'>We use <Link href="https://mailchimp.com/" target="_blank">MailChimp</Link> as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.</Text>
         
         <div id="mce-responses" className="clear foot">
           <div className="response" id="mce-error-response" style={{ display: 'none' }}></div>

@@ -180,6 +180,15 @@ const theme = extendTheme({
           w: '438px',
           h: '40px',
         },
+        '#subscribe h3': {
+          textSize: sizes.large,
+          lineHeight: '30px',
+          textTransform: 'uppercase',
+          pt: '56px',
+        },
+        '#subscribe .permissions-text': {
+          pt: '24px',
+        },
         '#subscribe .subscribe-button': {
           bg: colors.button,
           color: colors.card,
