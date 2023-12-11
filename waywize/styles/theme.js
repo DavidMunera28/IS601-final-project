@@ -160,6 +160,14 @@ const theme = extendTheme({
         '#subscribe .subscribe-text': {
           mr: '97px',
         },
+        '#subscribe h2': {
+          fontSize: sizes.huge,
+          lineHeight: '100%',
+        },
+        '#subscribe .subscribe-subtext': {
+          pt: '79px',
+          pb: '86px',
+        },
         '#subscribe .subscribe-img': {
           minWidth: 'fit-content',
         },

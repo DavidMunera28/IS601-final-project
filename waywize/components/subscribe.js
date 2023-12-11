@@ -32,9 +32,9 @@ export default function Subscribe() {
     <Flex id="subscribe">
 
     <Box className="subscribe-text">
-      <Heading as="h2" className="subscribe-header">This Way to Seamless Navigation Solutions</Heading>
+      <Heading as="h2">This Way to Seamless Navigation Solutions</Heading>
 
-      <Text>Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions</Text>
+      <Text className="subscribe-subtext">Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions</Text>
 
       <Text>Email Address <WarningIcon /></Text>
 
