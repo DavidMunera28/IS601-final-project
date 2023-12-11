@@ -1,6 +1,8 @@
 import { Flex, Box, Text, List, ListItem, Button } from "@chakra-ui/react";
 import Link from "next/link";
-import { FacebookIcon } from '@chakra-ui/icons';
+import { FaFacebook } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -15,9 +17,9 @@ export default function Footer() {
         <Box className="social-links">
         <Text>Connect On Our Social Media</Text>
         <List>
-          <ListItem><Link href="https://www.facebook.com/WaywizeFakeAccount">Facebook</Link></ListItem>
-            <ListItem><Link href="https://www.linkedin.com/company/waywizefakeaccount">LinkedIn</Link></ListItem>
-            <ListItem><Link href="https://twitter.com/waywizefake">X</Link></ListItem>
+          <ListItem><Link href="https://www.facebook.com/WaywizeFakeAccount"><FaFacebook /></Link></ListItem>
+            <ListItem><Link href="https://www.linkedin.com/company/waywizefakeaccount"><FaLinkedin /></Link></ListItem>
+            <ListItem><Link href="https://twitter.com/waywizefake"><FaTwitter /></Link></ListItem>
         </List>
         </Box>
         <Box className="subscribe">

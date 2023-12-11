@@ -88,8 +88,10 @@ const theme = extendTheme({
         },
         'footer .social-links ul': {
           display: 'flex',
-          justifyContent: 'space-between',
-          mt: '40px',
+          justifyContent: 'space-around',
+          m: '40px auto 0px auto',
+          fontSize: sizes.large,
+          w: '192px',
         },
         'footer button': {
           mt: '40px',

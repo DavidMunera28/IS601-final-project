@@ -23,6 +23,8 @@
 
 `npm install remark remark-html react-markdown` installs libraries for parsing and rendering content from Markdown files onto HTML pages (must be run from the `IS601-final-project\waywize` directory).
 
+`npm install react-icons --save` installs React icons (must be run from the `IS601-final-project\waywize` directory).
+
 # Vercel Deployment Instructions
 
 Deploy `is601-final-project` to Vercel from GitHub, setting `Next.js` as the Framework and `waywize` as the root directory.
