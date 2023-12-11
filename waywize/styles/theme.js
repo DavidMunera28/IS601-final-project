@@ -168,6 +168,18 @@ const theme = extendTheme({
           pt: '79px',
           pb: '86px',
         },
+        '#subscribe .alert': {
+          color: colors.alert,
+        },
+        '#subscribe input[type=email]': {
+          mt: '22px',
+          bg: colors.card,
+          borderRadius: defaults.btnradius,
+          boxShadow: defaults.shadow,
+          p: '0px 12px',
+          w: '438px',
+          h: '40px',
+        },
         '#subscribe .subscribe-img': {
           minWidth: 'fit-content',
         },

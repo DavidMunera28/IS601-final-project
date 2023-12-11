@@ -36,7 +36,7 @@ export default function Subscribe() {
 
       <Text className="subscribe-subtext">Join our mailing list to receive exclusive updates and offers about cutting-edge facility and venue mapping solutions</Text>
 
-      <Text>Email Address <WarningIcon /></Text>
+      <Text>Email Address <WarningIcon className="alert" /></Text>
 
       <form action="https://njit.us17.list-manage.com/subscribe/post?u=c04b8f9a229fa40f5d594ad9a&amp;id=8c80d48567&amp;v_id=4229&amp;f_id=003265e0f0" method="post" target="_blank">
 
