@@ -21,7 +21,7 @@ Each student should put an 'X' under their name on the days they have meetings.
 |-------------|-----------|-----------|
 | Dec 3 (Sun) |     X      |    X       |
 | Dec 7 (Thurs)|      X     |   X        |
-| Dec 10 (Sun)|           |           |
+| Dec 10 (Sun)|     *Skipped*      |     *Skipped*      |
 | Dec 13 (Wed)|           |           |
 
 *Instructions: Please place an 'X' in the cell under your name corresponding to the dates you attend class.*
