@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Subscribe from "@/components/subscribe";
-import { Image, Button, Heading, Card, Text, Avatar } from "@chakra-ui/react";
+import { Flex, Image, Button, Heading, Card, Text, Avatar } from "@chakra-ui/react";
 import Link from 'next/link';
 
 export async function getStaticProps() {
@@ -19,11 +19,14 @@ export async function getStaticProps() {
 export default function Home({ markdownContent }) {
   return (
     <>
+      <Flex className="hero">
       <Image src="/images/HERO.png" />
       <MarkdownRenderer content={markdownContent} />
       <Link href="#subscribe">
         <Button>Subscribe</Button>
       </Link>
+      </Flex>
+
       <Subscribe />
 
       <div className="testimonials">
