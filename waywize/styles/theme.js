@@ -63,23 +63,37 @@ const theme = extendTheme({
             transition: defaults.transition,
           },
         },
+        footer: {
+          p: '71px 139px 97px 148px',
+          mt: '82px',
+          bg: colors.accentbg,
+          fontSize: sizes.small,
+          fontWeight: weights.verythick,
+          justifyContent: 'space-between',
+        },
         'footer .internal-links ul': {
           display: 'flex',
         },
+        'footer .internal-links li': {
+          mr: '143px',
+        },
+        'footer .social-links': {
+          mr: '143px',
+        },
         'footer .social-links ul': {
           display: 'flex',
+          justifyContent: 'space-between',
+          mt: '40px',
         },
+        'footer button': {
+          mt: '40px',
+        }
       },
     },
     components: {
       Heading: {
         baseStyle: {
           fontFamily: defaults.font,
-        },
-      },
-      Footer: {
-        baseStyle: {
-          p: '150px',
         },
       },
     },
