@@ -147,6 +147,11 @@ const theme = extendTheme({
           lineHeight: 'normal',
           p: '7px 39px',
           borderRadius: defaults.btnradius,
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          }
         },
       },
     },
