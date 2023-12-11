@@ -63,24 +63,23 @@ const theme = extendTheme({
             transition: defaults.transition,
           },
         },
-        footer: {
-          display: 'flex',
-        },
-        'footer .internal-links': {
-          display: 'flex',
-        },
         'footer .internal-links ul': {
           display: 'flex',
         },
         'footer .social-links ul': {
           display: 'flex',
-        }
+        },
       },
     },
     components: {
       Heading: {
         baseStyle: {
           fontFamily: defaults.font,
+        },
+      },
+      Footer: {
+        baseStyle: {
+          p: '150px',
         },
       },
     },
