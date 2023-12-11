@@ -106,6 +106,15 @@ const theme = extendTheme({
             transition: defaults.transition,
           },
         },
+        '.hero-outer': {
+          width: '1339px',
+          m: '0px 50px',
+        },
+        '.hero-inner': {
+          w: '960px',
+          h: '555px',
+          m: '77px auto',
+        },
       },
     },
     components: {
