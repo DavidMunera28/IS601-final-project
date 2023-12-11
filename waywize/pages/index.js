@@ -4,6 +4,7 @@ import MarkdownRenderer from '../components/MarkdownRenderer';
 import Subscribe from "@/components/subscribe";
 import { Flex, Box, Image, Button, Heading, Card, Text, Avatar } from "@chakra-ui/react";
 import Link from 'next/link';
+import HeroDivider from '@/components/HeroDivider';
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), '/editable-content/hero-text.md');
@@ -34,6 +35,8 @@ export default function Home({ markdownContent }) {
       </Flex>
     </Card>
     </Card>
+
+    <HeroDivider />
 
       <Subscribe />
 
