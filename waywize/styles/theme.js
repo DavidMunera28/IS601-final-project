@@ -69,6 +69,9 @@ const theme = extendTheme({
         'footer .internal-links': {
           display: 'flex',
         },
+        'footer .internal-links ul': {
+          display: 'flex',
+        },
         'footer .social-links ul': {
           display: 'flex',
         }
