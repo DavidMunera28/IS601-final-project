@@ -118,6 +118,13 @@ const theme = extendTheme({
         '.hero': {
           flexDirection: 'row-reverse',
         },
+        '.hero-img': {
+          minWidth: 'fit-content',
+        },
+        '.hero-img img': {
+          w: '516px',
+          h: '555px',
+        }
       },
     },
     components: {
