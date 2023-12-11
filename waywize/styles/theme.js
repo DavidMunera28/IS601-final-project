@@ -71,6 +71,12 @@ const theme = extendTheme({
           fontWeight: weights.verythick,
           justifyContent: 'space-between',
         },
+        'footer a': {
+          _hover: {
+            color: colors.link,
+            transition: defaults.transition,
+          },
+        },
         'footer .internal-links ul': {
           display: 'flex',
         },
