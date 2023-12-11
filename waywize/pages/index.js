@@ -2,8 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Subscribe from "@/components/subscribe";
-import { Image, Button, Heading, Card, Text, Avatar } from "@chakra-ui/react";
+import { Flex, Box, Image, Button, Heading, Card, Text, Avatar } from "@chakra-ui/react";
 import Link from 'next/link';
+import HeroDivider from '@/components/HeroDivider';
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), '/editable-content/hero-text.md');
@@ -19,11 +20,24 @@ export async function getStaticProps() {
 export default function Home({ markdownContent }) {
   return (
     <>
-      <Image src="/images/HERO.png" />
-      <MarkdownRenderer content={markdownContent} />
-      <Link href="#subscribe">
-        <Button>Subscribe</Button>
-      </Link>
+    <Card className="hero-outer" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="0px" bg="#EFE9DC">
+    <Card className="hero-inner" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="20px">
+      <Flex className="hero">
+      <Box className="hero-img">
+        <Image src="/images/HERO.png" />
+      </Box>
+      <Box className="hero-text">
+        <MarkdownRenderer content={markdownContent} />
+        <Link href="#subscribe">
+          <Button className="hero-button">Subscribe</Button>
+        </Link>
+      </Box>
+      </Flex>
+    </Card>
+    </Card>
+
+    <HeroDivider />
+
       <Subscribe />
 
       <div className="testimonials">

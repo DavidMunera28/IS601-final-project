@@ -106,6 +106,53 @@ const theme = extendTheme({
             transition: defaults.transition,
           },
         },
+        '.hero-outer': {
+          width: '1339px',
+          m: '0px 50px',
+        },
+        '.hero-inner': {
+          w: '960px',
+          h: '555px',
+          m: '77px auto',
+        },
+        '.hero': {
+          flexDirection: 'row-reverse',
+        },
+        '.hero-img': {
+          minWidth: 'fit-content',
+        },
+        '.hero-img img': {
+          w: '516px',
+          h: '555px',
+        },
+        '.hero-text': {
+          pt: '51px',
+          pl: '62px',
+        },
+        '.hero h1': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+        },
+        '.hero p': {
+          lineHeight: '40px',
+          pt: '33px',
+          pb: '76px',
+        },
+        '.hero .hero-button': {
+          bg: colors.button,
+          color: colors.card,
+          textSize: sizes.small,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          p: '7px 39px',
+          borderRadius: defaults.btnradius,
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          }
+        },
       },
     },
     components: {
