@@ -61,7 +61,16 @@ const theme = extendTheme({
           _hover: {
             color: colors.link,
             transition: defaults.transition,
-          }
+          },
+        },
+        footer: {
+          display: 'flex',
+        },
+        'footer .internal-links': {
+          display: 'flex',
+        },
+        'footer .social-links ul': {
+          display: 'flex',
         }
       },
     },
