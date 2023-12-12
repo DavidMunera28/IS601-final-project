@@ -153,12 +153,89 @@ const theme = extendTheme({
             transition: defaults.transition,
           }
         },
+        '#subscribe': {
+          ml: '105px',
+          mr: '85px',
+        },
+        '#subscribe .subscribe-text': {
+          mr: '97px',
+        },
+        '#subscribe h2': {
+          fontSize: sizes.huge,
+          lineHeight: '100%',
+        },
+        '#subscribe .subscribe-subtext': {
+          pt: '79px',
+          pb: '86px',
+        },
+        '#subscribe .alert': {
+          color: colors.alert,
+        },
+        '#subscribe input[type=email]': {
+          mt: '22px',
+          bg: colors.card,
+          borderRadius: defaults.btnradius,
+          boxShadow: defaults.shadow,
+          p: '0px 12px',
+          w: '438px',
+          h: '40px',
+        },
+        '#subscribe h3': {
+          textSize: sizes.large,
+          lineHeight: '30px',
+          textTransform: 'uppercase',
+          pt: '56px',
+        },
+        '#subscribe .permissions-text': {
+          pt: sizes.medium,
+        },
+        '#subscribe .subscribe-button': {
+          bg: colors.button,
+          color: colors.card,
+          textSize: sizes.small,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          p: '7px 39px',
+          mt: '30px',
+          borderRadius: defaults.btnradius,
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          }
+        },
+        '#subscribe .subscribe-img': {
+          minWidth: 'fit-content',
+        },
+        '#subscribe .subscribe-img img': {
+          w: '625px',
+          borderRadius: defaults.genradius,
+        },
       },
     },
     components: {
       Heading: {
         baseStyle: {
           fontFamily: defaults.font,
+        },
+      },
+      Checkbox: {
+        baseStyle: {
+          control: {
+            width: sizes.medium,
+            height: sizes.medium,
+            borderColor: colors.text,
+            mt: sizes.medium,
+          },
+          fontSize: sizes.medium,
+        },
+        sizes: {
+          md: {
+            label: {
+              fontSize: sizes.medium,
+              mt: sizes.medium,
+            },
+          },
         },
       },
     },
