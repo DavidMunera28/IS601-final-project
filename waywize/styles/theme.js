@@ -308,6 +308,10 @@ const theme = extendTheme({
           lineHeight: '26px',
           pt: '53px',
         },
+        '.people': {
+          w: '1339px',
+          m: 'auto',
+        },
         '.people h2': {
           fontSize: sizes.huge,
           fontWeight: weights.verythick,
