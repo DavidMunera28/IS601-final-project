@@ -6,7 +6,8 @@ import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-      <Flex as="footer">
+      <Box as="footer">
+      <Flex className="footer-content">
         <Box className="internal-links">
         <List>
             <ListItem><Link href="/">Home</Link></ListItem>
@@ -29,5 +30,6 @@ export default function Footer() {
           </Link>
         </Box>
       </Flex>
+      </Box>
     )
   }
