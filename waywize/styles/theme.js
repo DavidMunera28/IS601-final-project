@@ -348,6 +348,11 @@ const theme = extendTheme({
         '.people .person:nth-of-type(2)': {
           flexDirection: 'row-reverse',
         },
+        '.wwsf': {
+          w: '1339px',
+          flexDirection: 'row-reverse',
+          m: 'auto',
+        },
         '.wwsf img': {
           w: '625px',
           h: '340px',
