@@ -42,9 +42,9 @@ export default function Home({ markdownContent }) {
 
     <DividerLine />
 
-      <div className="testimonials">
+      <Box className="testimonials">
         <Heading as="h2">Read What Others Have To Say</Heading>
-        <div className="quotes">
+        <Flex className="quotes">
           <Card className="quote">
             <Avatar src="images/TESTIMONIAL1.png" />
             <Heading as="h3">Deborah Stone</Heading>
@@ -63,8 +63,8 @@ export default function Home({ markdownContent }) {
             <Heading as="h4">CleverCraft &nbsp; | &nbsp;  CEO</Heading>
             <Text>WayWize goes beyond basic mapping services, fostering a connected community through its applications. By creating a platform that integrates seamlessly into people's daily lives, the company enhances communication and engagement within various localities.</Text>
           </Card>
-        </div>
-      </div>
+        </Flex>
+      </Box>
     </>
   )
 }
