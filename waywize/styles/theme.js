@@ -230,6 +230,13 @@ const theme = extendTheme({
           textAlign: 'center',
           p: '70px 21px 21px 21px'
         },
+        '.testimonials .quote-portrait': {
+          w: '119px',
+          h: '119px',
+          m: 'auto',
+          position: 'relative',
+          top: '-130px',
+        },
         '.testimonials h3': {
           fontSize: sizes.medium,
           fontWeight: weights.verythick,
