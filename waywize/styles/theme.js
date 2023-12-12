@@ -218,6 +218,16 @@ const theme = extendTheme({
           textAlign: 'center',
           m: 'auto',
         },
+        '.testimonials .quotes': {
+          mt: '76px',
+          justifyContent: 'space-around',
+        },
+        '.testimonials .quote': {
+          bg: colors.accentbg,
+          borderRadius: defaults.genradius,
+          boxShadow: defaults.shadow,
+          width: '420px',
+        }
       },
     },
     components: {
