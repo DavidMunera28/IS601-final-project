@@ -47,7 +47,8 @@ const theme = extendTheme({
         },
         nav: {
           display: 'flex',
-          m: '37px 50px 41px 50px',
+          width: '1339px',
+          m: '37px auto 41px auto',
         },
         'nav .logo': {
           fontSize: sizes.large,
@@ -64,12 +65,20 @@ const theme = extendTheme({
           },
         },
         footer: {
-          p: '71px 139px 97px 148px',
+          pt: '71px',
+          pb: '97px',
           mt: '82px',
           bg: colors.accentbg,
           fontSize: sizes.small,
           fontWeight: weights.verythick,
-          justifyContent: 'space-between',
+          
+        },
+        'footer .footer-content': {
+          justifyContent: 'space-around',
+          w: '1339px',
+          m: 'auto',
+          pr: '139px',
+          pl: '148px',
         },
         'footer a': {
           _hover: {
@@ -79,12 +88,13 @@ const theme = extendTheme({
         },
         'footer .internal-links ul': {
           display: 'flex',
+          justifyContent: 'space-between',
         },
         'footer .internal-links li': {
-          mr: '143px',
+          mr: '110px',
         },
         'footer .social-links': {
-          mr: '143px',
+          mr: '110px',
         },
         'footer .social-links ul': {
           display: 'flex',
@@ -108,7 +118,7 @@ const theme = extendTheme({
         },
         '.hero-outer': {
           width: '1339px',
-          m: '0px 50px',
+          m: '0px auto',
         },
         '.hero-inner': {
           w: '960px',
@@ -154,8 +164,10 @@ const theme = extendTheme({
           }
         },
         '#subscribe': {
-          ml: '105px',
-          mr: '85px',
+          width: '1339px',
+          m: '0px auto',
+          pl: '55px',
+          pr: '34px',
         },
         '#subscribe .subscribe-text': {
           mr: '97px',
