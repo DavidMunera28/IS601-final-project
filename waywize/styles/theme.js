@@ -220,6 +220,9 @@ const theme = extendTheme({
         },
         '.testimonials .quotes': {
           mt: '76px',
+          mr: 'auto',
+          ml: 'auto',
+          w: '1394px',
           justifyContent: 'space-around',
         },
         '.testimonials .quote': {
