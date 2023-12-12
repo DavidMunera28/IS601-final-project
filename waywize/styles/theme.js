@@ -320,6 +320,12 @@ const theme = extendTheme({
           lineHeight: 'normal',
           textAlign: 'center',
         },
+        '.people h4': {
+          fontSize: '26px',
+          fontWeight: weights.thick,
+          lineHeight: 'normal',
+          textAlign: 'center',
+        },
       },
     },
     components: {
