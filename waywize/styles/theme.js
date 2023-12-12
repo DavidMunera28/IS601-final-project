@@ -155,8 +155,10 @@ const theme = extendTheme({
           }
         },
         '#subscribe': {
-          ml: '105px',
-          mr: '85px',
+          width: '1339px',
+          m: '0px auto',
+          pl: '55px',
+          pr: '34px',
         },
         '#subscribe .subscribe-text': {
           mr: '97px',
