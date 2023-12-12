@@ -187,7 +187,7 @@ const theme = extendTheme({
           pt: '56px',
         },
         '#subscribe .permissions-text': {
-          pt: '24px',
+          pt: sizes.medium,
         },
         '#subscribe .subscribe-button': {
           bg: colors.button,
@@ -217,6 +217,25 @@ const theme = extendTheme({
       Heading: {
         baseStyle: {
           fontFamily: defaults.font,
+        },
+      },
+      Checkbox: {
+        baseStyle: {
+          control: {
+            width: sizes.medium,
+            height: sizes.medium,
+            borderColor: colors.text,
+            mt: sizes.medium,
+          },
+          fontSize: sizes.medium,
+        },
+        sizes: {
+          md: {
+            label: {
+              fontSize: sizes.medium,
+              mt: sizes.medium,
+            },
+          },
         },
       },
     },
