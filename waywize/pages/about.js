@@ -78,10 +78,12 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
 
       <DividerLine />
 
-      <Card className="wwsf">
+      <Flex className="wwsf">
           <Image src="/images/WHAT-WE-STAND-FOR.png" />
-          <MarkdownRenderer content={markdownContentWwsf} />
-      </Card>
+          <Box className="wwsf-text">
+            <MarkdownRenderer content={markdownContentWwsf} />
+          </Box>
+      </Flex>
       </>
     )
   }
