@@ -3,6 +3,7 @@ import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import { Flex, Box, Card, Heading } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
+import DividerLine from '@/components/DividerLine';
 
 export async function getStaticProps() {
 
@@ -50,6 +51,8 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
       </Flex>
       </Card>
       </Card>
+
+      <DividerLine />
       
       <Card className="people">
         <Heading as="h2">Our People</Heading>
