@@ -308,6 +308,12 @@ const theme = extendTheme({
           lineHeight: '26px',
           pt: '53px',
         },
+        '.people h2': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          textAlign: 'center',
+        },
       },
     },
     components: {
