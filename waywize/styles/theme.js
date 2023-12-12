@@ -296,8 +296,17 @@ const theme = extendTheme({
           h: '555px',
         },
         '.overview-text': {
-          pt: '51px',
+          pt: '72px',
           pl: '62px',
+        },
+        '.overview h2': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+        },
+        '.overview p': {
+          lineHeight: '26px',
+          pt: '53px',
         },
       },
     },
