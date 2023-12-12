@@ -275,6 +275,30 @@ const theme = extendTheme({
           position: 'relative',
           top: '-60px',
         },
+        '.overview-outer': {
+          width: '1339px',
+          m: '0px auto',
+          borderRadius: '0px',
+        },
+        '.overview-inner': {
+          w: '960px',
+          h: '555px',
+          m: '77px auto',
+        },
+        '.overview': {
+          flexDirection: 'row-reverse',
+        },
+        '.overview-img': {
+          minWidth: 'fit-content',
+        },
+        '.overview-img img': {
+          w: '516px',
+          h: '555px',
+        },
+        '.overview-text': {
+          pt: '51px',
+          pl: '62px',
+        },
       },
     },
     components: {

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
-import { Card, Heading } from "@chakra-ui/react";
+import { Flex, Box, Card, Heading } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 
 export async function getStaticProps() {
@@ -40,9 +40,15 @@ export async function getStaticProps() {
 export default function About({ markdownContentOverview, markdownContentWwsf, markdownContentCeo, markdownContentCfo, markdownContentCto }) {
     return (
       <>
-      <Card className="overview">
+      <Card className="overview-outer">
+      <Card className="overview-inner">
+      <Flex className="overview">
         <Image src="/images/OVERVIEW.png" />
-        <MarkdownRenderer content={markdownContentOverview} />
+        <Box className="overview-text">
+          <MarkdownRenderer content={markdownContentOverview} />
+        </Box>
+      </Flex>
+      </Card>
       </Card>
       
       <Card className="people">
