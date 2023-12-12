@@ -75,6 +75,9 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
         </Box>
         </Flex>
       </Box>
+
+      <DividerLine />
+
       <Card className="wwsf">
           <Image src="/images/WHAT-WE-STAND-FOR.png" />
           <MarkdownRenderer content={markdownContentWwsf} />
