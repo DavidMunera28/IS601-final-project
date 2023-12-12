@@ -334,7 +334,17 @@ const theme = extendTheme({
           w: '625px',
           h: '414px',
           borderRadius: defaults.genradius,
-        }
+        },
+        '.people p': {
+          lineHeight: '27.5px',
+          textAlign: 'center',
+          w: '625px',
+          mt: '43px',
+        },
+        '.people .person': {
+          mt: '88px',
+          justifyContent: 'space-between',
+        },
       },
     },
     components: {
