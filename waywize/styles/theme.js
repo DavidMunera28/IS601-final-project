@@ -108,7 +108,7 @@ const theme = extendTheme({
         },
         '.hero-outer': {
           width: '1339px',
-          m: '0px 50px',
+          m: '0px auto',
         },
         '.hero-inner': {
           w: '960px',
