@@ -326,6 +326,11 @@ const theme = extendTheme({
           lineHeight: 'normal',
           textAlign: 'center',
         },
+        '.people img': {
+          w: '625px',
+          h: '414px',
+          borderRadius: defaults.genradius,
+        }
       },
     },
     components: {
