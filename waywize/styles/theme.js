@@ -211,6 +211,13 @@ const theme = extendTheme({
           w: '625px',
           borderRadius: defaults.genradius,
         },
+        '.testimonials h2': {
+          fontSize: sizes.huge,
+          lineHeight: '100%',
+          width: '440px',
+          textAlign: 'center',
+          m: 'auto',
+        },
       },
     },
     components: {
