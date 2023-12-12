@@ -47,7 +47,8 @@ const theme = extendTheme({
         },
         nav: {
           display: 'flex',
-          m: '37px 50px 41px 50px',
+          width: '1339px',
+          m: '37px auto 41px auto',
         },
         'nav .logo': {
           fontSize: sizes.large,
