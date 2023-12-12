@@ -227,7 +227,24 @@ const theme = extendTheme({
           borderRadius: defaults.genradius,
           boxShadow: defaults.shadow,
           width: '420px',
-        }
+          textAlign: 'center',
+          p: '70px 21px 21px 21px'
+        },
+        '.testimonials h3': {
+          fontSize: sizes.medium,
+          fontWeight: weights.verythick,
+          lineHeight: '27.5px',
+        },
+        '.testimonials h4': {
+          fontSize: sizes.small,
+          fontWeight: weights.thick,
+          lineHeight: '27.5px',
+        },
+        '.testimonials p': {
+          fontSize: sizes.small,
+          lineHeight: '27.5px',
+          mt: '18px',
+        },
       },
     },
     components: {
