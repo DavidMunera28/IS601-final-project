@@ -314,6 +314,12 @@ const theme = extendTheme({
           lineHeight: 'normal',
           textAlign: 'center',
         },
+        '.people h3': {
+          fontSize: sizes.large,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          textAlign: 'center',
+        },
       },
     },
     components: {
