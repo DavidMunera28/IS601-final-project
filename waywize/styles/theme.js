@@ -353,6 +353,30 @@ const theme = extendTheme({
           flexDirection: 'row-reverse',
           m: 'auto',
         },
+        '.wwsf .wwsf-text': {
+          pr: '115px',
+        },
+        '.wwsf h2': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+        },
+        '.wwsf p': {
+          pt: '20px',
+          pb: '20px',
+          lineHeight: '27.5px;',
+        },
+        '.wwsf h3': {
+          fontSize: sizes.large,
+          fontWeight: weights.verythick,
+          lineHeight: '100%',
+          pb: '20px',
+        },
+        '.wwsf li': {
+          fontSize: sizes.small,
+          lineHeight: '35px',
+          ml: '35px',
+        },
         '.wwsf img': {
           w: '625px',
           h: '340px',
