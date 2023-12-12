@@ -54,15 +54,30 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
 
       <DividerLine />
       
-      <Card className="people">
+      <Box className="people">
         <Heading as="h2">Our People</Heading>
-        <Image src="/images/PEOPLE-CEO.png" />
-        <MarkdownRenderer content={markdownContentCeo} />
+        <Flex className="person">
+          <Image src="/images/PEOPLE-CEO.png" />
+          <Box className="person-text">
+            <MarkdownRenderer content={markdownContentCeo} />
+          </Box>
+        </Flex>
+        <Flex className="person">
         <Image src="/images/PEOPLE-CFO.png" />
-        <MarkdownRenderer content={markdownContentCfo} />
+        <Box className="person-text">
+          <MarkdownRenderer content={markdownContentCfo} />
+        </Box>
+        </Flex>
+        <Flex className="person">
         <Image src="/images/PEOPLE-CTO.png" />
-        <MarkdownRenderer content={markdownContentCto} />
-      </Card>
+        <Box className="person-text">
+          <MarkdownRenderer content={markdownContentCto} />
+        </Box>
+        </Flex>
+      </Box>
+
+      <DividerLine />
+
       <Card className="wwsf">
           <Image src="/images/WHAT-WE-STAND-FOR.png" />
           <MarkdownRenderer content={markdownContentWwsf} />

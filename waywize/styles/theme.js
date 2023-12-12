@@ -308,6 +308,46 @@ const theme = extendTheme({
           lineHeight: '26px',
           pt: '53px',
         },
+        '.people': {
+          w: '1339px',
+          m: 'auto',
+        },
+        '.people h2': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          textAlign: 'center',
+        },
+        '.people h3': {
+          fontSize: sizes.large,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          textAlign: 'center',
+        },
+        '.people h4': {
+          fontSize: '26px',
+          fontWeight: weights.thick,
+          lineHeight: 'normal',
+          textAlign: 'center',
+        },
+        '.people img': {
+          w: '625px',
+          h: '414px',
+          borderRadius: defaults.genradius,
+        },
+        '.people p': {
+          lineHeight: '27.5px',
+          textAlign: 'center',
+          w: '625px',
+          mt: '43px',
+        },
+        '.people .person': {
+          mt: '113px',
+          justifyContent: 'space-between',
+        },
+        '.people .person:nth-of-type(2)': {
+          flexDirection: 'row-reverse',
+        },
       },
     },
     components: {
