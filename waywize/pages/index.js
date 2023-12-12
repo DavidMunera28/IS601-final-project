@@ -42,29 +42,29 @@ export default function Home({ markdownContent }) {
 
     <DividerLine />
 
-      <div className="testimonials">
+      <Box className="testimonials">
         <Heading as="h2">Read What Others Have To Say</Heading>
-        <div className="quotes">
+        <Flex className="quotes">
           <Card className="quote">
-            <Avatar src="images/TESTIMONIAL1.png" />
+            <Avatar className="quote-portrait" src="images/TESTIMONIAL1.png" />
             <Heading as="h3">Deborah Stone</Heading>
             <Heading as="h4">PixelCraft &nbsp; | &nbsp; Business Manager</Heading>
             <Text>WayWize revolutionizes the daily navigation experience by providing intuitive and user-friendly multi-platform applications. Users can effortlessly navigate indoor and outdoor spaces, enhancing their convenience and ensuring they always reach their destination with ease.</Text>
           </Card>
           <Card className="quote">
-            <Avatar src="images/TESTIMONIAL2.png" />
+            <Avatar className="quote-portrait" src="images/TESTIMONIAL2.png" />
             <Heading as="h3">Logan Batts</Heading>
             <Heading as="h4">InnoSphere &nbsp; | &nbsp; Processing Manager</Heading>
             <Text>WayWize caters not only to business owners, space planners, and event organizers but also to the everyday visitors of diverse facilities and venues. Its inclusive design ensures that individuals from all walks of life can benefit from efficient wayfinding, fostering a sense of accessibility and community engagement.</Text>
           </Card>
           <Card className="quote">
-            <Avatar src="images/TESTIMONIAL3.png" />
+            <Avatar className="quote-portrait" src="images/TESTIMONIAL3.png" />
             <Heading as="h3">Jason Steele</Heading>
             <Heading as="h4">CleverCraft &nbsp; | &nbsp;  CEO</Heading>
             <Text>WayWize goes beyond basic mapping services, fostering a connected community through its applications. By creating a platform that integrates seamlessly into people's daily lives, the company enhances communication and engagement within various localities.</Text>
           </Card>
-        </div>
-      </div>
+        </Flex>
+      </Box>
     </>
   )
 }
