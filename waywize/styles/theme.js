@@ -380,6 +380,7 @@ const theme = extendTheme({
         '.wwsf img': {
           w: '625px',
           h: '340px',
+          mt: '85px',
           borderRadius: defaults.genradius,
         }
       },
