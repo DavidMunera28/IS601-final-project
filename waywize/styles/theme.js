@@ -342,8 +342,11 @@ const theme = extendTheme({
           mt: '43px',
         },
         '.people .person': {
-          mt: '88px',
+          mt: '113px',
           justifyContent: 'space-between',
+        },
+        '.people .person:nth-of-type(2)': {
+          flexDirection: 'row-reverse',
         },
       },
     },
