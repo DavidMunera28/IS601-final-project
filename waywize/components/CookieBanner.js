@@ -1,5 +1,5 @@
 import CookieConsent from 'react-cookie-consent';
-import { Button, Text } from "@chakra-ui/react";
+import { Card, Flex, Heading, Button, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -40,7 +40,7 @@ export default function CookieBanner() {
   return (
     <>
       {isVisible && (
-        <CookieConsent
+        <Card
           id="cookie-banner"
           enableDeclineButton
           onAccept={handleAccept}
@@ -49,13 +49,19 @@ export default function CookieBanner() {
           declineButtonText="Essential Only"
           cookieName="cookieConsent"
         >
+          <Heading as="h2">Cookies Settings</Heading>
           <Text>
-            This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our <Link href="privacy">Privacy Policy</Link> for more information about what data we collect.
+          We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <Link href="privacy">Read More</Link>
           </Text>
-          <Button onClick={handleClose}>
-            Close
-          </Button>
-        </CookieConsent>
+          <Flex className="cookie-buttons">
+            <Button className="cookie-button" onClick={handleDecline}>
+              Reject All
+            </Button>
+            <Button className="cookie-button" onClick={handleAccept}>
+              Accept All
+            </Button>
+          </Flex>
+        </Card>
       )}
     </>
   );

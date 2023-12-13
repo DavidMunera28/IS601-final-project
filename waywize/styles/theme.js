@@ -382,7 +382,55 @@ const theme = extendTheme({
           h: '340px',
           mt: '85px',
           borderRadius: defaults.genradius,
-        }
+        },
+        '#cookie-banner': {
+          w: '960px',
+          m: '0px auto 10px auto',
+          p: '26px 97px 35px 120px',
+          bg: colors.primarybg,
+          boxShadow: defaults.shadow,
+          borderRadius: defaults.genradius,
+          position: 'fixed',
+          bottom: '0',
+          left: '50%',
+          transform: "translateX(-50%)",
+        },
+        '#cookie-banner h2': {
+          fontSize: '26px',
+          lineHeight: '100%',
+          fontWeight: weights.verythick,
+        },
+        '#cookie-banner p': {
+          lineHeight: '50px',
+          mt: '30px',
+          mb: '30px',
+        },
+        '#cookie-banner a': {
+          color: colors.link,
+          _hover: {
+            color: colors.text,
+            transition: defaults.transition,
+          }
+        },
+        '#cookie-banner .cookie-buttons': {
+          m: 'auto',
+        },
+        '#cookie-banner .cookie-button': {
+          bg: colors.button,
+          color: colors.card,
+          borderRadius: defaults.btnradius,
+          fontSize: sizes.small,
+          p: '12px 30px',
+          mr: '97px',
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          },
+        },
+        '#cookie-banner .cookie-button:nth-of-type(2)': {
+          mr: '0px',
+        },
       },
     },
     components: {
