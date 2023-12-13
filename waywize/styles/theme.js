@@ -431,6 +431,11 @@ const theme = extendTheme({
         '#cookie-banner .cookie-button:nth-of-type(2)': {
           mr: '0px',
         },
+        '.privacy-policy': {
+          p: '44px 52px 123px 44px',
+          w: '1339px',
+          m: 'auto',
+        },
       },
     },
     components: {
