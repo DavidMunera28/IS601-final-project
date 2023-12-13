@@ -442,6 +442,11 @@ const theme = extendTheme({
           lineHeight: 'normal',
           m: 'auto',
         },
+        '.privacy-policy .privacy-static': {
+          w: '777px',
+          m: '82px auto 120px auto',
+          lineHeight: '40px'
+        },
       },
     },
     components: {
