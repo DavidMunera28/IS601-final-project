@@ -16,7 +16,12 @@ export async function getStaticProps() {
 
 export default function Privacy({ markdownContent }) {
     return (
-      <Card className="privacy-policy">
+      <Card
+        className="privacy-policy"
+        bg="#EFE9DC"
+        borderRadius="0px"
+        boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
+      >
         <Heading as="h1">WayWize Privacy Policy</Heading>
         <Text className="privacy-static">Privacy is a paramount concern for our mapping and wayfinding company, and we are committed to implementing robust measures to safeguard your personal information. Here are several key ways we prioritize and protect your privacy:</Text>
         <Box className="privacy-dynamic">
