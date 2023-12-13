@@ -28,7 +28,7 @@ export default function Home({ markdownContent }) {
       </Box>
       <Box className="hero-text">
         <MarkdownRenderer content={markdownContent} />
-        <Link href="#subscribe">
+        <Link href="#subscribe" role="link" aria-label="Navigate to the newsletter signup section of WayWize's home page">
           <Button className="hero-button">Subscribe</Button>
         </Link>
       </Box>

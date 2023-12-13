@@ -9,8 +9,8 @@ export default function Navbar() {
           className="navlinks"
           display="flex"
           alignItems="center">
-            <ListItem><Link href="/">Home</Link></ListItem>
-            <ListItem><Link href="about">About</Link></ListItem>
+            <ListItem><Link href="/" role="link" aria-label="Navigate to WayWize's home page">Home</Link></ListItem>
+            <ListItem><Link href="about" role="link" aria-label="Navigate to WayWize's about page">About</Link></ListItem>
         </List>
       </nav>
     )
