@@ -406,6 +406,25 @@ const theme = extendTheme({
             transition: defaults.transition,
           }
         },
+        '#cookie-banner .cookie-buttons': {
+          m: 'auto',
+        },
+        '#cookie-banner .cookie-button': {
+          bg: colors.button,
+          color: colors.card,
+          borderRadius: defaults.btnradius,
+          fontSize: sizes.small,
+          p: '12px 30px',
+          mr: '97px',
+          _hover: {
+            bg: colors.link,
+            color: colors.text,
+            transition: defaults.transition,
+          },
+        },
+        '#cookie-banner .cookie-button:nth-of-type(2)': {
+          mr: '0px',
+        },
       },
     },
     components: {

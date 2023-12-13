@@ -1,5 +1,5 @@
 import CookieConsent from 'react-cookie-consent';
-import { Card, Heading, Button, Text } from "@chakra-ui/react";
+import { Card, Flex, Heading, Button, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -53,12 +53,14 @@ export default function CookieBanner() {
           <Text>
           We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <Link href="privacy">Read More</Link>
           </Text>
-          <Button onClick={handleDecline}>
-            Reject All
-          </Button>
-          <Button onClick={handleAccept}>
-            Accept All
-          </Button>
+          <Flex className="cookie-buttons">
+            <Button className="cookie-button" onClick={handleDecline}>
+              Reject All
+            </Button>
+            <Button className="cookie-button" onClick={handleAccept}>
+              Accept All
+            </Button>
+          </Flex>
         </Card>
       )}
     </>
