@@ -382,6 +382,12 @@ const theme = extendTheme({
           h: '340px',
           mt: '85px',
           borderRadius: defaults.genradius,
+        },
+        '#cookie-banner': {
+          w: '960px',
+          m: '0px auto 10px auto',
+          p: '26px 97px 35px 120px',
+          bg: colors.primarybg,
         }
       },
     },
