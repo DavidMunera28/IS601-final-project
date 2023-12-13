@@ -388,6 +388,7 @@ const theme = extendTheme({
           m: '0px auto 10px auto',
           p: '26px 97px 35px 120px',
           bg: colors.primarybg,
+          boxShadow: defaults.shadow,
         },
         '#cookie-banner h2': {
           fontSize: '26px',
