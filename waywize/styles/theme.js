@@ -431,6 +431,37 @@ const theme = extendTheme({
         '#cookie-banner .cookie-button:nth-of-type(2)': {
           mr: '0px',
         },
+        '.privacy-policy': {
+          p: '44px 52px 123px 44px',
+          w: '1339px',
+          m: 'auto',
+        },
+        '.privacy-policy h1': {
+          fontSize: sizes.huge,
+          fontWeight: weights.verythick,
+          lineHeight: 'normal',
+          m: 'auto',
+        },
+        '.privacy-policy .privacy-static': {
+          w: '777px',
+          m: '82px auto 120px auto',
+          lineHeight: '40px'
+        },
+        '.privacy-policy h2': {
+          fontSize: '26px',
+          fontWeight: weights.verythick,
+          lineHeight: '26px',
+          mt: '26px',
+        },
+        '.privacy-policy h2:nth-of-type(1)': {
+          mt: '0px'
+        },
+        '.privacy-policy .privacy-dynamic p': {
+          lineHeight: '26px',
+        },
+        '.privacy-policy .privacy-dynamic p:last-of-type': {
+          mt: '26px',
+        }
       },
     },
     components: {
