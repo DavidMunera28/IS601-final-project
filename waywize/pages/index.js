@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import MarkdownRenderer from '../components/MarkdownRenderer';
 import Subscribe from "@/components/subscribe";
-import { Flex, Box, Image, Button, Heading, Card, Text, Avatar } from "@chakra-ui/react";
+import { Flex, Box, Image, Button, Heading, Card, Text } from "@chakra-ui/react";
 import Link from 'next/link';
 import DividerLine from '@/components/DividerLine';
 
