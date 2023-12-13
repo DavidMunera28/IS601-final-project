@@ -456,6 +456,12 @@ const theme = extendTheme({
         '.privacy-policy h2:nth-of-type(1)': {
           mt: '0px'
         },
+        '.privacy-policy .privacy-dynamic p': {
+          lineHeight: '26px',
+        },
+        '.privacy-policy .privacy-dynamic p:last-of-type': {
+          mt: '26px',
+        }
       },
     },
     components: {
