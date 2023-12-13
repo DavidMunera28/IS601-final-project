@@ -394,6 +394,11 @@ const theme = extendTheme({
           lineHeight: '100%',
           fontWeight: weights.verythick,
         },
+        '#cookie-banner p': {
+          lineHeight: '50px',
+          mt: '30px',
+          mb: '30px',
+        },
       },
     },
     components: {
