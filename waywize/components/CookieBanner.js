@@ -42,9 +42,6 @@ export default function CookieBanner() {
       {isVisible && (
         <Card
           id="cookie-banner"
-          buttonText="Accept All"
-          declineButtonText="Essential Only"
-          cookieName="cookieConsent"
         >
           <Heading as="h2">Cookies Settings</Heading>
           <Text>
