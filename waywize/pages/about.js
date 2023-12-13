@@ -44,7 +44,7 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
       <Card className="overview-outer" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="0px" bg="#EFE9DC">
       <Card className="overview-inner" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="20px">
       <Flex className="overview">
-        <Image src="/images/OVERVIEW.png" />
+        <Image src="/images/OVERVIEW.png" alt="Network of connecting lines resembling a city grid" />
         <Box className="overview-text">
           <MarkdownRenderer content={markdownContentOverview} />
         </Box>
@@ -57,19 +57,19 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
       <Box className="people">
         <Heading as="h2">Our People</Heading>
         <Flex className="person">
-          <Image src="/images/PEOPLE-CEO.png" />
+          <Image src="/images/PEOPLE-CEO.png" alt="Professional portrait of WayWize Chief Executive Officer" />
           <Box className="person-text">
             <MarkdownRenderer content={markdownContentCeo} />
           </Box>
         </Flex>
         <Flex className="person">
-        <Image src="/images/PEOPLE-CFO.png" />
+        <Image src="/images/PEOPLE-CFO.png" alt="Professional portrait of WayWize Chief Financial Officer" />
         <Box className="person-text">
           <MarkdownRenderer content={markdownContentCfo} />
         </Box>
         </Flex>
         <Flex className="person">
-        <Image src="/images/PEOPLE-CTO.png" />
+        <Image src="/images/PEOPLE-CTO.png" alt="Professional portrait of WayWize Chief Technology Officer" />
         <Box className="person-text">
           <MarkdownRenderer content={markdownContentCto} />
         </Box>
@@ -79,7 +79,7 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
       <DividerLine />
 
       <Flex className="wwsf">
-          <Image src="/images/WHAT-WE-STAND-FOR.png" />
+          <Image src="/images/WHAT-WE-STAND-FOR.png" alt="Woman browsing a kiosk map against a grip backdrop" />
           <Box className="wwsf-text">
             <MarkdownRenderer content={markdownContentWwsf} />
           </Box>
