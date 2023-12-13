@@ -388,7 +388,12 @@ const theme = extendTheme({
           m: '0px auto 10px auto',
           p: '26px 97px 35px 120px',
           bg: colors.primarybg,
-        }
+        },
+        '#cookie-banner h2': {
+          fontSize: '26px',
+          lineHeight: '100%',
+          fontWeight: weights.verythick,
+        },
       },
     },
     components: {

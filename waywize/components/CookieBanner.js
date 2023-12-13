@@ -1,5 +1,5 @@
 import CookieConsent from 'react-cookie-consent';
-import { Card, Button, Text } from "@chakra-ui/react";
+import { Card, Heading, Button, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -49,6 +49,7 @@ export default function CookieBanner() {
           declineButtonText="Essential Only"
           cookieName="cookieConsent"
         >
+          <Heading as="h2">Cookies Settings</Heading>
           <Text>
           We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <Link href="privacy">Read More</Link>
           </Text>
