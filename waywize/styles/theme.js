@@ -252,6 +252,7 @@ const theme = extendTheme({
           m: 'auto',
           position: 'relative',
           top: '-60px',
+          borderRadius: '50%',
         },
         '.testimonials h3': {
           fontSize: sizes.medium,
