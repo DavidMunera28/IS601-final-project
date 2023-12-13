@@ -42,9 +42,6 @@ export default function CookieBanner() {
       {isVisible && (
         <Card
           id="cookie-banner"
-          enableDeclineButton
-          onAccept={handleAccept}
-          onDecline={handleDecline}
           buttonText="Accept All"
           declineButtonText="Essential Only"
           cookieName="cookieConsent"
