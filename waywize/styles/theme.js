@@ -447,6 +447,15 @@ const theme = extendTheme({
           m: '82px auto 120px auto',
           lineHeight: '40px'
         },
+        '.privacy-policy h2': {
+          fontSize: '26px',
+          fontWeight: weights.verythick,
+          lineHeight: '26px',
+          mt: '26px',
+        },
+        '.privacy-policy h2:nth-of-type(1)': {
+          mt: '0px'
+        },
       },
     },
     components: {
