@@ -51,13 +51,13 @@ export default function CookieBanner() {
         >
           <Heading as="h2">Cookies Settings</Heading>
           <Text>
-          We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <Link href="privacy">Read More</Link>
+          We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <Link href="privacy" role="link" aria-label="Navigate to WayWize's privacy policy page">Read More</Link>
           </Text>
           <Flex className="cookie-buttons">
-            <Button className="cookie-button" onClick={handleDecline}>
+            <Button className="cookie-button" onClick={handleDecline} aria-label="Reject all cookies">
               Reject All
             </Button>
-            <Button className="cookie-button" onClick={handleAccept}>
+            <Button className="cookie-button" onClick={handleAccept} aria-label="Accept all cookies">
               Accept All
             </Button>
           </Flex>

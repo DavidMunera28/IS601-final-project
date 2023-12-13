@@ -51,7 +51,7 @@ export default function Subscribe() {
 
         <Text className='permissions-text'>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</Text>
 
-        <Text className='permissions-text'>We use <Link href="https://mailchimp.com/" target="_blank">MailChimp</Link> as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.</Text>
+        <Text className='permissions-text'>We use <Link href="https://mailchimp.com/" target="_blank" role="link" aria-label="Navigate to Mailchimp's home page">MailChimp</Link> as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing.</Text>
         
         <div id="mce-responses" className="clear foot">
           <div className="response" id="mce-error-response" style={{ display: 'none' }}></div>
@@ -62,12 +62,12 @@ export default function Subscribe() {
           <Input type="text" name="b_c04b8f9a229fa40f5d594ad9a_8c80d48567" tabIndex="-1" value="" />
         </div>
 
-        <Button type="submit" name="subscribe" id="mc-embedded-subscribe" className="subscribe-button">Subscribe</Button>
+        <Button type="submit" name="subscribe" id="mc-embedded-subscribe" className="subscribe-button" aria-label="Subscribe to WayWize's newsletter">Subscribe</Button>
       </form>
     </Box>
 
     <Box className="subscribe-img">
-      <Image src="images/SUBSCRIBE.png" />
+      <Image src="images/SUBSCRIBE.png" alt="Open envelope showing an inner design that resembles a map" />
     </Box>
     </Flex>
 

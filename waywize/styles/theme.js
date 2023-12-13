@@ -7,7 +7,7 @@ const colors = {
     secondarybg: '#EFE9DC',
     accentbg: '#EBDAB7',
     button: '#373737',
-    link: '#00C2FF',
+    link: '#0077ff',
     alert: '#E53E3E',
 }
 
@@ -252,6 +252,7 @@ const theme = extendTheme({
           m: 'auto',
           position: 'relative',
           top: '-60px',
+          borderRadius: '50%',
         },
         '.testimonials h3': {
           fontSize: sizes.medium,
