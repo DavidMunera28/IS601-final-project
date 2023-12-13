@@ -50,7 +50,7 @@ export default function CookieBanner() {
           cookieName="cookieConsent"
         >
           <Text>
-            This site uses cookies to enhance the user experience. By clicking 'Accept All', you consent to the use of all cookies. By clicking 'Essential Only', you consent only to the use of essential cookies. You can review our <Link href="privacy">Privacy Policy</Link> for more information about what data we collect.
+          We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking “Accept All”, you consent to our use of cookies. <Link href="privacy">Read More</Link>
           </Text>
           <Button onClick={handleDecline}>
             Reject All
