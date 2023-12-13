@@ -399,6 +399,13 @@ const theme = extendTheme({
           mt: '30px',
           mb: '30px',
         },
+        '#cookie-banner a': {
+          color: colors.link,
+          _hover: {
+            color: colors.text,
+            transition: defaults.transition,
+          }
+        },
       },
     },
     components: {
