@@ -67,7 +67,7 @@ export default function Subscribe() {
     </Box>
 
     <Box className="subscribe-img">
-      <Image src="images/SUBSCRIBE.png" />
+      <Image src="images/SUBSCRIBE.png" alt="Open envelope showing an inner design that resembles a map" />
     </Box>
     </Flex>
 
