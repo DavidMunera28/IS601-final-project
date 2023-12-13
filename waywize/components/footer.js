@@ -26,7 +26,7 @@ export default function Footer() {
         <Box className="subscribe">
           <Text>Newsletter</Text>
           <Link href="/#subscribe" role="link" aria-label="Navigate to the newsletter signup section of WayWize's home page">
-          <Button className="subscribe-button">Subscribe</Button>
+          <Button className="subscribe-button" aria-label="Subscribe to WayWize's newsletter">Subscribe</Button>
           </Link>
         </Box>
       </Flex>
