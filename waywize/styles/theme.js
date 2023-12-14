@@ -465,14 +465,14 @@ const theme = extendTheme({
         },
         '@media screen and (max-width: 1000px)': {
           html: {
+            hr: {
+              display: 'none',
+            },
             nav: {
               width: '90%',
             },
-            'nav li': {
-              fontSize: sizes.large,
-            },
             footer: {
-              fontSize: sizes.large,
+              fontSize: sizes.medium,
               fontWeight: weights.normal,
             },
             'footer .footer-content': {
@@ -488,26 +488,42 @@ const theme = extendTheme({
               flexDirection: 'column',
             },
             'footer .internal-links li': {
-              pt: '30px',
+              pt: '20px',
               mr: '0px',
             },
             'footer .internal-links li:first-of-type': {
               pt: '0px',
             },
             'footer .social-links': {
-              pt: '30px',
+              pt: '20px',
               mr: '0px',
-              mb: '30px',
+              mb: '20px',
             },
             'footer p': {
               fontWeight: weights.thick,
-              pt: '20px',
+              pt: '10px',
             },
             'footer .subscribe-button': {
               m: '30px auto 0px auto',
               fontSize: sizes.medium,
               w: '75%',
               p: '40px 0px',
+            },
+            '#cookie-banner': {
+              w: '100%',
+              p: '20px',
+              position: 'fixed',
+              bottom: '0px',
+              mb: '0px',
+              borderRadius: '0px',
+            },
+            '#cookie-banner h2': {
+              fontSize: sizes.small,
+            },
+            '#cookie-banner p': {
+              fontSize: sizes.tiny,
+              lineHeight: '150%',
+              mt: '10px',
             },
             '.hero-outer': {
               w: '100%',
@@ -524,32 +540,42 @@ const theme = extendTheme({
               w: 'inherit',
             },
             '.hero .hero-img': {
-              w: '90%',
-              ml: '5%',
+              w: '100%',
+              pt: '30px',
             },
             '.hero .hero-img img': {
-              transform: 'rotate(-90deg)',
-              w: '100%',
-              h: 'auto',
+              w: '80%',
+              h: '100px',
+              m: 'auto',
+              objectFit: 'none',
+              objectPosition: 'top right',
+              borderRadius: defaults.genradius,
             },
             '.hero .hero-text': {
-              p: '50px 60px',
+              pl: '40px',
+              pr: '0px',
+              pb: '40px',
+              w: '100%',
             },
             '.hero h1': {
               textAlign: 'center',
+              fontSize: sizes.large,
             },
             '.hero p': {
               textAlign: 'center',
-              pt: '30px',
-              pb: '30px'
+              fontSize: sizes.small,
+              pt: '20px',
+              pb: '40px',
+
             },
             '.hero .hero-button': {
               m: '0px auto',
-              fontSize: sizes.medium,
+              fontSize: sizes.small,
               w: '100%',
-              p: '40px 0px',
+              p: '30px 0px',
             },
             '#subscribe': {
+              mt: '50px',
               w: '100%',
               flexDirection: 'column-reverse',
               textAlign: 'center',
@@ -562,22 +588,34 @@ const theme = extendTheme({
             },
             '#subscribe h2': {
               mt: '40px',
+              fontSize: sizes.large,
             },
             '#subscribe h3': {
-              pt: '40px',
+              pt: '20px',
+              fontSize: sizes.medium,
             },
             '#subscribe p': {
+              fontSize: sizes.small,
             },
             '#subscribe .subscribe-subtext': {
-              pt: '40px',
-              pb: '40px',
+              pt: '20px',
+              pb: '20px',
+            },
+            '#subscribe .permissions-text': {
+              pt: sizes.small,
             },
             '#subscribe input[type=email]': {
               m: '20px auto',
               w: '100%',
-              h: '70px',
+              h: '60px',
               fontSize: sizes.medium,
               textAlign: 'center',
+            },
+            '.testimonials': {
+              mt: '50px',
+            },
+            '.testimonials h2': {
+              fontSize: sizes.large,
             },
             '.testimonials .quotes': {
               alignItems: 'center',
@@ -595,9 +633,6 @@ const theme = extendTheme({
             '.testimonials .quote-portrait': {
               top: '-90px',
             },
-            '.testimonials p': {
-              fontSize: sizes.medium,
-            },
             '.overview-outer': {
               w: '100%',
             },
@@ -612,27 +647,44 @@ const theme = extendTheme({
               alignItems: 'center',
               w: 'inherit',
             },
+            '.overview .overview-img': {
+              h: '140px',
+              w: 'fit-content'
+            },
             '.overview img': {
-              transform: 'rotate(-90deg)',
-              m: 'auto',
-              w: '90%',
-              h: 'auto',
-              ml: '5%',
-              mr: '0px',
+              transform: 'rotate(90deg)',
+              w: '100px',
+              h: '525px',
+              m: '30px auto',
+              pr: '0px',
+              objectFit: 'none',
+              objectPosition: 'center',
+              borderRadius: defaults.genradius,
+              position: 'relative',
+              top: '-200',
             },
             '.overview .overview-text': {
-              p: '50px 60px',
+              w: '100%',
+              pt: '30px',
+              pl: '0px',
+              ml: '35px',
             },
             '.overview h2': {
               textAlign: 'center',
+              fontSize: sizes.large,
             },
             '.overview p': {
               textAlign: 'center',
               pt: '30px',
-              pb: '30px'
+              pb: '30px',
+              fontSize: sizes.small,
             },
             '.people': {
               w: '100%',
+              mt: '50px',
+            },
+            '.people h2': {
+              fontSize: sizes.large,
             },
             '.people .person': {
               flexDirection: 'column',
@@ -644,9 +696,21 @@ const theme = extendTheme({
             },
             '.people .person img': {
               mt: '40px',
+              w: '90%',
+              h: 'auto',
             },
             '.people .person h3': {
               mt: '20px',
+              fontSize: sizes.medium,
+            },
+            '.people .person h4': {
+              mb: '20px',
+              fontSize: sizes.small,
+            },
+            '.people p': {
+              fontSize: sizes.small,
+              w: '90%',
+              m: 'auto',
             },
             '.privacy-policy': {
               w: '100%',
@@ -658,20 +722,50 @@ const theme = extendTheme({
             '.wwsf': {
               w: '100%',
               flexDirection: 'column-reverse',
+              mt: '50px',
+            },
+            '.wwsf h2': {
+              fontSize: sizes.large,
+            },
+            '.wwsf h3': {
+              fontSize: sizes.medium,
             },
             '.wwsf .wwsf-text': {
               p: '0px 40px',
               textAlign: 'center',
             },
-          },
-          '.wwsf li': {
-            fontSize: sizes.medium,
-            ml: '0px',
-            listStyle: 'none',
-          },
-          '.wwsf img': {
-            margin: 'auto',
-            mt: '40px',
+            '.wwsf p': {
+              fontSize: sizes.small,
+            },
+            '.wwsf li': {
+              fontSize: sizes.small,
+              ml: '0px',
+              listStyle: 'none',
+            },
+            '.wwsf img': {
+              margin: 'auto',
+              w: '90%',
+              h: 'auto',
+              mt: '40px',
+            },
+            '.privacy-policy h1': {
+              fontSize: sizes.large,
+            },
+            '.privacy-policy h2': {
+              fontSize: sizes.medium,
+            },
+            '.privacy-policy .privacy-static': {
+              lineHeight: '150%',
+              fontSize: sizes.small,
+              w: '90%',
+              mt: '20px',
+              mb: '50px',
+            },
+            '.privacy-policy .privacy-dynamic p': {
+              lineHeight: '150%',
+              fontSize: sizes.small,
+              mt: '20px',
+            },
           },
         },
       },

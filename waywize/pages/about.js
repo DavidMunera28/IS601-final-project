@@ -44,7 +44,9 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
       <Card className="overview-outer" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="0px" bg="#EFE9DC">
       <Card className="overview-inner" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="20px">
       <Flex className="overview">
+        <Box className="overview-img">
         <Image src="/images/OVERVIEW.webp" alt="Network of connecting lines resembling a city grid" />
+        </Box>
         <Box className="overview-text">
           <MarkdownRenderer content={markdownContentOverview} />
         </Box>
