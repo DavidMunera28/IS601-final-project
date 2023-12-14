@@ -49,7 +49,7 @@ Google tag is successfully detected on the [Vercel-hosted website](https://is-60
 
 # Lighthouse Testing
 
-## Test 1 - 12/13/2023 ~ 6:00pm
+## Test 1 - 12/13/2023 ~ 6:00pm (Development)
 
 ![image](/images/Lighthouse-Test-1A.png)
 ![image](/images/Lighthouse-Test-1B.png)
@@ -65,3 +65,11 @@ Google tag is successfully detected on the [Vercel-hosted website](https://is-60
 * **SEO**
     * Home and about pages could benefit from minor improvement
     * Privacy policy page is acceptable
+
+## Note on Performance Metrics
+
+Noted after some additional research on the subject that it's not uncommon, when running Next.js apps in development mode, to experience significant reductions in performance.
+
+The changes applied thus far (as of 12/13/2023 ~ 7:15pm) will be deployed to Production and performance will be tested from the Vercel-hosted app.
+
+Another issue will be opened to capture the results of that test as well as any needed follow-ups.
