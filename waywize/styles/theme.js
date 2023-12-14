@@ -465,6 +465,9 @@ const theme = extendTheme({
         },
         '@media screen and (max-width: 1000px)': {
           html: {
+            hr: {
+              display: 'none',
+            },
             nav: {
               width: '90%',
             },
@@ -556,6 +559,7 @@ const theme = extendTheme({
               p: '30px 0px',
             },
             '#subscribe': {
+              mt: '50px',
               w: '100%',
               flexDirection: 'column-reverse',
               textAlign: 'center',
@@ -568,20 +572,26 @@ const theme = extendTheme({
             },
             '#subscribe h2': {
               mt: '40px',
+              fontSize: sizes.large,
             },
             '#subscribe h3': {
-              pt: '40px',
+              pt: '20px',
+              fontSize: sizes.medium,
             },
             '#subscribe p': {
+              fontSize: sizes.small,
             },
             '#subscribe .subscribe-subtext': {
-              pt: '40px',
-              pb: '40px',
+              pt: '20px',
+              pb: '20px',
+            },
+            '#subscribe .permissions-text': {
+              pt: sizes.small,
             },
             '#subscribe input[type=email]': {
               m: '20px auto',
               w: '100%',
-              h: '70px',
+              h: '60px',
               fontSize: sizes.medium,
               textAlign: 'center',
             },
