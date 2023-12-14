@@ -589,6 +589,23 @@ const theme = extendTheme({
             '.privacy-policy .privacy-static': {
               w: '90%',
             },
+            '.wwsf': {
+              w: '100%',
+              flexDirection: 'column-reverse',
+            },
+            '.wwsf .wwsf-text': {
+              p: '0px 40px',
+              textAlign: 'center',
+            },
+          },
+          '.wwsf li': {
+            fontSize: sizes.medium,
+            ml: '0px',
+            listStyle: 'none',
+          },
+          '.wwsf img': {
+            margin: 'auto',
+            mt: '40px',
           },
         },
       },
