@@ -521,30 +521,39 @@ const theme = extendTheme({
               w: 'inherit',
             },
             '.hero .hero-img': {
-              w: '90%',
-              ml: '5%',
+              w: '100%',
+              pt: '30px',
             },
             '.hero .hero-img img': {
-              transform: 'rotate(-90deg)',
-              w: '100%',
-              h: 'auto',
+              w: '80%',
+              h: '100px',
+              m: 'auto',
+              objectFit: 'none',
+              objectPosition: 'top right',
+              borderRadius: defaults.genradius,
             },
             '.hero .hero-text': {
-              p: '50px 60px',
+              pl: '40px',
+              pr: '0px',
+              pb: '40px',
+              w: '100%',
             },
             '.hero h1': {
               textAlign: 'center',
+              fontSize: sizes.large,
             },
             '.hero p': {
               textAlign: 'center',
-              pt: '30px',
-              pb: '30px'
+              fontSize: sizes.small,
+              pt: '20px',
+              pb: '40px',
+
             },
             '.hero .hero-button': {
               m: '0px auto',
-              fontSize: sizes.medium,
+              fontSize: sizes.small,
               w: '100%',
-              p: '40px 0px',
+              p: '30px 0px',
             },
             '#subscribe': {
               w: '100%',
