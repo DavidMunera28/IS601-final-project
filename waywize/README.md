@@ -46,3 +46,32 @@ Noted that the tag number prop was incorrectly entered on the root app - this is
 Google tag is successfully detected on the [Vercel-hosted website](https://is-601-final-project.vercel.app/) after correcting the tag number prop.
 
 ![image](/images/GA-Test-2.png)
+
+# Lighthouse Testing
+
+## Test 1 - 12/13/2023 ~ 6:00pm (Development)
+
+![image](/images/Lighthouse-Test-1A.png)
+![image](/images/Lighthouse-Test-1B.png)
+![image](/images/Lighthouse-Test-1C.png)
+
+* **Performance**
+    * All pages require major improvement
+* **Accessibility**
+    * All pages are acceptable
+* **Best Practices**
+    * Home and about pages could benefit from minor improvement
+    * Privacy policy page is acceptable
+* **SEO**
+    * Home and about pages could benefit from minor improvement
+    * Privacy policy page is acceptable
+
+## Note on Performance Metrics
+
+Noted after some additional research on the subject that it's not uncommon, when running Next.js apps in development mode, to experience significant reductions in performance.
+
+This is potentially further evidenced by the fact that even very simple pages (a single word rendered on an empty page) produces Lighthouse performance scores < 60.
+
+The changes applied thus far (as of 12/13/2023 ~ 7:15pm) will be deployed to Production and performance will be tested from the Vercel-hosted app.
+
+Another issue will be opened to capture the results of that test as well as any needed follow-ups.
