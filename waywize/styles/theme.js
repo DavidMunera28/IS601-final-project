@@ -465,6 +465,44 @@ const theme = extendTheme({
         },
         '@media screen and (max-width: 1000px)': {
           html: {
+            footer: {
+              fontSize: sizes.large,
+              fontWeight: weights.normal,
+            },
+            'footer .footer-content': {
+              flexDirection: 'column',
+              w: '100%',
+              pr: '0px',
+              pl: '0px',
+              textAlign: 'center',
+              fontSize: sizes.l
+            },
+            'footer .internal-links ul': {
+              display: 'flex',
+              flexDirection: 'column',
+            },
+            'footer .internal-links li': {
+              pt: '30px',
+              mr: '0px',
+            },
+            'footer .internal-links li:first-of-type': {
+              pt: '0px',
+            },
+            'footer .social-links': {
+              pt: '30px',
+              mr: '0px',
+              mb: '30px',
+            },
+            'footer p': {
+              fontWeight: weights.thick,
+              pt: '20px',
+            },
+            'footer .subscribe-button': {
+              m: '30px auto 0px auto',
+              fontSize: sizes.medium,
+              w: '75%',
+              p: '40px 0px',
+            },
             '.hero-outer': {
               w: '100%',
             },
