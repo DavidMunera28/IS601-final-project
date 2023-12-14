@@ -647,24 +647,37 @@ const theme = extendTheme({
               alignItems: 'center',
               w: 'inherit',
             },
+            '.overview .overview-img': {
+              h: '140px',
+              w: 'fit-content'
+            },
             '.overview img': {
-              transform: 'rotate(-90deg)',
-              m: 'auto',
-              w: '90%',
-              h: 'auto',
-              ml: '5%',
-              mr: '0px',
+              transform: 'rotate(90deg)',
+              w: '100px',
+              h: '525px',
+              m: '30px auto',
+              pr: '0px',
+              objectFit: 'none',
+              objectPosition: 'center',
+              borderRadius: defaults.genradius,
+              position: 'relative',
+              top: '-200',
             },
             '.overview .overview-text': {
-              p: '50px 60px',
+              w: '100%',
+              pt: '30px',
+              pl: '0px',
+              ml: '35px',
             },
             '.overview h2': {
               textAlign: 'center',
+              fontSize: sizes.large,
             },
             '.overview p': {
               textAlign: 'center',
               pt: '30px',
-              pb: '30px'
+              pb: '30px',
+              fontSize: sizes.small,
             },
             '.people': {
               w: '100%',
