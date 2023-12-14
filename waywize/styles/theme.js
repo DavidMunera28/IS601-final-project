@@ -565,6 +565,23 @@ const theme = extendTheme({
               pt: '30px',
               pb: '30px'
             },
+            '.people': {
+              w: '100%',
+            },
+            '.people .person': {
+              flexDirection: 'column',
+              alignItems: 'center',
+              m: 'auto',
+            },
+            '.people .person:nth-of-type(2)': {
+              flexDirection: 'column',
+            },
+            '.people .person img': {
+              mt: '40px',
+            },
+            '.people .person h3': {
+              mt: '20px',
+            },
             '.privacy-policy': {
               w: '100%',
               textAlign: 'center',
