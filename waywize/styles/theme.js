@@ -462,7 +462,218 @@ const theme = extendTheme({
         },
         '.privacy-policy .privacy-dynamic p:last-of-type': {
           mt: '26px',
-        }
+        },
+        '@media screen and (max-width: 1000px)': {
+          html: {
+            nav: {
+              width: '90%',
+            },
+            'nav li': {
+              fontSize: sizes.large,
+            },
+            footer: {
+              fontSize: sizes.large,
+              fontWeight: weights.normal,
+            },
+            'footer .footer-content': {
+              flexDirection: 'column',
+              w: '100%',
+              pr: '0px',
+              pl: '0px',
+              textAlign: 'center',
+              fontSize: sizes.l
+            },
+            'footer .internal-links ul': {
+              display: 'flex',
+              flexDirection: 'column',
+            },
+            'footer .internal-links li': {
+              pt: '30px',
+              mr: '0px',
+            },
+            'footer .internal-links li:first-of-type': {
+              pt: '0px',
+            },
+            'footer .social-links': {
+              pt: '30px',
+              mr: '0px',
+              mb: '30px',
+            },
+            'footer p': {
+              fontWeight: weights.thick,
+              pt: '20px',
+            },
+            'footer .subscribe-button': {
+              m: '30px auto 0px auto',
+              fontSize: sizes.medium,
+              w: '75%',
+              p: '40px 0px',
+            },
+            '.hero-outer': {
+              w: '100%',
+            },
+            '.hero-inner': {
+              w: '95%',
+              h: 'fit-content',
+              mt: '30px',
+              mb: '30px',
+            },
+            '.hero': {
+              flexDirection: 'column',
+              alignItems: 'center',
+              w: 'inherit',
+            },
+            '.hero .hero-img': {
+              w: '90%',
+              ml: '5%',
+            },
+            '.hero .hero-img img': {
+              transform: 'rotate(-90deg)',
+              w: '100%',
+              h: 'auto',
+            },
+            '.hero .hero-text': {
+              p: '50px 60px',
+            },
+            '.hero h1': {
+              textAlign: 'center',
+            },
+            '.hero p': {
+              textAlign: 'center',
+              pt: '30px',
+              pb: '30px'
+            },
+            '.hero .hero-button': {
+              m: '0px auto',
+              fontSize: sizes.medium,
+              w: '100%',
+              p: '40px 0px',
+            },
+            '#subscribe': {
+              w: '100%',
+              flexDirection: 'column-reverse',
+              textAlign: 'center',
+            },
+            '#subscribe img': {
+              margin: 'auto',
+            },
+            '#subscribe .subscribe-text': {
+              mr: '0px',
+            },
+            '#subscribe h2': {
+              mt: '40px',
+            },
+            '#subscribe h3': {
+              pt: '40px',
+            },
+            '#subscribe p': {
+            },
+            '#subscribe .subscribe-subtext': {
+              pt: '40px',
+              pb: '40px',
+            },
+            '#subscribe input[type=email]': {
+              m: '20px auto',
+              w: '100%',
+              h: '70px',
+              fontSize: sizes.medium,
+              textAlign: 'center',
+            },
+            '.testimonials .quotes': {
+              alignItems: 'center',
+              w: '100%',
+              flexDirection: 'column',
+            },
+            '.testimonials .quote': {
+              mt: '100px',
+              h: 'fit-content',
+              p: '30px 30px 0px 30px',
+            },
+            '.testimonials .quote:first-of-type': {
+              mt: '30px',
+            },
+            '.testimonials .quote-portrait': {
+              top: '-90px',
+            },
+            '.testimonials p': {
+              fontSize: sizes.medium,
+            },
+            '.overview-outer': {
+              w: '100%',
+            },
+            '.overview-inner': {
+              w: '95%',
+              h: 'fit-content',
+              mt: '30px',
+              mb: '30px',
+            },
+            '.overview': {
+              flexDirection: 'column',
+              alignItems: 'center',
+              w: 'inherit',
+            },
+            '.overview img': {
+              transform: 'rotate(-90deg)',
+              m: 'auto',
+              w: '90%',
+              h: 'auto',
+              ml: '5%',
+              mr: '0px',
+            },
+            '.overview .overview-text': {
+              p: '50px 60px',
+            },
+            '.overview h2': {
+              textAlign: 'center',
+            },
+            '.overview p': {
+              textAlign: 'center',
+              pt: '30px',
+              pb: '30px'
+            },
+            '.people': {
+              w: '100%',
+            },
+            '.people .person': {
+              flexDirection: 'column',
+              alignItems: 'center',
+              m: 'auto',
+            },
+            '.people .person:nth-of-type(2)': {
+              flexDirection: 'column',
+            },
+            '.people .person img': {
+              mt: '40px',
+            },
+            '.people .person h3': {
+              mt: '20px',
+            },
+            '.privacy-policy': {
+              w: '100%',
+              textAlign: 'center',
+            },
+            '.privacy-policy .privacy-static': {
+              w: '90%',
+            },
+            '.wwsf': {
+              w: '100%',
+              flexDirection: 'column-reverse',
+            },
+            '.wwsf .wwsf-text': {
+              p: '0px 40px',
+              textAlign: 'center',
+            },
+          },
+          '.wwsf li': {
+            fontSize: sizes.medium,
+            ml: '0px',
+            listStyle: 'none',
+          },
+          '.wwsf img': {
+            margin: 'auto',
+            mt: '40px',
+          },
+        },
       },
     },
     components: {
