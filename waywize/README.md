@@ -70,7 +70,7 @@ Google tag is successfully detected on the [Vercel-hosted website](https://is-60
 
 Noted after some additional research on the subject that it's not uncommon, when running Next.js apps in development mode, to experience significant reductions in performance.
 
-This is further evidenced by the fact that even very simple pages (a single word rendered on an empty page) produces Lighthouse performance scores < 60.
+This is potentially further evidenced by the fact that even very simple pages (a single word rendered on an empty page) produces Lighthouse performance scores < 60.
 
 The changes applied thus far (as of 12/13/2023 ~ 7:15pm) will be deployed to Production and performance will be tested from the Vercel-hosted app.
 
