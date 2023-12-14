@@ -551,8 +551,18 @@ const theme = extendTheme({
               mt: '30px',
               mb: '30px',
             },
+            '.overview': {
+              flexDirection: 'column',
+              alignItems: 'center',
+              w: 'inherit',
+            },
             '.overview img': {
-              display: 'none',
+              transform: 'rotate(-90deg)',
+              m: 'auto',
+              w: '90%',
+              h: 'auto',
+              ml: '5%',
+              mr: '0px',
             },
             '.overview .overview-text': {
               p: '50px 60px',
