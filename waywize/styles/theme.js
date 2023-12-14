@@ -595,6 +595,12 @@ const theme = extendTheme({
               fontSize: sizes.medium,
               textAlign: 'center',
             },
+            '.testimonials': {
+              mt: '50px',
+            },
+            '.testimonials h2': {
+              fontSize: sizes.large,
+            },
             '.testimonials .quotes': {
               alignItems: 'center',
               w: '100%',
@@ -610,9 +616,6 @@ const theme = extendTheme({
             },
             '.testimonials .quote-portrait': {
               top: '-90px',
-            },
-            '.testimonials p': {
-              fontSize: sizes.medium,
             },
             '.overview-outer': {
               w: '100%',
