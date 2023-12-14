@@ -83,3 +83,9 @@ As anticipated, performance was greatly improved when running Lighthouse tests f
 ![image](/images/Lighthouse-Test-2A.png)
 ![image](/images/Lighthouse-Test-2B.png)
 ![image](/images/Lighthouse-Test-2C.png)
+
+# Note About Mailchimp Playwright Tests
+
+To avoid spam, the "valid" test email used for the first test in mailchimp.spec.js is fictional. To properly run this test, you need to temporarily update the validEmail const to a real email address.
+
+Note that too many signup attempts using the same email address may cause Mailchimp to block that address from future attempts, which can also cause the automated test to fail.
