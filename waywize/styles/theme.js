@@ -468,11 +468,8 @@ const theme = extendTheme({
             nav: {
               width: '90%',
             },
-            'nav li': {
-              fontSize: sizes.large,
-            },
             footer: {
-              fontSize: sizes.large,
+              fontSize: sizes.medium,
               fontWeight: weights.normal,
             },
             'footer .footer-content': {
@@ -488,20 +485,20 @@ const theme = extendTheme({
               flexDirection: 'column',
             },
             'footer .internal-links li': {
-              pt: '30px',
+              pt: '20px',
               mr: '0px',
             },
             'footer .internal-links li:first-of-type': {
               pt: '0px',
             },
             'footer .social-links': {
-              pt: '30px',
+              pt: '20px',
               mr: '0px',
-              mb: '30px',
+              mb: '20px',
             },
             'footer p': {
               fontWeight: weights.thick,
-              pt: '20px',
+              pt: '10px',
             },
             'footer .subscribe-button': {
               m: '30px auto 0px auto',
