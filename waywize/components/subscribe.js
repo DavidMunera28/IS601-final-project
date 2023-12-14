@@ -58,10 +58,6 @@ export default function Subscribe() {
           <div className="response" id="mce-success-response" style={{ display: 'none' }}></div>
         </div>
 
-        <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
-          <Input type="text" name="b_c04b8f9a229fa40f5d594ad9a_8c80d48567" tabIndex="-1" value="" />
-        </div>
-
         <Button type="submit" name="subscribe" id="mc-embedded-subscribe" className="subscribe-button" aria-label="Subscribe to WayWize's newsletter">Subscribe</Button>
       </form>
     </Box>
