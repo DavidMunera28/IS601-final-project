@@ -542,6 +542,29 @@ const theme = extendTheme({
             '.testimonials p': {
               fontSize: sizes.medium,
             },
+            '.overview-outer': {
+              w: '100%',
+            },
+            '.overview-inner': {
+              w: '95%',
+              h: 'fit-content',
+              mt: '30px',
+              mb: '30px',
+            },
+            '.overview img': {
+              display: 'none',
+            },
+            '.overview .overview-text': {
+              p: '50px 60px',
+            },
+            '.overview h2': {
+              textAlign: 'center',
+            },
+            '.overview p': {
+              textAlign: 'center',
+              pt: '30px',
+              pb: '30px'
+            },
             '.privacy-policy': {
               w: '100%',
               textAlign: 'center',
