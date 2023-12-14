@@ -523,6 +523,25 @@ const theme = extendTheme({
               fontSize: sizes.medium,
               textAlign: 'center',
             },
+            '.testimonials .quotes': {
+              alignItems: 'center',
+              w: '100%',
+              flexDirection: 'column',
+            },
+            '.testimonials .quote': {
+              mt: '100px',
+              h: 'fit-content',
+              p: '30px 30px 0px 30px',
+            },
+            '.testimonials .quote:first-of-type': {
+              mt: '30px',
+            },
+            '.testimonials .quote-portrait': {
+              top: '-90px',
+            },
+            '.testimonials p': {
+              fontSize: sizes.medium,
+            },
           },
         },
       },
