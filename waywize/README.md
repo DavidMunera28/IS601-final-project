@@ -84,6 +84,18 @@ As anticipated, performance was greatly improved when running Lighthouse tests f
 ![image](/images/Lighthouse-Test-2B.png)
 ![image](/images/Lighthouse-Test-2C.png)
 
+## Test 3 - 12/14/2023 ~ 12:20pm (Production / Vercel - Mobile)
+
+![image](/images/Lighthouse-Test-3A.png)
+![image](/images/Lighthouse-Test-3B.png)
+![image](/images/Lighthouse-Test-3C.png)
+
+* **Performance**
+    * Home and about pages require major improvement
+    * Privacy policy page is acceptable
+
+Home and about pages both showed poor performance on mobile, while privacy policy page showed high performance. Since the privacy policy page has no images, upcoming improvements will operate on an initial assumption that images are the primary source of performance decline.
+
 # Note About Mailchimp Playwright Tests
 
 To avoid spam, the "valid" test email used for the first test in mailchimp.spec.js is fictional. To properly run this test, you need to temporarily update the validEmail const to a real email address.
