@@ -552,6 +552,7 @@ const theme = extendTheme({
             '#subscribe': {
               w: '100%',
               flexDirection: 'column-reverse',
+              textAlign: 'center',
             },
             '#subscribe img': {
               margin: 'auto',
@@ -560,15 +561,12 @@ const theme = extendTheme({
               mr: '0px',
             },
             '#subscribe h2': {
-              textAlign: 'center',
               mt: '40px',
             },
             '#subscribe h3': {
-              textAlign: 'center',
               pt: '40px',
             },
             '#subscribe p': {
-              textAlign: 'center',
             },
             '#subscribe .subscribe-subtext': {
               pt: '40px',
