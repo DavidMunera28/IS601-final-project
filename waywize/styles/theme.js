@@ -553,6 +553,9 @@ const theme = extendTheme({
               w: '100%',
               flexDirection: 'column-reverse',
             },
+            '#subscribe img': {
+              margin: 'auto',
+            },
             '#subscribe .subscribe-text': {
               mr: '0px',
             },
