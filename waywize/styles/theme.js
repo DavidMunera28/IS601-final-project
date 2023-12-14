@@ -474,8 +474,19 @@ const theme = extendTheme({
               mt: '30px',
               mb: '30px',
             },
+            '.hero': {
+              flexDirection: 'column',
+              alignItems: 'center',
+              w: 'inherit',
+            },
             '.hero .hero-img': {
-              display: 'none',
+              w: '90%',
+              ml: '5%',
+            },
+            '.hero .hero-img img': {
+              transform: 'rotate(-90deg)',
+              w: '100%',
+              h: 'auto',
             },
             '.hero .hero-text': {
               p: '50px 60px',
