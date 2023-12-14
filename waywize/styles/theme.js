@@ -681,6 +681,10 @@ const theme = extendTheme({
             },
             '.people': {
               w: '100%',
+              mt: '50px',
+            },
+            '.people h2': {
+              fontSize: sizes.large,
             },
             '.people .person': {
               flexDirection: 'column',
@@ -692,9 +696,21 @@ const theme = extendTheme({
             },
             '.people .person img': {
               mt: '40px',
+              w: '90%',
+              h: 'auto',
             },
             '.people .person h3': {
               mt: '20px',
+              fontSize: sizes.medium,
+            },
+            '.people .person h4': {
+              mb: '20px',
+              fontSize: sizes.small,
+            },
+            '.people p': {
+              fontSize: sizes.small,
+              w: '90%',
+              m: 'auto',
             },
             '.privacy-policy': {
               w: '100%',
