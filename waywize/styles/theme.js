@@ -465,6 +465,12 @@ const theme = extendTheme({
         },
         '@media screen and (max-width: 1000px)': {
           html: {
+            nav: {
+              width: '90%',
+            },
+            'nav li': {
+              fontSize: sizes.large,
+            },
             footer: {
               fontSize: sizes.large,
               fontWeight: weights.normal,
