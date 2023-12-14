@@ -75,3 +75,11 @@ This is potentially further evidenced by the fact that even very simple pages (a
 The changes applied thus far (as of 12/13/2023 ~ 7:15pm) will be deployed to Production and performance will be tested from the Vercel-hosted app.
 
 Another issue will be opened to capture the results of that test as well as any needed follow-ups.
+
+## Test 2 - 12/13/2023 ~ 7:30pm (Production / Vercel)
+
+As anticipated, performance was greatly improved when running Lighthouse tests from the Vercel-hosted Production environment.
+
+![image](/images/Lighthouse-Test-2A.png)
+![image](/images/Lighthouse-Test-2B.png)
+![image](/images/Lighthouse-Test-2C.png)
