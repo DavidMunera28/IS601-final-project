@@ -3,7 +3,7 @@ const { test, expect } = require('@playwright/test');
 // Constants
 
 const indexURL = 'http://localhost:3000';
-const aboutURL = 'http://localhost:3000';
+const aboutURL = 'http://localhost:3000/about';
 const privacyURL = 'http://localhost:3000/privacy';
 
 // Tests
