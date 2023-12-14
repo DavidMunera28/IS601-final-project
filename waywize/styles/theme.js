@@ -509,6 +509,22 @@ const theme = extendTheme({
               w: '75%',
               p: '40px 0px',
             },
+            '#cookie-banner': {
+              w: '100%',
+              p: '20px',
+              position: 'fixed',
+              bottom: '0px',
+              mb: '0px',
+              borderRadius: '0px',
+            },
+            '#cookie-banner h2': {
+              fontSize: sizes.small,
+            },
+            '#cookie-banner p': {
+              fontSize: sizes.tiny,
+              lineHeight: '150%',
+              mt: '10px',
+            },
             '.hero-outer': {
               w: '100%',
             },
