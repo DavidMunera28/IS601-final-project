@@ -542,6 +542,13 @@ const theme = extendTheme({
             '.testimonials p': {
               fontSize: sizes.medium,
             },
+            '.privacy-policy': {
+              w: '100%',
+              textAlign: 'center',
+            },
+            '.privacy-policy .privacy-static': {
+              w: '90%',
+            },
           },
         },
       },
