@@ -492,7 +492,36 @@ const theme = extendTheme({
               m: '0px auto',
               fontSize: sizes.medium,
               w: '100%',
-              p: '40px 0px 40px 0px',
+              p: '40px 0px',
+            },
+            '#subscribe': {
+              w: '100%',
+              flexDirection: 'column-reverse',
+            },
+            '#subscribe .subscribe-text': {
+              mr: '0px',
+            },
+            '#subscribe h2': {
+              textAlign: 'center',
+              mt: '40px',
+            },
+            '#subscribe h3': {
+              textAlign: 'center',
+              pt: '40px',
+            },
+            '#subscribe p': {
+              textAlign: 'center',
+            },
+            '#subscribe .subscribe-subtext': {
+              pt: '40px',
+              pb: '40px',
+            },
+            '#subscribe input[type=email]': {
+              m: '20px auto',
+              w: '100%',
+              h: '70px',
+              fontSize: sizes.medium,
+              textAlign: 'center',
             },
           },
         },
