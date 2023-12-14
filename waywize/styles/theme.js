@@ -748,7 +748,25 @@ const theme = extendTheme({
               h: 'auto',
               mt: '40px',
             },
-        },
+            '.privacy-policy h1': {
+              fontSize: sizes.large,
+            },
+            '.privacy-policy h2': {
+              fontSize: sizes.medium,
+            },
+            '.privacy-policy .privacy-static': {
+              lineHeight: '150%',
+              fontSize: sizes.small,
+              w: '90%',
+              mt: '20px',
+              mb: '50px',
+            },
+            '.privacy-policy .privacy-dynamic p': {
+              lineHeight: '150%',
+              fontSize: sizes.small,
+              mt: '20px',
+            },
+          },
         },
       },
     },
