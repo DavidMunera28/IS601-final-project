@@ -722,21 +722,33 @@ const theme = extendTheme({
             '.wwsf': {
               w: '100%',
               flexDirection: 'column-reverse',
+              mt: '50px',
+            },
+            '.wwsf h2': {
+              fontSize: sizes.large,
+            },
+            '.wwsf h3': {
+              fontSize: sizes.medium,
             },
             '.wwsf .wwsf-text': {
               p: '0px 40px',
               textAlign: 'center',
             },
-          },
-          '.wwsf li': {
-            fontSize: sizes.medium,
-            ml: '0px',
-            listStyle: 'none',
-          },
-          '.wwsf img': {
-            margin: 'auto',
-            mt: '40px',
-          },
+            '.wwsf p': {
+              fontSize: sizes.small,
+            },
+            '.wwsf li': {
+              fontSize: sizes.small,
+              ml: '0px',
+              listStyle: 'none',
+            },
+            '.wwsf img': {
+              margin: 'auto',
+              w: '90%',
+              h: 'auto',
+              mt: '40px',
+            },
+        },
         },
       },
     },
