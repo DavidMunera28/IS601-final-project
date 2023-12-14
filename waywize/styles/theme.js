@@ -462,7 +462,40 @@ const theme = extendTheme({
         },
         '.privacy-policy .privacy-dynamic p:last-of-type': {
           mt: '26px',
-        }
+        },
+        '@media screen and (max-width: 1000px)': {
+          html: {
+            '.hero-outer': {
+              w: '100%',
+            },
+            '.hero-inner': {
+              w: '95%',
+              h: 'fit-content',
+              mt: '30px',
+              mb: '30px',
+            },
+            '.hero .hero-img': {
+              display: 'none',
+            },
+            '.hero .hero-text': {
+              p: '50px 60px',
+            },
+            '.hero h1': {
+              textAlign: 'center',
+            },
+            '.hero p': {
+              textAlign: 'center',
+              pt: '30px',
+              pb: '30px'
+            },
+            '.hero .hero-button': {
+              m: '0px auto',
+              fontSize: sizes.medium,
+              w: '100%',
+              p: '40px 0px 40px 0px',
+            },
+          },
+        },
       },
     },
     components: {
