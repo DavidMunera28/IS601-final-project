@@ -3,6 +3,7 @@ const { test, expect } = require('@playwright/test');
 // Constants
 
 const indexURL = 'http://localhost:3000';
+const aboutURL = 'http://localhost:3000';
 
 // Tests
 
@@ -13,3 +14,11 @@ test('Check for Google Analytics Tag on Landing (Index) Page', async ({ page }) 
   const hasGoogleAnalyticsTag = pageContent.includes('https://www.googletagmanager.com');
   expect(hasGoogleAnalyticsTag).toBe(true);
 });
+
+test('Check for Google Analytics Tag on About Page', async ({ page }) => {
+    await page.goto(aboutURL);
+    await page.waitForTimeout(10000);
+    const pageContent = await page.content();
+    const hasGoogleAnalyticsTag = pageContent.includes('https://www.googletagmanager.com');
+    expect(hasGoogleAnalyticsTag).toBe(true);
+  });
