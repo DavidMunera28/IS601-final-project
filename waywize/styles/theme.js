@@ -132,7 +132,7 @@ const theme = extendTheme({
           minWidth: 'fit-content',
         },
         '.hero-img img': {
-          w: '516px',
+          w: '512px',
           h: '555px',
         },
         '.hero-text': {
