@@ -11,3 +11,8 @@
 * [Customer Journey](CustomerJourney.md)
 * [FIGMA Design](FIGMADesign.md)
 * [Technology Research](TechnologyResearch.md)
+
+# Technical Links
+
+* [Technical README](/waywize/README.md)
+* [Vercel Production Encironment](https://is-601-final-project.vercel.app/)

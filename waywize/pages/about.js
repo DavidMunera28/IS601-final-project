@@ -27,6 +27,7 @@ export async function getStaticProps() {
     const filePathCto = path.join(process.cwd(), '/editable-content/cto-bio.md');
     const markdownContentCto = fs.readFileSync(filePathCto, 'utf-8');
 
+  // Create a 'props' object with various Markdown content constant names as keys
   return {
     props: {
       markdownContentOverview,
@@ -41,6 +42,7 @@ export async function getStaticProps() {
 export default function About({ markdownContentOverview, markdownContentWwsf, markdownContentCeo, markdownContentCfo, markdownContentCto }) {
     return (
       <>
+      {/* Begin overview section */}
       <Card className="overview-outer" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="0px" bg="#EFE9DC">
       <Card className="overview-inner" boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" borderRadius="20px">
       <Flex className="overview">
@@ -53,9 +55,9 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
       </Flex>
       </Card>
       </Card>
-
+      {/* End overview section */}
       <DividerLine />
-      
+      {/* Begin our people section */}
       <Box className="people">
         <Heading as="h2">Our People</Heading>
         <Flex className="person">
@@ -77,15 +79,16 @@ export default function About({ markdownContentOverview, markdownContentWwsf, ma
         </Box>
         </Flex>
       </Box>
-
+      {/* End our people section */}
       <DividerLine />
-
+      {/* Begin what we stand for section */}
       <Flex className="wwsf">
           <Image src="/images/WHAT-WE-STAND-FOR.webp" alt="Woman browsing a kiosk map against a grip backdrop" />
           <Box className="wwsf-text">
             <MarkdownRenderer content={markdownContentWwsf} />
           </Box>
       </Flex>
+      {/* End what we stand for section */}
       </>
     )
   }
