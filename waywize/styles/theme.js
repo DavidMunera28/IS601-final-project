@@ -1,5 +1,6 @@
 import { extendTheme } from '@chakra-ui/react';
 
+{/* Begin reusable values */}
 const colors = {
     card: '#FFFFFF',
     text: '#000000',
@@ -33,10 +34,12 @@ const defaults = {
     font: 'Space Grotesk, sans-serif',
     transition: '400ms',
 }
+{/* End reusable values */}
 
 const theme = extendTheme({
     styles: {
       global: {
+        // General styling (large screens)
         body: {
           bg: colors.primarybg,
           fontFamily: defaults.font,
@@ -45,6 +48,7 @@ const theme = extendTheme({
           fontWeight: weights.normal,
           lineHeight: '30px',
         },
+        // Navbar styling (large screens)
         nav: {
           display: 'flex',
           width: '1339px',
@@ -64,6 +68,7 @@ const theme = extendTheme({
             transition: defaults.transition,
           },
         },
+        // Footer styling (large screens)
         footer: {
           pt: '71px',
           pb: '97px',
@@ -71,7 +76,6 @@ const theme = extendTheme({
           bg: colors.accentbg,
           fontSize: sizes.small,
           fontWeight: weights.verythick,
-          
         },
         'footer .footer-content': {
           justifyContent: 'space-around',
@@ -115,6 +119,7 @@ const theme = extendTheme({
             color: colors.text,
             transition: defaults.transition,
           },
+        // Hero styling (large screens)
         },
         '.hero-outer': {
           width: '1339px',
@@ -162,6 +167,7 @@ const theme = extendTheme({
             color: colors.text,
             transition: defaults.transition,
           }
+        // Call-to-action (subscribe) styling (large screens)
         },
         '#subscribe': {
           width: '1339px',
@@ -223,6 +229,7 @@ const theme = extendTheme({
           w: '625px',
           borderRadius: defaults.genradius,
         },
+        // Testimonials styling (large screens)
         '.testimonials h2': {
           fontSize: sizes.huge,
           lineHeight: '100%',
@@ -276,6 +283,7 @@ const theme = extendTheme({
           position: 'relative',
           top: '-60px',
         },
+        // Overview styling (large screens)
         '.overview-outer': {
           width: '1339px',
           m: '0px auto',
@@ -309,6 +317,7 @@ const theme = extendTheme({
           lineHeight: '26px',
           pt: '53px',
         },
+        // Our People styling (large screens)
         '.people': {
           w: '1339px',
           m: 'auto',
@@ -349,6 +358,7 @@ const theme = extendTheme({
         '.people .person:nth-of-type(2)': {
           flexDirection: 'row-reverse',
         },
+        // What We Stand For styling (large screens)
         '.wwsf': {
           w: '1339px',
           flexDirection: 'row-reverse',
@@ -384,6 +394,7 @@ const theme = extendTheme({
           mt: '85px',
           borderRadius: defaults.genradius,
         },
+        // Cookie consent banner styling (large screens)
         '#cookie-banner': {
           w: '960px',
           m: '0px auto 10px auto',
@@ -432,6 +443,7 @@ const theme = extendTheme({
         '#cookie-banner .cookie-button:nth-of-type(2)': {
           mr: '0px',
         },
+        // Privacy Policy styling (large screens)
         '.privacy-policy': {
           p: '44px 52px 123px 44px',
           w: '1339px',
@@ -465,12 +477,15 @@ const theme = extendTheme({
         },
         '@media screen and (max-width: 1000px)': {
           html: {
+            // General style adjustments (mobile screens)
             hr: {
               display: 'none',
             },
+            // Navbar style adjustments (mobile screens)
             nav: {
               width: '90%',
             },
+            // Footer style adjustments (mobile screens)
             footer: {
               fontSize: sizes.medium,
               fontWeight: weights.normal,
@@ -509,6 +524,7 @@ const theme = extendTheme({
               w: '75%',
               p: '40px 0px',
             },
+            // Cookie consent banner style adjustments (mobile screens)
             '#cookie-banner': {
               w: '100%',
               p: '20px',
@@ -525,6 +541,7 @@ const theme = extendTheme({
               lineHeight: '150%',
               mt: '10px',
             },
+            // Hero style adjustments (mobile screens)
             '.hero-outer': {
               w: '100%',
             },
@@ -574,6 +591,7 @@ const theme = extendTheme({
               w: '100%',
               p: '30px 0px',
             },
+            // Call-to-action (subscribe) style adjustments (mobile screens)
             '#subscribe': {
               mt: '50px',
               w: '100%',
@@ -611,6 +629,7 @@ const theme = extendTheme({
               fontSize: sizes.medium,
               textAlign: 'center',
             },
+            // Testimonials style adjustments (mobile screens)
             '.testimonials': {
               mt: '50px',
             },
@@ -633,6 +652,7 @@ const theme = extendTheme({
             '.testimonials .quote-portrait': {
               top: '-90px',
             },
+            // Overview style adjustments (mobile screens)
             '.overview-outer': {
               w: '100%',
             },
@@ -679,6 +699,7 @@ const theme = extendTheme({
               pb: '30px',
               fontSize: sizes.small,
             },
+            // Our People style adjustments (mobile screens)
             '.people': {
               w: '100%',
               mt: '50px',
@@ -712,13 +733,7 @@ const theme = extendTheme({
               w: '90%',
               m: 'auto',
             },
-            '.privacy-policy': {
-              w: '100%',
-              textAlign: 'center',
-            },
-            '.privacy-policy .privacy-static': {
-              w: '90%',
-            },
+            // What We Stand For style adjustments (mobile screens)
             '.wwsf': {
               w: '100%',
               flexDirection: 'column-reverse',
@@ -748,6 +763,14 @@ const theme = extendTheme({
               h: 'auto',
               mt: '40px',
             },
+            // Privacy Policy style adjustments (mobile screens)
+            '.privacy-policy': {
+              w: '100%',
+              textAlign: 'center',
+            },
+            '.privacy-policy .privacy-static': {
+              w: '90%',
+            },
             '.privacy-policy h1': {
               fontSize: sizes.large,
             },
@@ -770,6 +793,7 @@ const theme = extendTheme({
         },
       },
     },
+    // Chakra component styling
     components: {
       Heading: {
         baseStyle: {
