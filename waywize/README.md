@@ -96,7 +96,7 @@ As anticipated, performance was greatly improved when running Lighthouse tests f
 
 Home and about pages both showed poor performance on mobile, while privacy policy page showed high performance. Since the privacy policy page has no images, upcoming improvements will operate on an initial assumption that images are the primary source of performance decline.
 
-## Test 3 - 12/14/2023 ~ 3:30pm (Production / Vercel - Mobile)
+## Test 4 - 12/14/2023 ~ 3:30pm (Production / Vercel - Mobile)
 
 ![image](/images/Lighthouse-Test-4A.png)
 ![image](/images/Lighthouse-Test-4B.png)
