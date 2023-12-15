@@ -15,3 +15,4 @@
 # Technical Links
 
 * [Technical README](/waywize/README.md)
+* [Vercel Production Encironment](https://is-601-final-project.vercel.app/)
