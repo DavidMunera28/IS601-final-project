@@ -11,3 +11,7 @@
 * [Customer Journey](CustomerJourney.md)
 * [FIGMA Design](FIGMADesign.md)
 * [Technology Research](TechnologyResearch.md)
+
+# Technical Links
+
+* [Technical README](/waywize/README.md)
