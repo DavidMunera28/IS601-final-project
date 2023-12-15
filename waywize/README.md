@@ -108,6 +108,17 @@ Home and about pages both showed poor performance on mobile, while privacy polic
 
 Home and about pages both showed improved performance on mobile, though the Lighthouse score is still below the target threshold of 90. Upcoming improvements will address the recommendation to avoid large layout shifts.
 
+## Test 5 - 12/15/2023 ~ 5:05pm (Production / Vercel - Mobile)
+
+![image](/images/Lighthouse-Test-5A.png)
+![image](/images/Lighthouse-Test-5B.png)
+![image](/images/Lighthouse-Test-5C.png)
+
+* **Performance**
+    * All pages are acceptable
+
+Reducing layout shifting by decreasing sizes of various page design elements (containers, images, text, margins/padding, etc.) significantly improved performance on mobile versions of the home and about pages.
+
 # Note About Mailchimp Playwright Tests
 
 To avoid spam, the "valid" test email used for the first test in mailchimp.spec.js is fictional. To properly run this test, you need to temporarily update the validEmail const to a real email address.
