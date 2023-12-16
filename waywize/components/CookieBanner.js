@@ -1,45 +1,43 @@
-import CookieConsent from 'react-cookie-consent';
+'use client';
+
 import { Card, Flex, Heading, Button, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import { getLocalStorage, setLocalStorage } from '@/lib/storageHelper';
 import { useEffect, useState } from "react";
 
 export default function CookieBanner() {
-// Establish cookieConsent and initialize to null
-  const [cookieConsent, setCookieConsent] = useState(null);
-  
-// Establish isVisible and initialize to true
-  const [isVisible, setIsVisible] = useState(true);
 
-  // Define actions when user clicks 'Accept All'
-  const handleAccept = () => {
-    console.log('Cookies accepted');
-    setCookieConsent(true);
-    setIsVisible(false);
-  };
+  const [cookieConsent, setCookieConsent] = useState(false);
 
-  // Define actions when user clicks 'Essential Only'
-  const handleDecline = () => {
-    console.log('Cookies rejected');
-    setCookieConsent(false);
-    setIsVisible(false);
-  };
+  // useEffect hook to run when 'setCookieConsent' changes.
+  useEffect (() => {
+      // Get  value of 'cookie_consent' from local storage, else use NULL
+      const storedCookieConsent = getLocalStorage("cookie_consent", null)
 
-  // Define actions when user clicks 'Close'
-  const handleClose = () => {
-    console.log('Close button clicked');
-    setIsVisible(false);
-  };
+      // Update 'cookieConsent' with stored value
+      setCookieConsent(storedCookieConsent)
+  }, [setCookieConsent])
 
-  // Store the user's consent choice in a cookie
+  // useEffect hook to run when 'cookieConsent' changes.
   useEffect(() => {
-    if (cookieConsent !== null) {
-      document.cookie = `cookieConsent=${cookieConsent}; max-age=${365 * 24 * 60 * 60}`;
-    }
+    // Determine new value (granted vs. denied) based on 'cookieConsent' state (true vs. false).
+      const newValue = cookieConsent ? 'granted' : 'denied'
+
+      // Update Google Analytics with the new consent value.
+      window.gtag("consent", 'update', {
+          'analytics_storage': newValue
+      });
+
+      // Save 'cookieConsent' value to local storage.
+      setLocalStorage("cookie_consent", cookieConsent)
+
+      // For visual testing
+      console.log("Cookie Consent: ", cookieConsent)
+
   }, [cookieConsent]);
 
   return (
     <>
-      {isVisible && (
         <Card
           id="cookie-banner"
         >
@@ -51,16 +49,15 @@ export default function CookieBanner() {
           {/* End cookie consent text */}
           {/* Begin cookie consent choices */}
           <Flex className="cookie-buttons">
-            <Button className="cookie-button" onClick={handleDecline} aria-label="Reject all cookies">
+            <Button className="cookie-button" onClick={() => setCookieConsent(false)} aria-label="Reject all cookies">
               Reject All
             </Button>
-            <Button className="cookie-button" onClick={handleAccept} aria-label="Accept all cookies">
+            <Button className="cookie-button" onClick={() => setCookieConsent(true)} aria-label="Accept all cookies">
               Accept All
             </Button>
           </Flex>
           {/* End cookie consent choices */}
         </Card>
-      )}
     </>
   );
 }
