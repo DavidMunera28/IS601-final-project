@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 export default function CookieBanner() {
 
   const [cookieConsent, setCookieConsent] = useState(false);
+  const [isBannerVisible, setIsBannerVisible] = useState(true);
 
   // useEffect hook to run when 'setCookieConsent' changes.
   useEffect (() => {
@@ -36,6 +37,11 @@ export default function CookieBanner() {
 
   }, [cookieConsent]);
 
+  // Hide banner if isBannerVisible becomes false
+  if (!isBannerVisible) {
+    return null;
+  }
+
   return (
     <>
         <Card
@@ -49,10 +55,14 @@ export default function CookieBanner() {
           {/* End cookie consent text */}
           {/* Begin cookie consent choices */}
           <Flex className="cookie-buttons">
-            <Button className="cookie-button" onClick={() => setCookieConsent(false)} aria-label="Reject all cookies">
+            <Button className="cookie-button" onClick={() => {
+            setCookieConsent(false); 
+            setIsBannerVisible(false);}} aria-label="Reject all cookies">
               Reject All
             </Button>
-            <Button className="cookie-button" onClick={() => setCookieConsent(true)} aria-label="Accept all cookies">
+            <Button className="cookie-button" onClick={() => {
+            setCookieConsent(true); 
+            setIsBannerVisible(false);}} aria-label="Accept all cookies">
               Accept All
             </Button>
           </Flex>
