@@ -19,8 +19,6 @@
 
 `npm install client-only` installs Client Only (must be run from the `IS601-final-project\waywize` directory).
 
-`npm install react-cookie-consent` installs React Cookie Consent library (must be run from the `IS601-final-project\waywize` directory).
-
 `npm install remark remark-html react-markdown` installs libraries for parsing and rendering content from Markdown files onto HTML pages (must be run from the `IS601-final-project\waywize` directory).
 
 `npm install react-icons --save` installs React icons (must be run from the `IS601-final-project\waywize` directory).
