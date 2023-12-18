@@ -8,18 +8,33 @@ import DividerLine from '@/components/DividerLine';
 
 // For storing Hero Markdown contents
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), '/editable-content/hero-text.md');
-  const markdownContent = fs.readFileSync(filePath, 'utf-8');
+  const filePathHero = path.join(process.cwd(), '/editable-content/hero-text.md');
+  const markdownContentHero = fs.readFileSync(filePathHero, 'utf-8');
+
+  // For storing Testimonial 1 Markdown contents
+  const filePathTestimonial1 = path.join(process.cwd(), '/editable-content/testimonial-1.md');
+  const markdownContentTestimonial1 = fs.readFileSync(filePathTestimonial1, 'utf-8');
+
+  // For storing Testimonial 2 Markdown contents
+  const filePathTestimonial2 = path.join(process.cwd(), '/editable-content/testimonial-2.md');
+  const markdownContentTestimonial2 = fs.readFileSync(filePathTestimonial2, 'utf-8');
+
+  // For storing Testimonial 3 Markdown contents
+  const filePathTestimonial3 = path.join(process.cwd(), '/editable-content/testimonial-3.md');
+  const markdownContentTestimonial3 = fs.readFileSync(filePathTestimonial3, 'utf-8');
 
   // Create a 'props' object with Markdown content constant name as key
   return {
     props: {
-      markdownContent,
+      markdownContentHero,
+      markdownContentTestimonial1,
+      markdownContentTestimonial2,
+      markdownContentTestimonial3,
     },
   };
 }
 
-export default function Home({ markdownContent }) {
+export default function Home({ markdownContentHero, markdownContentTestimonial1, markdownContentTestimonial2, markdownContentTestimonial3, }) {
   return (
     <>
     {/* Begin hero section */}
@@ -30,7 +45,7 @@ export default function Home({ markdownContent }) {
         <Image src="/images/HERO.webp" alt="Stylized hand drawn globe/map" />
       </Box>
       <Box className="hero-text">
-        <MarkdownRenderer content={markdownContent} />
+        <MarkdownRenderer content={markdownContentHero} />
         <Link href="#subscribe" role="link" aria-label="Navigate to the newsletter signup section of WayWize's home page">
           <Button className="hero-button" aria-label="Subscribe to WayWize's newsletter">Subscribe</Button>
         </Link>
@@ -51,25 +66,19 @@ export default function Home({ markdownContent }) {
           {/* Begin testimonial 1 */}
           <Card className="quote">
             <Image className="quote-portrait" src="images/TESTIMONIAL1.webp" alt="Professional portrait of Deborah Stone" />
-            <Heading as="h3">Deborah Stone</Heading>
-            <Heading as="h4">PixelCraft &nbsp; | &nbsp; Business Manager</Heading>
-            <Text>WayWize revolutionizes the daily navigation experience by providing intuitive and user-friendly multi-platform applications. Users can effortlessly navigate indoor and outdoor spaces, enhancing their convenience and ensuring they always reach their destination with ease.</Text>
+            <MarkdownRenderer content={markdownContentTestimonial1} />
           </Card>
           {/* End testimonial 1 */}
           {/* Begin testimonial 2 */}
           <Card className="quote">
             <Image className="quote-portrait" src="images/TESTIMONIAL2.webp" alt="Professional portrait of Logan Batts" />
-            <Heading as="h3">Logan Batts</Heading>
-            <Heading as="h4">InnoSphere &nbsp; | &nbsp; Processing Manager</Heading>
-            <Text>WayWize caters not only to business owners, space planners, and event organizers but also to the everyday visitors of diverse facilities and venues. Its inclusive design ensures that individuals from all walks of life can benefit from efficient wayfinding, fostering a sense of accessibility and community engagement.</Text>
+            <MarkdownRenderer content={markdownContentTestimonial2} />
           </Card>
           {/* End testimonial 2 */}
           {/* Begin testimonial 3 */}
           <Card className="quote">
             <Image className="quote-portrait" src="images/TESTIMONIAL3.webp" alt= "Professional portrait of Jason Steele" />
-            <Heading as="h3">Jason Steele</Heading>
-            <Heading as="h4">CleverCraft &nbsp; | &nbsp;  CEO</Heading>
-            <Text>WayWize goes beyond basic mapping services, fostering a connected community through its applications. By creating a platform that integrates seamlessly into people's daily lives, the company enhances communication and engagement within various localities.</Text>
+            <MarkdownRenderer content={markdownContentTestimonial3} />
           </Card>
           {/* End testimonial 3 */}
         </Flex>
