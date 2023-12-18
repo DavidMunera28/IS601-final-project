@@ -11,15 +11,20 @@ export async function getStaticProps() {
   const filePathHero = path.join(process.cwd(), '/editable-content/hero-text.md');
   const markdownContentHero = fs.readFileSync(filePathHero, 'utf-8');
 
+  // For storing Testimonial 1 Markdown contents
+  const filePathTestimonial1 = path.join(process.cwd(), '/editable-content/testimonial-1.md');
+  const markdownContentTestimonial1 = fs.readFileSync(filePathTestimonial1, 'utf-8');
+
   // Create a 'props' object with Markdown content constant name as key
   return {
     props: {
       markdownContentHero,
+      markdownContentTestimonial1,
     },
   };
 }
 
-export default function Home({ markdownContentHero }) {
+export default function Home({ markdownContentHero, markdownContentTestimonial1, }) {
   return (
     <>
     {/* Begin hero section */}
@@ -51,9 +56,7 @@ export default function Home({ markdownContentHero }) {
           {/* Begin testimonial 1 */}
           <Card className="quote">
             <Image className="quote-portrait" src="images/TESTIMONIAL1.webp" alt="Professional portrait of Deborah Stone" />
-            <Heading as="h3">Deborah Stone</Heading>
-            <Heading as="h4">PixelCraft &nbsp; | &nbsp; Business Manager</Heading>
-            <Text>WayWize revolutionizes the daily navigation experience by providing intuitive and user-friendly multi-platform applications. Users can effortlessly navigate indoor and outdoor spaces, enhancing their convenience and ensuring they always reach their destination with ease.</Text>
+            <MarkdownRenderer content={markdownContentTestimonial1} />
           </Card>
           {/* End testimonial 1 */}
           {/* Begin testimonial 2 */}
