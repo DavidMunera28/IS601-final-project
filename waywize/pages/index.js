@@ -19,17 +19,22 @@ export async function getStaticProps() {
   const filePathTestimonial2 = path.join(process.cwd(), '/editable-content/testimonial-2.md');
   const markdownContentTestimonial2 = fs.readFileSync(filePathTestimonial2, 'utf-8');
 
+  // For storing Testimonial 3 Markdown contents
+  const filePathTestimonial3 = path.join(process.cwd(), '/editable-content/testimonial-3.md');
+  const markdownContentTestimonial3 = fs.readFileSync(filePathTestimonial3, 'utf-8');
+
   // Create a 'props' object with Markdown content constant name as key
   return {
     props: {
       markdownContentHero,
       markdownContentTestimonial1,
       markdownContentTestimonial2,
+      markdownContentTestimonial3,
     },
   };
 }
 
-export default function Home({ markdownContentHero, markdownContentTestimonial1, markdownContentTestimonial2, }) {
+export default function Home({ markdownContentHero, markdownContentTestimonial1, markdownContentTestimonial2, markdownContentTestimonial3, }) {
   return (
     <>
     {/* Begin hero section */}
@@ -73,9 +78,7 @@ export default function Home({ markdownContentHero, markdownContentTestimonial1,
           {/* Begin testimonial 3 */}
           <Card className="quote">
             <Image className="quote-portrait" src="images/TESTIMONIAL3.webp" alt= "Professional portrait of Jason Steele" />
-            <Heading as="h3">Jason Steele</Heading>
-            <Heading as="h4">CleverCraft &nbsp; | &nbsp;  CEO</Heading>
-            <Text>WayWize goes beyond basic mapping services, fostering a connected community through its applications. By creating a platform that integrates seamlessly into people's daily lives, the company enhances communication and engagement within various localities.</Text>
+            <MarkdownRenderer content={markdownContentTestimonial3} />
           </Card>
           {/* End testimonial 3 */}
         </Flex>
