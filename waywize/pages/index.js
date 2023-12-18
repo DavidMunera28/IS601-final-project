@@ -8,18 +8,18 @@ import DividerLine from '@/components/DividerLine';
 
 // For storing Hero Markdown contents
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), '/editable-content/hero-text.md');
-  const markdownContent = fs.readFileSync(filePath, 'utf-8');
+  const filePathHero = path.join(process.cwd(), '/editable-content/hero-text.md');
+  const markdownContentHero = fs.readFileSync(filePathHero, 'utf-8');
 
   // Create a 'props' object with Markdown content constant name as key
   return {
     props: {
-      markdownContent,
+      markdownContentHero,
     },
   };
 }
 
-export default function Home({ markdownContent }) {
+export default function Home({ markdownContentHero }) {
   return (
     <>
     {/* Begin hero section */}
@@ -30,7 +30,7 @@ export default function Home({ markdownContent }) {
         <Image src="/images/HERO.webp" alt="Stylized hand drawn globe/map" />
       </Box>
       <Box className="hero-text">
-        <MarkdownRenderer content={markdownContent} />
+        <MarkdownRenderer content={markdownContentHero} />
         <Link href="#subscribe" role="link" aria-label="Navigate to the newsletter signup section of WayWize's home page">
           <Button className="hero-button" aria-label="Subscribe to WayWize's newsletter">Subscribe</Button>
         </Link>
