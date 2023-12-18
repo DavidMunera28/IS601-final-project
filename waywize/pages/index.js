@@ -15,16 +15,21 @@ export async function getStaticProps() {
   const filePathTestimonial1 = path.join(process.cwd(), '/editable-content/testimonial-1.md');
   const markdownContentTestimonial1 = fs.readFileSync(filePathTestimonial1, 'utf-8');
 
+  // For storing Testimonial 2 Markdown contents
+  const filePathTestimonial2 = path.join(process.cwd(), '/editable-content/testimonial-2.md');
+  const markdownContentTestimonial2 = fs.readFileSync(filePathTestimonial2, 'utf-8');
+
   // Create a 'props' object with Markdown content constant name as key
   return {
     props: {
       markdownContentHero,
       markdownContentTestimonial1,
+      markdownContentTestimonial2,
     },
   };
 }
 
-export default function Home({ markdownContentHero, markdownContentTestimonial1, }) {
+export default function Home({ markdownContentHero, markdownContentTestimonial1, markdownContentTestimonial2, }) {
   return (
     <>
     {/* Begin hero section */}
@@ -62,9 +67,7 @@ export default function Home({ markdownContentHero, markdownContentTestimonial1,
           {/* Begin testimonial 2 */}
           <Card className="quote">
             <Image className="quote-portrait" src="images/TESTIMONIAL2.webp" alt="Professional portrait of Logan Batts" />
-            <Heading as="h3">Logan Batts</Heading>
-            <Heading as="h4">InnoSphere &nbsp; | &nbsp; Processing Manager</Heading>
-            <Text>WayWize caters not only to business owners, space planners, and event organizers but also to the everyday visitors of diverse facilities and venues. Its inclusive design ensures that individuals from all walks of life can benefit from efficient wayfinding, fostering a sense of accessibility and community engagement.</Text>
+            <MarkdownRenderer content={markdownContentTestimonial2} />
           </Card>
           {/* End testimonial 2 */}
           {/* Begin testimonial 3 */}
