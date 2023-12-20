@@ -1,5 +1,7 @@
 # FIGMA Design
 
+* [FIGMA Design Link](https://www.figma.com/file/kt3ipPucH7WReAWO8LEFm0/Final-Design?type=design&node-id=0%3A1&mode=design&t=wm5mK8lv84VneQfI-1)
+
 ## WayWize HOME 
 
 - ![WayWize HOME](images/WayWizeHome.png)
