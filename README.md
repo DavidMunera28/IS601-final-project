@@ -20,3 +20,4 @@
 # Technical Demos
 
 * [MailChimp Technical Demo Video](https://www.youtube.com/watch?v=wFiBpyqqjPU)
+* [Google Analytics Technical Demo Video](https://www.youtube.com/watch?v=Q39gUD3G02o)
