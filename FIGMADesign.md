@@ -1,13 +1,25 @@
-# FIGMA Designs
+# FIGMA Design
 
-## FIGMA Design 1
+## WayWize HOME 
 
-- ![Design 1](Design1.png)
+- ![WayWize HOME](images/WayWizeHome.png)
 
-This design was created NOT following along with the user stories so that my partner and I could see how the overall design felt.
+This is the HOME page for WayWize
 
-## FIGMA Design 2
+## WayWize ABOUT 
 
-- ![Design 2](Design2.png)
+- ![WayWize ABOUT](images/WayWizeAbout.png)
 
-This design was created following along with the user stories, in order to see how the overall flow of the design would change from the previous one.
+This is the ABOUT page for WayWize
+
+## WayWize Privacy 
+
+- ![WayWize Privacy](images/WayWizePrivacy.png)
+
+This is the Privacy Policy page for WayWize
+
+## WayWize Cookies 
+
+- ![WayWize Cookies](images/WayWizeCookies.png)
+
+This is the Cookies banner for WayWize
