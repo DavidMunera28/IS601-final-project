@@ -18,6 +18,7 @@
 * [Technical README](/waywize/README.md)
 * [Vercel Production Environment](https://is-601-final-project.vercel.app/)
 * [Technology Research](TechnologyResearch.md)
+* [FIGMA Design Link](https://www.figma.com/file/kt3ipPucH7WReAWO8LEFm0/Final-Design?type=design&node-id=0%3A1&mode=design&t=wm5mK8lv84VneQfI-1)
 
 # Technical Demos
 
