@@ -16,3 +16,7 @@
 
 * [Technical README](/waywize/README.md)
 * [Vercel Production Encironment](https://is-601-final-project.vercel.app/)
+
+# Technical Demos
+
+* [MailChimp Technical Demo Video](https://www.youtube.com/watch?v=wFiBpyqqjPU)
