@@ -10,6 +10,7 @@
 * [User Stories](UserStories.md)
 * [Customer Journey](CustomerJourney.md)
 * [FIGMA Design](FIGMADesign.md)
+* [UX Research Report](UXResearchReport.md)
 
 
 # Technical Links
